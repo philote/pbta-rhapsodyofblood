@@ -1,25 +1,34 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "pbta-rhapsodyofblood",
+  "title": "Rhapsody of Blood (PbtA)",
+  "description": "Unofficial Rhapsody of Blood RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
+    "verified": 11.313,
     "maximum": 11
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "ephson",
+      "url": "https://github.com/philote",
+      "discord": "ephson",
+      "mastodon": "@ephson@dice.camp",
+      "reddit": "u/ephson"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
+        "compatibility": {
+            "verified": "0.7.2"
+        }
+      }
+    ]
   },
   "esmodules": [
     "scripts/module.js"
@@ -44,8 +53,10 @@
   "readme": "README.md",
   "media": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/philote/pbta-rhapsodyofblood/main/screenshot.webp",
+      "loop": false,
+      "caption": "Rhapsody of Blood character sheet screenshot from Foundry VTT."
     }
   ]
 }

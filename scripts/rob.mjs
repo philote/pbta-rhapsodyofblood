@@ -1,10 +1,11 @@
-Hooks.once('init', async function() {
+import { configSheet } from "./helpers/config-sheet.mjs";
+// Hooks.once('init', async function() {
 
-});
+// });
 
-Hooks.once('ready', async function() {
+// Hooks.once('ready', async function() {
 
-});
+// });
 
 // Override sheetConfig with Rhapsody of Blood sheet (TOML).
 Hooks.once('pbtaSheetConfig', () => {
@@ -14,5 +15,4 @@ Hooks.once('pbtaSheetConfig', () => {
     
     // Replace the game.pbta.sheetConfig with Rhapsody of Blood version.
     configSheet();
-  
 });

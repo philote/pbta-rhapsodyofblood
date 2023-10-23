@@ -33,9 +33,6 @@
   "esmodules": [
     "scripts/rob.mjs"
   ],
-  "scripts": [
-    "scripts/lib/lib.mjs"
-  ],
   "styles": [
     "styles/rob.css"
   ],

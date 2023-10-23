@@ -31,13 +31,13 @@
     ]
   },
   "esmodules": [
-    "scripts/module.js"
+    "scripts/rob.mjs"
   ],
   "scripts": [
-    "scripts/lib/lib.js"
+    "scripts/lib/lib.mjs"
   ],
   "styles": [
-    "styles/module.css"
+    "styles/rob.css"
   ],
   "languages": [
     {

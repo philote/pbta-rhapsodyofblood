@@ -1,3 +1,57 @@
 {
-    "MODULE.hello": "hello"
+    "RoB": {
+        "config": {
+            "results": {
+                "failure": "Complications...",
+                "partial": "Partial success.",
+                "success": "Success!"
+            },
+            "stats": {
+                "iron": "Iron",
+                "glass": "Glass",
+                "sulphur": "Sulphur",
+                "mercury": "Mercury",
+                "chalices": "Chalices",
+                "swords": "Swords",
+                "relics": "Relics",
+                "wands": "Wands",
+                "coins": "Coins"
+            },
+            "attrTop": {
+                "harm": {
+                    "label": "Harm",
+                    "description": "Choose to take 1 wound instead of 1 harm"
+                },
+                "contamination": {
+                    "label": "Contamination",
+                    "description": "When all are marked raise Blood & clear Contamination"
+                },
+                "blood": {
+                    "label": "Blood",
+                    "description": "When Blood increases, take a blood advance"
+                }
+            },
+            "attrLeft": {
+                "wounds": {
+                    "label": "Wounds",
+                    "description": "Take 1 wound instead of 1 harm",
+                    "options": {
+                        "minor": "Minor Wound",
+                        "major": "Major Wound",
+                        "deadly": "Deadly Wound"
+                    }
+                },
+                "bloodAdv": {
+                    "label": "Blood Advances",
+                    "description": "",
+                    "options": {
+                        "stat": "Get +1 to a stat (max 3)",
+                        "gift": "Get a Blood Gift"
+                    }
+                }
+            }
+        },
+        "settings": {},
+        "sheets": {}
+    }
 }

@@ -7,8 +7,13 @@
 <!--- Forge Bazaar Install % Badge -->
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpbta-rhapsodyofblood&colorB=4aa94a)
 
+Unofficial Rhapsody of Blood RPG custom sheet and compendium module for Foundry VTT, to be used with the [Powered by the Apocalypse](https://gitlab.com/asacolips-projects/foundry-mods/pbta) game system (by Asacolips).
 
-# How to use this Template to create a versioned Release
+## Dependencies
+
+The following Foundry VTT game system must be installed: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
+
+## How to use this Template to create a versioned Release
 
 1. Open your repository's releases page.
 

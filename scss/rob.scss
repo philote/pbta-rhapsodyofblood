@@ -1,0 +1,93 @@
+/* Rhapsody of Blood CSS */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$brown-sugar: #C96A41ff;
+$flax: #F5E894ff;
+$eerie-black: #1A1A1Aff;
+$caramel: #D17B49ff;
+$caput-mortuum: #602D27ff;
+
+$q: #F2D785;
+$w: #D9965B;
+$e: #BF533B;
+$r: #732C2C;
+$t: #262626;
+
+// --
+
+$q-t: #BF69A8;
+$w-y: #8C517D;
+$e-u: #362D59;
+$r-i: #282240;
+$t-o: #B8CAD9;
+
+$cadet-gray: #9EA9BFff;
+$russian-violet: #32264Eff;
+$columbia-blue: #C0D2E2ff;
+$english-violet: #473256ff;
+$dark-purple: #2C2343ff;
+
+/* Sheet Sizing Styles */
+.pbta.sheet {
+
+    &.actor:not(.npc) {
+        min-width: 770px;
+    }
+
+    &.npc {
+        max-width: 655px;
+        min-width: 630px;
+        /* max-height: 400px;
+        min-height: 400px; */
+    }
+
+    /* General Sheet Color Styles */
+
+    section.window-content {
+        background-color: #f0ebd5;
+        color: #23241b;
+
+        &::-webkit-scrollbar-thumb {
+            background: #444635;
+            border-color: #71745e;
+        }
+    }
+
+    .cell__title {
+        color: #23241b;
+        border-bottom-color: #23241b;
+    }
+
+    :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
+        border-bottom-color: #23241b;
+
+        a.item {
+            background: #23241b;
+            border-color: #23241b;
+
+            &.active {
+                background: #919382;
+            }
+        
+            &:hover {
+                background: #fff;
+            }
+        }
+    }
+
+    /* Stat Styles and Animation */
+
+    .sheet-attributes .cell--stats .stat {
+        
+        background: #444635;
+
+        &:hover {
+            background: #71745e;
+        }
+    }
+
+    span.stat-icon.stat-rollable.rollable:hover .fa-dice-d6 {
+        animation: rollDice 3s linear infinite;
+    }
+
+    /* layout work styles */
+}

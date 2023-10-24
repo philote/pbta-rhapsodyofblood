@@ -34,7 +34,7 @@
     "scripts/rob.mjs"
   ],
   "styles": [
-    "styles/rob.css"
+    "css/rob.css"
   ],
   "languages": [
     {

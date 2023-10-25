@@ -1,30 +1,45 @@
-/* Rhapsody of Blood CSS */
-@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 $brown-sugar: #C96A41ff;
 $flax: #F5E894ff;
 $eerie-black: #1A1A1Aff;
 $caramel: #D17B49ff;
 $caput-mortuum: #602D27ff;
-
+// --
 $q: #F2D785;
 $w: #D9965B;
 $e: #BF533B;
 $r: #732C2C;
 $t: #262626;
-
 // --
-
 $q-t: #BF69A8;
 $w-y: #8C517D;
 $e-u: #362D59;
 $r-i: #282240;
 $t-o: #B8CAD9;
-
+// --
 $cadet-gray: #9EA9BFff;
 $russian-violet: #32264Eff;
 $columbia-blue: #C0D2E2ff;
 $english-violet: #473256ff;
 $dark-purple: #2C2343ff;
+
+/* Rhapsody of Blood CSS */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+$font-header: "Red+Rose", serif;
+// $font-body: "Noto+Serif", serif;
+
+$c-sheet-bg: #262626;
+$c-sheet-input-bg: #181818;
+
+$c-sheet-text: #efe2ba;
+$c-sheet-text-active: #edeadf;
+$c-sheet-text-hover: #262626;
+$c-sheet-text-active-hover: #262626;
+
+$c-scrollbar-bg: #262626;
+$c-scrollbar-border: #585858;
+
+$c-highlight: #BF533B;
 
 /* Sheet Sizing Styles */
 .pbta.sheet {
@@ -36,15 +51,16 @@ $dark-purple: #2C2343ff;
     &.npc {
         max-width: 655px;
         min-width: 630px;
-        /* max-height: 400px;
-        min-height: 400px; */
     }
 
     /* General Sheet Color Styles */
 
     section.window-content {
-        background-color: #f0ebd5;
-        color: #23241b;
+        background: none;
+        background-color: $c-sheet-bg;
+        color: $c-sheet-text;
+        font-family: $font-body;
+        // font-family: $font-header;
 
         &::-webkit-scrollbar-thumb {
             background: #444635;
@@ -52,8 +68,54 @@ $dark-purple: #2C2343ff;
         }
     }
 
+    label {
+        color: $c-sheet-text;
+        font-family: $font-body;
+    }
+
+    .input--title {
+        color: $c-sheet-text;
+        font-family: $font-body;
+    }
+
+    .tabs .item {
+        color: $c-sheet-text;
+
+        &.active {
+            color: $c-sheet-text-active;
+
+            &:hover {
+                color: $c-sheet-text-active-hover;
+            }
+        }
+
+        &:hover {
+            color: $c-sheet-text-hover;
+        }
+    }
+
+    input {
+        background-color: $c-sheet-input-bg;
+        color: $c-sheet-text;
+
+        ::placeholder {
+            color: $c-sheet-text;
+            opacity: 1; /* Firefox */
+        }        
+    }
+ 
+    input.input--title.charplaybook::placeholder {
+        color: $c-sheet-text;
+        opacity: 1; /* Firefox */
+    }
+
+    .sheet-attributes .cell--stats .stat .cell__title {
+        color: $c-sheet-text;
+    }
+
     .cell__title {
-        color: #23241b;
+        color: $c-sheet-text;
+        font-family: $font-body; 
         border-bottom-color: #23241b;
     }
 
@@ -77,11 +139,12 @@ $dark-purple: #2C2343ff;
     /* Stat Styles and Animation */
 
     .sheet-attributes .cell--stats .stat {
-        
-        background: #444635;
+        font-family: $font-header;
+        background: #793425;
+        // background: #444635;
 
         &:hover {
-            background: #71745e;
+            background: #BF533B;
         }
     }
 

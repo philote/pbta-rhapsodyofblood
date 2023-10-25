@@ -1,37 +1,41 @@
-$brown-sugar: #C96A41ff;
-$flax: #F5E894ff;
-$eerie-black: #1A1A1Aff;
-$caramel: #D17B49ff;
-$caput-mortuum: #602D27ff;
-// --
+// $brown-sugar: #C96A41ff;
+// $flax: #F5E894ff;
+// $eerie-black: #1A1A1Aff;
+// $caramel: #D17B49ff;
+// $caput-mortuum: #602D27ff;
+// // --
 $q: #F2D785;
 $w: #D9965B;
 $e: #BF533B;
 $r: #732C2C;
 $t: #262626;
-// --
-$q-t: #BF69A8;
-$w-y: #8C517D;
-$e-u: #362D59;
-$r-i: #282240;
-$t-o: #B8CAD9;
-// --
-$cadet-gray: #9EA9BFff;
-$russian-violet: #32264Eff;
-$columbia-blue: #C0D2E2ff;
-$english-violet: #473256ff;
-$dark-purple: #2C2343ff;
+// // --
+// $q-t: #BF69A8;
+// $w-y: #8C517D;
+// $e-u: #362D59;
+// $r-i: #282240;
+// $t-o: #B8CAD9;
+// // --
+// $cadet-gray: #9EA9BFff;
+// $russian-violet: #32264Eff;
+// $columbia-blue: #C0D2E2ff;
+// $english-violet: #473256ff;
+// $dark-purple: #2C2343ff;
 
 /* Rhapsody of Blood CSS */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
-$font-header: "Red+Rose", serif;
-// $font-body: "Noto+Serif", serif;
+$font-header: 'Red Rose', serif;
+$font-body: 'Noto+Serif', serif;
 
 $c-sheet-bg: #262626;
+$c-sheet-border-pri: #3f3c2f;
+$c-sheet-border-sec: #9a9173;
 $c-sheet-input-bg: #181818;
 
 $c-sheet-text: #efe2ba;
+$c-sheet-text-header: #d0c4a1;
+$c-sheet-text-subheader: #c38650;
 $c-sheet-text-active: #edeadf;
 $c-sheet-text-hover: #262626;
 $c-sheet-text-active-hover: #262626;
@@ -40,6 +44,9 @@ $c-scrollbar-bg: #262626;
 $c-scrollbar-border: #585858;
 
 $c-highlight: #BF533B;
+
+$c-stat-bg: #793425;
+$c-stat-bg-hover: #a14531;
 
 /* Sheet Sizing Styles */
 .pbta.sheet {
@@ -60,7 +67,7 @@ $c-highlight: #BF533B;
         background-color: $c-sheet-bg;
         color: $c-sheet-text;
         font-family: $font-body;
-        // font-family: $font-header;
+        padding: 10px 0;
 
         &::-webkit-scrollbar-thumb {
             background: #444635;
@@ -74,8 +81,8 @@ $c-highlight: #BF533B;
     }
 
     .input--title {
-        color: $c-sheet-text;
-        font-family: $font-body;
+        color: $c-sheet-text-header;
+        font-family: $font-header;
     }
 
     .tabs .item {
@@ -109,25 +116,51 @@ $c-highlight: #BF533B;
         opacity: 1; /* Firefox */
     }
 
-    .sheet-attributes .cell--stats .stat .cell__title {
-        color: $c-sheet-text;
+    .cell--image img {
+        border: 2px solid $c-sheet-border-pri;
     }
 
     .cell__title {
+        color: $c-sheet-text-subheader;
+        font-family: $font-header; 
+        border-bottom-color: $c-sheet-border-sec;
+    }
+
+    .sheet-attributes .cell--stats .stat .cell__title {
         color: $c-sheet-text;
-        font-family: $font-body; 
-        border-bottom-color: #23241b;
+        font-family: $font-header;
+    }
+
+    .sheet-wrapper {
+
+        .sheet-attributes-top {
+            border: 2px solid $c-sheet-border-pri;
+            border-left: 0;
+            border-right: 0;
+            background-color: $c-sheet-input-bg;
+            padding: 0 10px;
+            margin-bottom: 0;
+        }
+
+        .sheet-bottom .sheet-look::before {
+            background: $c-sheet-border-pri;
+        }
+
+        .sheet-attributes-top .cell--attributes-top>.cell+.cell::before {
+            background-color: $c-sheet-border-pri;
+        }
     }
 
     :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
-        border-bottom-color: #23241b;
+        border-bottom-color: $c-sheet-border-pri;
 
         a.item {
-            background: #23241b;
-            border-color: #23241b;
+            background: $c-sheet-input-bg;
+            border-color: $c-sheet-border-pri;
 
             &.active {
-                background: #919382;
+                background: #c38650;
+                color: #2a281f;
             }
         
             &:hover {
@@ -139,12 +172,11 @@ $c-highlight: #BF533B;
     /* Stat Styles and Animation */
 
     .sheet-attributes .cell--stats .stat {
-        font-family: $font-header;
-        background: #793425;
-        // background: #444635;
+        background: $c-stat-bg;
 
         &:hover {
-            background: #BF533B;
+            background: $c-stat-bg-hover;
+            cursor: pointer;
         }
     }
 
@@ -153,4 +185,69 @@ $c-highlight: #BF533B;
     }
 
     /* layout work styles */
+
+    .sheet-header, .sheet-attributes {
+        padding: 0 10px;
+    }
+
+    .sheet-wrapper .sheet-bottom {
+        padding: 0 10px;
+    }
+
+    .sheet-top {
+        margin-bottom: 0;
+    }
+
+    .sheet-main {
+        margin-top: 10px;
+    }
+
+    .sheet-header__fields {
+        margin: 0;
+
+        .input--title {
+            height: 42px;
+            font-size: 24px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .sheet-wrapper .sheet-attributes-top .cell--attributes-top .cell {
+        display: flex;
+        flex-direction: column;
+
+        .cell__title {
+            order: 2;
+            flex: 0;
+        }
+
+        .cell__description {
+            order: 3;
+            margin-bottom: 10px;
+        }
+
+        .cell__clock {
+            order: 1;
+            justify-content: flex-end;
+            width: fit-content;
+            position: absolute;
+            top: 9px;
+            right: 20px;
+        }
+
+        input[type=text] {
+            justify-content: flex-end;
+            width: fit-content;
+            position: absolute;
+            top: 6px;
+            right: 20px;
+        }
+
+        .sheet-attributes-top {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin: 10px 0;
+        }
+    }
 }

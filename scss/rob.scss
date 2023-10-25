@@ -4,11 +4,11 @@
 // $caramel: #D17B49ff;
 // $caput-mortuum: #602D27ff;
 // // --
-$q: #F2D785;
-$w: #D9965B;
-$e: #BF533B;
-$r: #732C2C;
-$t: #262626;
+// $q: #F2D785;
+// $w: #D9965B;
+// $e: #BF533B;
+// $r: #732C2C;
+// $t: #262626;
 // // --
 // $q-t: #BF69A8;
 // $w-y: #8C517D;
@@ -117,7 +117,7 @@ $c-stat-bg-hover: #a14531;
     }
 
     .cell--image img {
-        border: 2px solid $c-sheet-border-pri;
+        border: 1px solid $c-sheet-border-pri;
     }
 
     .cell__title {
@@ -134,7 +134,7 @@ $c-stat-bg-hover: #a14531;
     .sheet-wrapper {
 
         .sheet-attributes-top {
-            border: 2px solid $c-sheet-border-pri;
+            border: 1px solid $c-sheet-border-pri;
             border-left: 0;
             border-right: 0;
             background-color: $c-sheet-input-bg;
@@ -164,9 +164,13 @@ $c-stat-bg-hover: #a14531;
             }
         
             &:hover {
-                background: #fff;
+                background: #efe2ba;
             }
         }
+    }
+
+    .cell--moves .items-list .item {
+        background-color: #1f1f1f;
     }
 
     /* Stat Styles and Animation */
@@ -177,6 +181,10 @@ $c-stat-bg-hover: #a14531;
         &:hover {
             background: $c-stat-bg-hover;
             cursor: pointer;
+        }
+
+        .stat-icon, .stat-value {
+            color: $c-sheet-text;
         }
     }
 
@@ -250,4 +258,41 @@ $c-stat-bg-hover: #a14531;
             margin: 10px 0;
         }
     }
+
+    .sheet-resources .cell--roll-mode {
+        padding: 0;
+        border: 1px solid $c-sheet-border-pri;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+
+        background-color: $c-sheet-border-pri;
+
+        .cell__title {
+            border: none;
+            margin: 0;
+        }
+    }
+
+    .cell__title button, 
+    .cell__subtitle button {
+        background: #efe2ba;
+        color: $c-sheet-input-bg;
+        border: 1px solid #2a281f;
+        height: 24px;
+        line-height: 1;
+    }
+
+    .cell__title button:hover, 
+    .cell__title button:focus, 
+    .cell__subtitle button:hover, 
+    .cell__subtitle button:focus {
+        background-color: $c-sheet-input-bg;
+        color: #efe2ba;
+    }
+
+    .sheet-tab {
+        margin: 0;
+    }
+
 }

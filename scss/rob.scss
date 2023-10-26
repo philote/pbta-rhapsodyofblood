@@ -51,6 +51,12 @@ $c-stat-bg-hover: #a14531;
 /* Sheet Sizing Styles */
 .pbta.sheet {
 
+    input[type=checkbox], input[type=radio] {
+        &:checked {
+            accent-color: $c-highlight;
+          }
+    }
+
     a:hover {
         color: $c-stat-bg-hover;
     }
@@ -66,6 +72,10 @@ $c-stat-bg-hover: #a14531;
 
     /* General Sheet Color Styles */
 
+    .tox-tinymce {
+        background:#afafaf;
+    }
+
     section.window-content {
         background: none;
         background-color: $c-sheet-bg;
@@ -74,8 +84,8 @@ $c-stat-bg-hover: #a14531;
         padding: 10px 0;
 
         &::-webkit-scrollbar-thumb {
-            background: #444635;
-            border-color: #71745e;
+            background: $c-scrollbar-bg;
+            border-color: $c-scrollbar-border;
         }
     }
 
@@ -115,7 +125,7 @@ $c-stat-bg-hover: #a14531;
             opacity: 1; /* Firefox */
         }        
     }
- 
+
     input.input--title.charplaybook::placeholder {
         color: $c-sheet-text;
         opacity: 1; /* Firefox */
@@ -137,6 +147,14 @@ $c-stat-bg-hover: #a14531;
     }
 
     .sheet-wrapper {
+
+        .editor-content {
+            background: #181818;
+        }
+
+        .editor-edit {
+            background: none;
+        }
 
         .sheet-attributes-top {
             border: 1px solid $c-sheet-border-pri;
@@ -174,7 +192,7 @@ $c-stat-bg-hover: #a14531;
         }
     }
 
-    .cell--moves .items-list .item {
+    .items-list .item {
         background-color: #1f1f1f;
     }
 
@@ -300,4 +318,34 @@ $c-stat-bg-hover: #a14531;
         margin: 0;
     }
 
+}
+
+.pbta.sheet.npc {
+    max-width: 655px;
+    min-width: 630px;
+
+    max-height: 400px;
+    min-height: 450px;
+
+    :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
+       display: none;
+    }
+
+    .sheet-main {
+        display: -webkit-box;
+    }
+
+    .sheet-wrapper .sheet-header {
+        width: 100%; 
+    }
+
+    .sheet-main--npc {
+        padding: 10px 10px 0 10px;
+        border-top: 1px solid #3f3c2f;
+        margin: 0;
+    }
+
+    .sheet-attributes-top {
+        display: none;
+    }
 }

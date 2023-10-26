@@ -51,6 +51,10 @@ $c-stat-bg-hover: #a14531;
 /* Sheet Sizing Styles */
 .pbta.sheet {
 
+    a:hover {
+        color: $c-stat-bg-hover;
+    }
+
     &.actor:not(.npc) {
         min-width: 770px;
     }
@@ -104,6 +108,7 @@ $c-stat-bg-hover: #a14531;
     input {
         background-color: $c-sheet-input-bg;
         color: $c-sheet-text;
+        border: 1px solid $c-sheet-border-pri;
 
         ::placeholder {
             color: $c-sheet-text;
@@ -248,7 +253,7 @@ $c-stat-bg-hover: #a14531;
             justify-content: flex-end;
             width: fit-content;
             position: absolute;
-            top: 6px;
+            top: 3px;
             right: 20px;
         }
 

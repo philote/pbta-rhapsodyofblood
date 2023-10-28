@@ -39,6 +39,9 @@ $c-sheet-text-subheader: #c38650;
 $c-sheet-text-active: #edeadf;
 $c-sheet-text-hover: #262626;
 $c-sheet-text-active-hover: #262626;
+$c-sheet-state-hover: #efe2baac;
+
+$c-dark-bg: #1f1f1f;
 
 $c-scrollbar-bg: #262626;
 $c-scrollbar-border: #585858;
@@ -51,6 +54,10 @@ $c-stat-bg-hover: #a14531;
 /* Sheet Sizing Styles */
 .pbta.sheet {
 
+    .window-header {
+        background-color: $c-dark-bg;
+    }
+
     input[type=checkbox], input[type=radio] {
         &:checked {
             accent-color: $c-highlight;
@@ -59,15 +66,6 @@ $c-stat-bg-hover: #a14531;
 
     a:hover {
         color: $c-stat-bg-hover;
-    }
-
-    &.actor:not(.npc) {
-        min-width: 770px;
-    }
-
-    &.npc {
-        max-width: 655px;
-        min-width: 630px;
     }
 
     /* General Sheet Color Styles */
@@ -160,7 +158,7 @@ $c-stat-bg-hover: #a14531;
             border: 1px solid $c-sheet-border-pri;
             border-left: 0;
             border-right: 0;
-            background-color: $c-sheet-input-bg;
+            background-color: $c-dark-bg;
             padding: 0 10px;
             margin-bottom: 0;
         }
@@ -178,7 +176,7 @@ $c-stat-bg-hover: #a14531;
         border-bottom-color: $c-sheet-border-pri;
 
         a.item {
-            background: $c-sheet-input-bg;
+            background: $c-dark-bg;
             border-color: $c-sheet-border-pri;
 
             &.active {
@@ -193,7 +191,7 @@ $c-stat-bg-hover: #a14531;
     }
 
     .items-list .item {
-        background-color: #1f1f1f;
+        background-color: $c-dark-bg;
     }
 
     /* Stat Styles and Animation */
@@ -203,11 +201,14 @@ $c-stat-bg-hover: #a14531;
 
         &:hover {
             background: $c-stat-bg-hover;
-            cursor: pointer;
         }
 
         .stat-icon, .stat-value {
             color: $c-sheet-text;
+        }
+
+        .stat-icon:hover {
+            color: $c-sheet-state-hover;
         }
     }
 
@@ -321,11 +322,6 @@ $c-stat-bg-hover: #a14531;
 }
 
 .pbta.sheet.npc {
-    max-width: 655px;
-    min-width: 630px;
-
-    max-height: 400px;
-    min-height: 450px;
 
     :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
        display: none;
@@ -347,5 +343,72 @@ $c-stat-bg-hover: #a14531;
 
     .sheet-attributes-top {
         display: none;
+    }
+}
+
+.pbta.sheet.item {
+
+    .editor {
+        background: #181818;
+        border: 1px solid #3f3c2f;
+    }
+
+    .editor-content {
+        padding: 0 10px;
+    }
+
+    .tagify {
+        background-color: $c-dark-bg;
+        border: 1px solid $c-sheet-border-pri;
+        color: $c-sheet-text;
+    }
+
+    .tagify__input::before, 
+    .tagify__input::after {
+        color: $c-sheet-text;
+    }
+
+    .sheet-body {
+        padding: 10px 10px 0 10px;
+    }
+    
+    label {
+        margin-right: 10px;
+    }
+
+    select {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+
+        option {
+            background-color: $c-dark-bg;
+            color: $c-sheet-text;    
+        }
+    }
+}
+
+.vtt .window-app .dialog-buttons .dialog-button, .vtt .window-app .dialog-button {
+    background: $c-stat-bg;
+    color: $c-sheet-text;
+    border: none;
+
+    &:hover {
+        background: $c-stat-bg-hover;
+    }
+}
+
+.app.window-app.dialog {
+    background-color: $c-dark-bg;
+    color: $c-sheet-text;
+
+    input {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+    }
+
+    .window-content {
+        background: none;
+        background-color: $c-sheet-bg;
+        color: $c-sheet-text;    
     }
 }

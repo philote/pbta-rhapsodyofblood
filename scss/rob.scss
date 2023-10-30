@@ -51,6 +51,13 @@ $c-highlight: #BF533B;
 $c-stat-bg: #793425;
 $c-stat-bg-hover: #a14531;
 
+$c-cell: #efe2ba;
+$c-editor-bg: #afafaf;
+
+$c-tab-active-bg: #c38650;
+$c-tab-active-text: #2a281f;
+$c-tab-hover-bg: #efe2ba;
+
 /* Sheet Sizing Styles */
 .pbta.sheet {
 
@@ -71,7 +78,7 @@ $c-stat-bg-hover: #a14531;
     /* General Sheet Color Styles */
 
     .tox-tinymce {
-        background:#afafaf;
+        background: $c-editor-bg;
     }
 
     section.window-content {
@@ -145,9 +152,9 @@ $c-stat-bg-hover: #a14531;
     }
 
     .sheet-wrapper {
-
+        
         .editor-content {
-            background: #181818;
+            background: $c-sheet-input-bg;
         }
 
         .editor-edit {
@@ -180,12 +187,12 @@ $c-stat-bg-hover: #a14531;
             border-color: $c-sheet-border-pri;
 
             &.active {
-                background: #c38650;
-                color: #2a281f;
+                background: $c-tab-active-bg;
+                color: $c-tab-active-text;
             }
         
             &:hover {
-                background: #efe2ba;
+                background: $c-tab-hover-bg;
             }
         }
     }
@@ -298,11 +305,12 @@ $c-stat-bg-hover: #a14531;
         }
     }
 
+    
     .cell__title button, 
     .cell__subtitle button {
-        background: #efe2ba;
+        background: $c-cell;
         color: $c-sheet-input-bg;
-        border: 1px solid #2a281f;
+        border: 1px solid $c-tab-active-text;
         height: 24px;
         line-height: 1;
     }
@@ -312,7 +320,7 @@ $c-stat-bg-hover: #a14531;
     .cell__subtitle button:hover, 
     .cell__subtitle button:focus {
         background-color: $c-sheet-input-bg;
-        color: #efe2ba;
+        color: $c-cell;
     }
 
     .sheet-tab {
@@ -337,7 +345,7 @@ $c-stat-bg-hover: #a14531;
 
     .sheet-main--npc {
         padding: 10px 10px 0 10px;
-        border-top: 1px solid #3f3c2f;
+        border-top: 1px solid $c-sheet-border-pri;
         margin: 0;
     }
 
@@ -349,8 +357,8 @@ $c-stat-bg-hover: #a14531;
 .pbta.sheet.item {
 
     .editor {
-        background: #181818;
-        border: 1px solid #3f3c2f;
+        background: $c-sheet-input-bg;
+        border: 1px solid $c-sheet-border-pri;
     }
 
     .editor-content {

@@ -43,6 +43,60 @@
       "path": "languages/en.json"
     }
   ],
+  "packs": [
+    {
+      "name": "gear",
+      "label": "Gear",
+      "system": "pbta-rhapsodyofblood",
+      "path": "packs/gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "covenants",
+      "label": "Covenants",
+      "system": "pbta-rhapsodyofblood",
+      "path": "packs/covenants",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "moves",
+      "label": "Moves",
+      "system": "pbta-rhapsodyofblood",
+      "path": "./packs/moves",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "weapon-tags",
+      "label": "Weapon Tags",
+      "system": "pbta-rhapsodyofblood",
+      "path": "packs/weapon-tags",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    }
+  ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",

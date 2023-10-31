@@ -47,7 +47,8 @@
     {
       "name": "gear",
       "label": "Gear",
-      "system": "pbta-rhapsodyofblood",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
       "path": "packs/gear",
       "type": "Item",
       "ownership": {
@@ -60,7 +61,8 @@
     {
       "name": "covenants",
       "label": "Covenants",
-      "system": "pbta-rhapsodyofblood",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
       "path": "packs/covenants",
       "type": "Item",
       "ownership": {
@@ -73,7 +75,8 @@
     {
       "name": "moves",
       "label": "Moves",
-      "system": "pbta-rhapsodyofblood",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
       "path": "./packs/moves",
       "type": "Item",
       "ownership": {
@@ -86,8 +89,23 @@
     {
       "name": "weapon-tags",
       "label": "Weapon Tags",
-      "system": "pbta-rhapsodyofblood",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
       "path": "packs/weapon-tags",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "playbooks",
+      "label": "Playbooks",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
+      "path": "packs/playbooks",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",

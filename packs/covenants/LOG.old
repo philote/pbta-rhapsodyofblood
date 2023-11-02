@@ -1,3 +1,5 @@
-2023/10/30-21:31:20.097 70cc Recovering log #7
-2023/10/30-21:31:20.100 70cc Delete type=0 #7
-2023/10/30-21:31:20.100 70cc Delete type=3 #4
+2023/11/01-21:50:48.135 5340 Log #14: 0 ops saved to Table #15 OK
+2023/11/01-21:50:48.136 5340 Archiving C:\Users\jh\Projects\Dev\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants/000014.log: OK
+2023/11/01-21:50:48.136 5340 Table #9: 11 entries OK
+2023/11/01-21:50:48.139 5340 Archiving C:\Users\jh\Projects\Dev\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants/MANIFEST-000012: OK
+2023/11/01-21:50:48.142 5340 **** Repaired leveldb C:\Users\jh\Projects\Dev\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants; recovered 1 files; 3970 bytes. Some data may have been lost. ****

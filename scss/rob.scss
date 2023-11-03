@@ -37,13 +37,13 @@ $c-sheet-text: #efe2ba;
 $c-sheet-text-header: #d0c4a1;
 $c-sheet-text-subheader: #c38650;
 $c-sheet-text-active: #edeadf;
-$c-sheet-text-hover: #262626;
-$c-sheet-text-active-hover: #262626;
+$c-sheet-text-hover: $c-sheet-bg;
+$c-sheet-text-active-hover: $c-sheet-bg;
 $c-sheet-state-hover: #efe2baac;
 
 $c-dark-bg: #1f1f1f;
 
-$c-scrollbar-bg: #262626;
+$c-scrollbar-bg: $c-sheet-bg;
 $c-scrollbar-border: #585858;
 
 $c-highlight: #BF533B;
@@ -51,45 +51,52 @@ $c-highlight: #BF533B;
 $c-stat-bg: #793425;
 $c-stat-bg-hover: #a14531;
 
-$c-cell: #efe2ba;
+$c-cell: $c-sheet-text;
 $c-editor-bg: #afafaf;
 
 $c-tab-active-bg: #c38650;
 $c-tab-active-text: #2a281f;
-$c-tab-hover-bg: #efe2ba;
+$c-tab-hover-bg: $c-sheet-text;
 
 // Global
+
+#module-management .package-list .package-title, 
+#module-management .package-list .package-metadata, 
+#module-management .package-list .package-description {
+    color: $c-sheet-text;
+}
+
 .vtt .window-app {
-    background-color: #1f1f1f;
-    color: #efe2ba;
+    background-color: $c-dark-bg;
+    color: $c-sheet-text;
 
     input {
-        background-color: #1f1f1f;
-        color: #efe2ba;
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
 
         &::placeholder {
-            color: #efe2ba;
+            color: $c-sheet-text;
         }
     }
 
     select {
-        background-color: #1f1f1f;
-        color: #efe2ba;
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
     }
     
     option {
-        background-color: #1f1f1f;
-        color: #efe2ba;
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
     }
 
     button {
-        background: #793425;
-        color: #efe2ba;
+        background: $c-stat-bg;
+        color: $c-sheet-text;
         border: none;
     }
 
     input[type=radio]:checked {
-        accent-color: #BF533B;
+        accent-color: $c-highlight;
     }
 
     label.checkbox {
@@ -128,7 +135,7 @@ form .notes, form .hint {
 }
 
 .sheet.journal-entry .journal-entry-content {
-    background-color: #1f1f1f;
+    background-color: $c-dark-bg;
     background-blend-mode: overlay;
 }
 
@@ -138,12 +145,9 @@ form .notes, form .hint {
 
 .vtt .window-content {
     background: none;
-    background-color: #262626;
-    color: #efe2ba;
+    background-color: $c-sheet-bg;
+    color: $c-sheet-text;
 }
-
-
-
 
 /* Sheet Sizing Styles */
 .pbta.sheet {
@@ -482,7 +486,8 @@ form .notes, form .hint {
     }
 }
 
-.vtt .window-app .dialog-buttons .dialog-button, .vtt .window-app .dialog-button {
+.vtt .window-app .dialog-buttons .dialog-button, 
+.vtt .window-app .dialog-button {
     background: $c-stat-bg;
     color: $c-sheet-text;
     border: none;
@@ -509,6 +514,7 @@ form .notes, form .hint {
 }
 
 
-a.content-link, a.inline-roll {
+a.content-link, 
+a.inline-roll {
     background: none;
 }

@@ -1,3 +1,6 @@
-2023/11/02-23:26:17.691 5ee8 Recovering log #36
-2023/11/02-23:26:17.695 5ee8 Delete type=0 #36
-2023/11/02-23:26:17.695 5ee8 Delete type=3 #34
+2023/11/03-19:46:07.004 6238 Log #42: 20 ops saved to Table #43 OK
+2023/11/03-19:46:07.005 6238 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks/000042.log: OK
+2023/11/03-19:46:07.006 6238 Table #38: 7 entries OK
+2023/11/03-19:46:07.006 6238 Table #43: 20 entries OK
+2023/11/03-19:46:07.009 6238 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks/MANIFEST-000041: OK
+2023/11/03-19:46:07.012 6238 **** Repaired leveldb C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks; recovered 2 files; 64019 bytes. Some data may have been lost. ****

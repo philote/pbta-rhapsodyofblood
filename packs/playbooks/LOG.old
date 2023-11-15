@@ -1,8 +1,6 @@
-2023/11/08-20:02:30.328877 30c0aa000 Log #48: 8 ops saved to Table #49 OK
-2023/11/08-20:02:30.329075 30c0aa000 Archiving /Users/josephhopson/Projects/FoundryVTT/Data/modules/pbta-rhapsodyofblood/packs/playbooks/000048.log: OK
-2023/11/08-20:02:30.329114 30c0aa000 Log #46: 0 ops saved to Table #50 OK
-2023/11/08-20:02:30.329166 30c0aa000 Archiving /Users/josephhopson/Projects/FoundryVTT/Data/modules/pbta-rhapsodyofblood/packs/playbooks/000046.log: OK
-2023/11/08-20:02:30.329378 30c0aa000 Table #48: 7 entries OK
-2023/11/08-20:02:30.329423 30c0aa000 Table #49: 8 entries OK
-2023/11/08-20:02:30.329605 30c0aa000 Archiving /Users/josephhopson/Projects/FoundryVTT/Data/modules/pbta-rhapsodyofblood/packs/playbooks/MANIFEST-000046: OK
-2023/11/08-20:02:30.329816 30c0aa000 **** Repaired leveldb /Users/josephhopson/Projects/FoundryVTT/Data/modules/pbta-rhapsodyofblood/packs/playbooks; recovered 2 files; 25559 bytes. Some data may have been lost. ****
+2023/11/14-21:47:54.397 7a78 Log #52: 0 ops saved to Table #53 OK
+2023/11/14-21:47:54.398 7a78 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks/000052.log: OK
+2023/11/14-21:47:54.399 7a78 Table #48: 7 entries OK
+2023/11/14-21:47:54.400 7a78 Table #49: 8 entries OK
+2023/11/14-21:47:54.402 7a78 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks/MANIFEST-000051: OK
+2023/11/14-21:47:54.404 7a78 **** Repaired leveldb C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\playbooks; recovered 2 files; 25559 bytes. Some data may have been lost. ****

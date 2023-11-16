@@ -1,6 +1,1 @@
-2023/11/14-21:47:54.317 4ba8 Log #56: 159 ops saved to Table #57 OK
-2023/11/14-21:47:54.317 4ba8 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\moves/000056.log: OK
-2023/11/14-21:47:54.319 4ba8 Table #41: 91 entries OK
-2023/11/14-21:47:54.319 4ba8 Table #57: 159 entries OK
-2023/11/14-21:47:54.322 4ba8 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\moves/MANIFEST-000055: OK
-2023/11/14-21:47:54.325 4ba8 **** Repaired leveldb C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\moves; recovered 2 files; 92240 bytes. Some data may have been lost. ****
+2023/11/14-21:47:54.337 4ba8 Delete type=3 #1

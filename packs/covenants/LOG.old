@@ -1,6 +1,1 @@
-2023/11/14-21:47:54.271 4560 Log #52: 37 ops saved to Table #53 OK
-2023/11/14-21:47:54.272 4560 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants/000052.log: OK
-2023/11/14-21:47:54.278 4560 Table #33: 11 entries OK
-2023/11/14-21:47:54.278 4560 Table #53: 37 entries OK
-2023/11/14-21:47:54.281 4560 Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants/MANIFEST-000051: OK
-2023/11/14-21:47:54.283 4560 **** Repaired leveldb C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\covenants; recovered 2 files; 13488 bytes. Some data may have been lost. ****
+2023/11/14-21:47:54.294 4560 Delete type=3 #1

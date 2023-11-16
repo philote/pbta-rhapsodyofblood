@@ -1,6 +1,1 @@
-2023/11/14-21:47:54.364 237c Log #52: 76 ops saved to Table #53 OK
-2023/11/14-21:47:54.364 237c Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\weapon-tags/000052.log: OK
-2023/11/14-21:47:54.371 237c Table #33: 21 entries OK
-2023/11/14-21:47:54.372 237c Table #53: 76 entries OK
-2023/11/14-21:47:54.374 237c Archiving C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\weapon-tags/MANIFEST-000051: OK
-2023/11/14-21:47:54.377 237c **** Repaired leveldb C:\Users\jh\AppData\Local\FoundryVTT\Data\modules\pbta-rhapsodyofblood\packs\weapon-tags; recovered 2 files; 12533 bytes. Some data may have been lost. ****
+2023/11/14-21:47:54.389 237c Delete type=3 #1

@@ -1,11 +1,4 @@
 import { configSheet } from "./helpers/config-sheet.mjs";
-// Hooks.once('init', async function() {
-
-// });
-
-// Hooks.once('ready', async function() {
-
-// });
 
 // Override sheetConfig with Rhapsody of Blood sheet (TOML).
 Hooks.once('pbtaSheetConfig', () => {

@@ -257,10 +257,10 @@ export const configSheet = async () => {
                 }
             },
             "equipmentTypes": {
-                "weapons": {
-                    "label": "Weapons",
+                "gear": {
+                    "label": "Gear",
                     "moves": []
-                }
+                },
             },
             "baseType": "character"
         },

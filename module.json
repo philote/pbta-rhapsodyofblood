@@ -113,6 +113,20 @@
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
       }
+    },
+    {
+      "name": "characters",
+      "label": "Characters",
+      "module": "pbta-rhapsodyofblood",
+      "system": "pbta",
+      "path": "packs/characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      }
     }
   ],
   "url": "#{URL}#",

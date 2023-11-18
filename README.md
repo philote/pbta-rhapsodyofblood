@@ -15,7 +15,7 @@ An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/
 The following Foundry VTT game system must be installed: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
 
 
-![Screenshot](screenshot.webp)
+![Screenshot](assets/screenshot.webp)
 
 ## Features
 

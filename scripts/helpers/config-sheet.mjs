@@ -162,6 +162,10 @@ export const configSheet = async () => {
                 "bloodline": {
                     "label": "Bloodline Moves",
                     "moves": []
+                },
+                "generations": {
+                    "label": "The Passing of Generations",
+                    "moves": []
                 }
             },
             "equipmentTypes": {

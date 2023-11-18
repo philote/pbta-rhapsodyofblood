@@ -3,3 +3,15 @@
 2023/11/17-22:41:12.918 567c Level-0 table #10: 114547 bytes OK
 2023/11/17-22:41:12.918 567c Delete type=0 #8
 2023/11/17-22:41:12.918 567c Delete type=3 #7
+2023/11/17-23:45:04.234 3b1c Level-0 table #13: started
+2023/11/17-23:45:04.234 3b1c Level-0 table #13: 55582 bytes OK
+2023/11/17-23:45:04.234 3b1c Delete type=0 #11
+2023/11/17-23:45:04.234 3b1c Manual compaction at level-0 from '!actors!Fdd3UCaG2gomG6Gr' @ 72057594037927935 : 1 .. '!folders!s5n68pWgP2qlunjE' @ 0 : 0; will stop at '!folders!s5n68pWgP2qlunjE' @ 104 : 1
+2023/11/17-23:45:04.234 3b1c Compacting 3@0 + 0@1 files
+2023/11/17-23:45:04.249 3b1c Generated table #14@0: 278 keys, 208938 bytes
+2023/11/17-23:45:04.249 3b1c Compacted 3@0 + 0@1 files => 208938 bytes
+2023/11/17-23:45:04.258 3b1c compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/11/17-23:45:04.258 3b1c Delete type=2 #5
+2023/11/17-23:45:04.258 3b1c Delete type=2 #10
+2023/11/17-23:45:04.258 3b1c Delete type=2 #13
+2023/11/17-23:45:04.265 3b1c Manual compaction at level-0 from '!folders!s5n68pWgP2qlunjE' @ 104 : 1 .. '!folders!s5n68pWgP2qlunjE' @ 0 : 0; will stop at (end)

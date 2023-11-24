@@ -1,27 +1,3 @@
-// $brown-sugar: #C96A41ff;
-// $flax: #F5E894ff;
-// $eerie-black: #1A1A1Aff;
-// $caramel: #D17B49ff;
-// $caput-mortuum: #602D27ff;
-// // --
-// $q: #F2D785;
-// $w: #D9965B;
-// $e: #BF533B;
-// $r: #732C2C;
-// $t: #262626;
-// // --
-// $q-t: #BF69A8;
-// $w-y: #8C517D;
-// $e-u: #362D59;
-// $r-i: #282240;
-// $t-o: #B8CAD9;
-// // --
-// $cadet-gray: #9EA9BFff;
-// $russian-violet: #32264Eff;
-// $columbia-blue: #C0D2E2ff;
-// $english-violet: #473256ff;
-// $dark-purple: #2C2343ff;
-
 /* Rhapsody of Blood CSS */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
@@ -49,7 +25,7 @@ $c-scrollbar-border: #585858;
 $c-highlight: #BF533B;
 
 $c-stat-bg: #793425;
-$c-stat-bg-hover: #a14531;
+$c-stat-bg-hover: #b06a5a;
 
 $c-cell: $c-sheet-text;
 $c-editor-bg: #afafaf;
@@ -154,6 +130,22 @@ form .notes, form .hint {
 
     .window-header {
         background-color: $c-dark-bg;
+    }
+
+    .sheet-header__fields .view-playbook {
+        background-color: $c-stat-bg;
+        color: $c-sheet-text;
+        border: 1px solid #181818;
+        height: 42px;
+        text-align: center;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sheet-header__fields .view-playbook:hover {
+        background-color: $c-stat-bg-hover;
     }
 
     input[type=checkbox], input[type=radio] {
@@ -274,6 +266,7 @@ form .notes, form .hint {
         border-bottom-color: $c-sheet-border-pri;
 
         a.item {
+            font-family: $font-header;
             background: $c-dark-bg;
             border-color: $c-sheet-border-pri;
 
@@ -308,8 +301,24 @@ form .notes, form .hint {
             background-origin: content-box;
         }
 
+        [data-stat="iron"]:hover {
+            background: url(../assets/icons/stats/iron.webp), url(../assets/icons/stats/iron.webp), $c-stat-bg-hover;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
         [data-stat="glass"] {
             background: url(../assets/icons/stats/glass.webp), url(../assets/icons/stats/glass.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="glass"]:hover {
+            background: url(../assets/icons/stats/glass.webp), url(../assets/icons/stats/glass.webp), $c-stat-bg-hover;
             background-size: auto 30px;
             background-position: left bottom, right bottom;
             background-repeat: no-repeat;
@@ -324,8 +333,24 @@ form .notes, form .hint {
             background-origin: content-box;
         }
 
+        [data-stat="sulphur"]:hover {
+            background: url(../assets/icons/stats/sulphur.webp), url(../assets/icons/stats/sulphur.webp), $c-stat-bg-hover;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
         [data-stat="mercury"] {
             background: url(../assets/icons/stats/mercury.webp), url(../assets/icons/stats/mercury.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="mercury"]:hover {
+            background: url(../assets/icons/stats/mercury.webp), url(../assets/icons/stats/mercury.webp), $c-stat-bg-hover;
             background-size: auto 30px;
             background-position: left bottom, right bottom;
             background-repeat: no-repeat;
@@ -340,8 +365,24 @@ form .notes, form .hint {
             background-origin: content-box;
         }
 
+        [data-stat="chalices"]:hover {
+            background: url(../assets/icons/stats/chalices.webp), url(../assets/icons/stats/chalices.webp), $c-stat-bg-hover;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
         [data-stat="swords"] {
             background: url(../assets/icons/stats/swords.webp), url(../assets/icons/stats/swords.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="swords"]:hover {
+            background: url(../assets/icons/stats/swords.webp), url(../assets/icons/stats/swords.webp), $c-stat-bg-hover;
             background-size: auto 30px;
             background-position: left bottom, right bottom;
             background-repeat: no-repeat;
@@ -356,8 +397,24 @@ form .notes, form .hint {
             background-origin: content-box;
         }
 
+        [data-stat="relics"]:hover {
+            background: url(../assets/icons/stats/relics.webp), url(../assets/icons/stats/relics.webp), $c-stat-bg-hover;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
         [data-stat="wands"] {
             background: url(../assets/icons/stats/wands.webp), url(../assets/icons/stats/wands.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="wands"]:hover {
+            background: url(../assets/icons/stats/wands.webp), url(../assets/icons/stats/wands.webp), $c-stat-bg-hover;
             background-size: auto 30px;
             background-position: left bottom, right bottom;
             background-repeat: no-repeat;
@@ -371,16 +428,21 @@ form .notes, form .hint {
             background-repeat: no-repeat;
             background-origin: content-box;
         }
+
+        [data-stat="coins"]:hover {
+            background: url(../assets/icons/stats/coins.webp), url(../assets/icons/stats/coins.webp), $c-stat-bg-hover;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
     }
 
     .sheet-attributes .cell--stats .stat {
-        // background-color: $c-stat-bg;
 
-        
-
-        // &:hover {
-        //     background: $c-stat-bg-hover;
-        // }
+        &:hover {
+            cursor: pointer;
+        }
 
         .stat-icon, .stat-value {
             color: $c-sheet-text;

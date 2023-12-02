@@ -1,4 +1,4 @@
-# An unofficial Rhapsody of Blood Module for the Foundry PbtA System
+# A Rhapsody of Blood package for the Foundry PbtA System
 
 ![Cover](assets/cover.webp)
 
@@ -14,12 +14,6 @@ An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/
 
 The following Foundry VTT game system must be installed: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
 
-
-![Screenshot](assets/screenshot.webp)
-![Explorer Character Sheet Screenshot](assets/explorers_screenshot.webp)
-![Bloodline Character Sheet Screenshot](assets/bloodline_screenshot.webp)
-![Founder Character Sheet Screenshot](assets/founder_screenshot.webp)
-
 ## Features
 
 - Designed sheets for Explorers, Founders, & Bloodlines.
@@ -28,5 +22,11 @@ The following Foundry VTT game system must be installed: [Powered by the Apocaly
     - Moves
     - Gear
     - Actor templates for Explorer, Founder, & Bloodline sheets ready to play
+    
+![Screenshot](assets/screenshot.webp)
+
+![Explorer Character Sheet Screenshot](assets/explorers_screenshot.webp)
+![Bloodline Character Sheet Screenshot](assets/bloodline_screenshot.webp)
+![Founder Character Sheet Screenshot](assets/founder_screenshot.webp)
 
 This software includes ideas, text and images from ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) by [Minerva McJanda (Formerly known as Jay Iles)](https://ufopress.co.uk/about-us/).

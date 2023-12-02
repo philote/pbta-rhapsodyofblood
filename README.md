@@ -8,20 +8,20 @@
 <!--- Forge Bazaar Install % Badge -->
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpbta-rhapsodyofblood&colorB=4aa94a)
 
-An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) (a [Worlds of Legacy](https://ufopress.co.uk/worlds-of-legacy/) game from [UFO Press](https://ufopress.co.uk/))  custom sheet and compendium module for Foundry VTT, to be used with the [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta) Foundry system package (by Asacolips).
+An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) (a [Worlds of Legacy](https://ufopress.co.uk/worlds-of-legacy/) game from [UFO Press](https://ufopress.co.uk/)) providing custom sheets and compendiums for Foundry VTT, to be used with the [Powered by the Apocalypse](https://gitlab.com/asacolips-projects/foundry-mods/pbta) Foundry system package (by Asacolips).
 
 ## Dependencies
 
-The following Foundry VTT game system must be installed: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
+The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
 
 ## Features
 
 - Designed sheets for Explorers, Founders, & Bloodlines.
 - Compendiums with:
     - Playbooks for Explorers, Founders, & Bloodlines
-    - Moves
-    - Gear
-    - Actor templates for Explorer, Founder, & Bloodline sheets ready to play
+    - All the Moves to play the game
+    - Gear & Gear Tags
+    - Actor templates for the Explorer, Founder, & Bloodline sheets ready to use
 
 ![Screenshot](assets/screenshot.webp)
 

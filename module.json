@@ -6,7 +6,7 @@
   "library": "false",
   "compatibility": {
     "minimum": 11,
-    "verified": 11.313,
+    "verified": 11.315,
     "maximum": 11
   },
   "authors": [
@@ -25,7 +25,7 @@
         "type": "system",
         "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
         "compatibility": {
-            "verified": "0.7.2"
+            "verified": "0.7.4"
         }
       }
     ]

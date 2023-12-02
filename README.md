@@ -16,6 +16,9 @@ The following Foundry VTT game system must be installed: [Powered by the Apocaly
 
 
 ![Screenshot](assets/screenshot.webp)
+![Explorer Character Sheet Screenshot](assets/explorers_screenshot.webp)
+![Bloodline Character Sheet Screenshot](assets/bloodline_screenshot.webp)
+![Founder Character Sheet Screenshot](assets/founder_screenshot.webp)
 
 ## Features
 

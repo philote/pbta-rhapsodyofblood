@@ -564,101 +564,101 @@ form .notes, form .hint {
 
 }
 
-// .pbta.sheet.npc {
+.pbta.sheet.npc {
 
-//     :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
-//        display: none;
-//     }
+    :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
+       display: none;
+    }
 
-//     .sheet-main {
-//         display: -webkit-box;
-//     }
+    .sheet-main {
+        display: -webkit-box;
+    }
 
-//     .sheet-wrapper .sheet-header {
-//         width: 100%; 
-//     }
+    .sheet-wrapper .sheet-header {
+        width: 100%; 
+    }
 
-//     .sheet-main--npc {
-//         padding: 10px 10px 0 10px;
-//         border-top: 1px solid $c-sheet-border-pri;
-//         margin: 0;
-//     }
+    .sheet-main--npc {
+        padding: 10px 10px 0 10px;
+        border-top: 1px solid $c-sheet-border-pri;
+        margin: 0;
+    }
 
-//     .sheet-attributes-top {
-//         display: none;
-//     }
-// }
+    .sheet-attributes-top {
+        display: none;
+    }
+}
 
-// .pbta.sheet.item {
+.pbta.sheet.item {
 
-//     .editor {
-//         background: $c-sheet-input-bg;
-//         border: 1px solid $c-sheet-border-pri;
-//     }
+    .editor {
+        background: $c-sheet-input-bg;
+        border: 1px solid $c-sheet-border-pri;
+    }
 
-//     .editor-content {
-//         padding: 0 10px;
-//     }
+    .editor-content {
+        padding: 0 10px;
+    }
 
-//     .tagify {
-//         background-color: $c-dark-bg;
-//         border: 1px solid $c-sheet-border-pri;
-//         color: $c-sheet-text;
-//     }
+    .tagify {
+        background-color: $c-dark-bg;
+        border: 1px solid $c-sheet-border-pri;
+        color: $c-sheet-text;
+    }
 
-//     .tagify__input::before, 
-//     .tagify__input::after {
-//         color: $c-sheet-text;
-//     }
+    .tagify__input::before, 
+    .tagify__input::after {
+        color: $c-sheet-text;
+    }
 
-//     .sheet-body {
-//         padding: 10px 10px 0 10px;
-//     }
+    .sheet-body {
+        padding: 10px 10px 0 10px;
+    }
     
-//     label {
-//         margin-right: 10px;
-//     }
+    label {
+        margin-right: 10px;
+    }
 
-//     select {
-//         background-color: $c-dark-bg;
-//         color: $c-sheet-text;
+    select {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
 
-//         option {
-//             background-color: $c-dark-bg;
-//             color: $c-sheet-text;    
-//         }
-//     }
-// }
+        option {
+            background-color: $c-dark-bg;
+            color: $c-sheet-text;    
+        }
+    }
+}
 
-// .vtt .window-app .dialog-buttons .dialog-button, 
-// .vtt .window-app .dialog-button {
-//     background: $c-stat-bg;
-//     color: $c-sheet-text;
-//     border: none;
+.vtt .window-app .dialog-buttons .dialog-button, 
+.vtt .window-app .dialog-button {
+    background: $c-stat-bg;
+    color: $c-sheet-text;
+    border: none;
 
-//     &:hover {
-//         background: $c-stat-bg-hover;
-//     }
-// }
+    &:hover {
+        background: $c-stat-bg-hover;
+    }
+}
 
-// .app.window-app.dialog {
-//     background-color: $c-dark-bg;
-//     color: $c-sheet-text;
+.app.window-app.dialog {
+    background-color: $c-dark-bg;
+    color: $c-sheet-text;
 
-//     input {
-//         background-color: $c-dark-bg;
-//         color: $c-sheet-text;
-//     }
+    input {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+    }
 
-//     .window-content {
-//         background: none;
-//         background-color: $c-sheet-bg;
-//         color: $c-sheet-text;    
-//     }
-// }
+    .window-content {
+        background: none;
+        background-color: $c-sheet-bg;
+        color: $c-sheet-text;    
+    }
+}
 
 
-// a.content-link, 
-// a.inline-roll {
-//     background: none;
-// }
+a.content-link, 
+a.inline-roll {
+    background: none;
+}

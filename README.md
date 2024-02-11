@@ -20,9 +20,11 @@ The following Foundry VTT game system must be installed to use this module: [Pow
 - Compendiums with:
     - Playbooks for Explorers, Founders, & Bloodlines
     - All the Moves to play the game
-    - Gear & Gear Tags
+    - Gear & Armor
     - Actor templates for the Explorer, Founder, & Bloodline sheets ready to use
 
 ![Screenshot](assets/screenshot.webp)
 
 This software includes ideas, text and images from ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) by [Minerva McJanda (Formerly known as Jay Iles)](https://ufopress.co.uk/about-us/).
+
+Icons from game-icons.net are released under a Creative Commons Attribution 3.0 Unported license. https://creativecommons.org/licenses/by/3.0/

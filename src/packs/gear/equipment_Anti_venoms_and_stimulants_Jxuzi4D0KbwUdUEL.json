@@ -1,0 +1,37 @@
+{
+  "folder": "UgWOYCqs2agueqdq",
+  "name": "Anti-venoms and stimulants",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/utility-gear/anti-venoms.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "tagsString": "",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557392137,
+    "modifiedTime": 1700109944455,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "Jxuzi4D0KbwUdUEL",
+  "sort": 300000,
+  "_key": "!items!Jxuzi4D0KbwUdUEL"
+}

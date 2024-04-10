@@ -1,0 +1,55 @@
+{
+  "folder": "lXzmVvJ2gJo8PuFB",
+  "name": "Audacious",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When your explorer confronts the Regent,</strong></em> roll <strong>+Swords</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>pick 1</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>pick 2</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Legendary Heroes",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>hey&rsquo;ll talk for a time before attacking or leaving.</li>\n<li>They let slip a weakness of their plans.</li>\n<li>They focus on your explorer and ignore the others.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700028627587,
+    "modifiedTime": 1700093177831,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "47k1BLGvRSFiHIbL",
+  "sort": 200000,
+  "_key": "!items!47k1BLGvRSFiHIbL"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "Shelter",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/shelter.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you look for a safe space to </strong></em><em><strong>recover</strong></em>, roll <strong>+Mercury</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Each explorer picks 1:</p>\n<p>(advance the Regent&rsquo;s clock.)</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Each explorer picks 1:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "mercury",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>Tend to another explorer: they heal 2 Harm, or remove their&nbsp;lightest Wound.</li>\n<li>Encourage another explorer -&nbsp;they get fleeting advantage.</li>\n<li>Use your bloodline&rsquo;s Shelter move.</li>\n<li>Gain aid from a contact.</li>\n</ul>\n<p>Each explorer checks over their covenant strengthen/betrayal triggers, and see if any have been hit since they last rested.</p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698566607835,
+    "modifiedTime": 1700091913208,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "mnUgJlRiTawPPfbl",
+  "sort": 100000,
+  "_key": "!items!mnUgJlRiTawPPfbl"
+}

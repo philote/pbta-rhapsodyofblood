@@ -1,0 +1,53 @@
+{
+  "folder": "M94lX1krcEazCuI0",
+  "name": "Shelter (Magi)",
+  "type": "move",
+  "_id": "Of9NaBfSxONzM2PD",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When your explorer finds <em><strong>Shelter</strong></em> in <strong>the castle</strong>, they may lead the group in a ritual of controlled corruption. Each explorer may transfer 1 point of contamination to another explorer, with that explorer&rsquo;s consent.</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Magi",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700094752717,
+    "modifiedTime": 1700110804731,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!Of9NaBfSxONzM2PD"
+}

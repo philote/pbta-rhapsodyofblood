@@ -1,0 +1,55 @@
+{
+  "folder": "2DIY6HXGSJD1MAbX",
+  "name": "Half-Dead",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_bonded-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>The spirit&rsquo;s connection to your body is pushing your mortality away. Gain 1 Armour against physical attacks, but take 1 more harm from magical/spiritual attacks.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643476353,
+    "modifiedTime": 1700806442064,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "fp6cp2cZu2I5W0i1",
+  "sort": 300000,
+  "_key": "!items!fp6cp2cZu2I5W0i1"
+}

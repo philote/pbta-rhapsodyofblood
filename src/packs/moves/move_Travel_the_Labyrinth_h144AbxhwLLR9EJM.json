@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "Travel the Labyrinth",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/travel-the-labyrinth.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you attempt to navigate the labyrinthine twists of the castle</strong></em>, roll&nbsp;<strong>+Blood</strong>. If you choose, you may <em><strong>mark contamination</strong></em> to roll with advantage. On a hit, hold 1 and describe your insight into the ward&rsquo;s&nbsp;purpose or layout.</p>\n<p>&nbsp;</p>\n<p>When you leave the area, spend 1 hold to retreat to a safe camp, 2 to find an exit to another ward, and 3 to find the Acolyte&rsquo;s sanctuary. One person rolls each time you navigate, and the group&rsquo;s hold from multiple&nbsp;rolls is pooled together.</p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>The area you arrive at contains castle denizens&nbsp;or traps.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>The area you arrive at contains something valuable&nbsp;or useful.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698564947209,
+    "modifiedTime": 1700091889451,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "h144AbxhwLLR9EJM",
+  "sort": 0,
+  "_key": "!items!h144AbxhwLLR9EJM"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "agYHA2K2rbK3blDC",
+  "name": "Death Move [The Bonded]",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_bonded-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>As your life fades, the spirit reveals why it was bound to you and reveals a choice:</p>\n<p><strong>Transfiguration:</strong> The spirit merges with you. You stand back up, burning with power, and you&rsquo;re immune to harm for the rest of the fight. Then you die.</p>\n<p><strong>Guardian Angel:</strong> As you die the spirit vows to continue your mission. For the rest of this generation, it&rsquo;ll follow the other players and provide whatever aid it can.</p>\n<p><strong>Damnation:</strong> The spirit is banished, but <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> takes its place. Mark contamination for each point of Harm you heal. From then on, any time you would take Harm you <span style=\"color: #ff7b7b;\"><strong>mark contamination</strong></span> instead.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698982838299,
+    "modifiedTime": 1700092003800,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "DsYNowjr5uh1sPXl",
+  "sort": 0,
+  "_key": "!items!DsYNowjr5uh1sPXl"
+}

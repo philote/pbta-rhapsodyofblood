@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "Drink Deep",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/drink-deep.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you draw on the power&nbsp;of a potent item or ritual site</strong></em>,&nbsp;roll <strong>+Sulphur</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p><em><strong>Mark contamination</strong></em> and learn a spell -&nbsp;the GM says what it does.&nbsp;When you cast it, pick 1:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><em><strong>Mark contamination</strong></em> and learn a spell -&nbsp;the GM says what it does.&nbsp;When you cast it, pick 1:</p>\n<p>(you don&rsquo;t need to pick an option on your first cast.)</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "sulphur",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>Mark <em><strong>contamination</strong></em>.</li>\n<li>Forget the spell.</li>\n<li>Take 1 Harm.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698565760377,
+    "modifiedTime": 1700091870437,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "80yr397wJs0sMXTG",
+  "sort": 800000,
+  "_key": "!items!80yr397wJs0sMXTG"
+}

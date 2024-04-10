@@ -1,0 +1,55 @@
+{
+  "folder": "Cl3b6IvyhYZs0h9v",
+  "name": "The Blood is Life",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_mystic-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you shed your blood as a medium for spirits</strong></em>, roll <strong>+Harm taken</strong>. On a 7-9 pick 1, on a 10+ pick 2 about the spirit that forms a&nbsp;body from it: they follow your commands, they remember useful information, you can banish them at will.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Mystic",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642561574,
+    "modifiedTime": 1700806475588,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "WPSLQncSMdD2ydc2",
+  "sort": 300000,
+  "_key": "!items!WPSLQncSMdD2ydc2"
+}

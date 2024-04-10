@@ -1,0 +1,19 @@
+{
+  "name": "Confrontation Moves",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "euvM5veb9gXjtcra",
+  "sort": 100000,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555975845,
+    "modifiedTime": 1698706421822,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!euvM5veb9gXjtcra"
+}

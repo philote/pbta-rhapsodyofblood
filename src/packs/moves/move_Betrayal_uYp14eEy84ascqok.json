@@ -1,0 +1,55 @@
+{
+  "folder": "AdqkLOI64XrJeydb",
+  "name": "Betrayal",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/conenant/betrayal.svg",
+  "system": {
+    "name": "",
+    "description": "<p>Why let your sentiments hold you back when <strong>the castle</strong> will give you power in return for betrayal? Each covenant sets out a way the bond between you is weakened: whoever hits that trigger marks contamination, and the covenant&rsquo;s rating is weakened by 1.</p>",
+    "requiresMove": "",
+    "moveType": "covenants",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698631695290,
+    "modifiedTime": 1699558165552,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "uYp14eEy84ascqok",
+  "sort": 200000,
+  "_key": "!items!uYp14eEy84ascqok"
+}

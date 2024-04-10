@@ -1,0 +1,53 @@
+{
+  "folder": "agYHA2K2rbK3blDC",
+  "name": "Spiritual Fusion",
+  "type": "move",
+  "_id": "OPk0iCcbMj4AkbW4",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_bonded-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you fuse with your spirit</strong></em>, roll <strong>+Sulphur</strong>. On a 7-9 hold 2, on a 10+ hold 3. On a 6- hold 1 but <strong>mark contamination</strong>. Spend a hold to use the spirit&rsquo;s power. Work it out with the GM, but it should be about the level of a spell from Drink Deep: rapid healing, temporary invulnerability, a burst of flight, etc. When all&nbsp;hold is gone the spirit&rsquo;s power is spent, and you can&rsquo;t fuse again until you use Shelter or Rest and Recreation.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644414969,
+    "modifiedTime": 1700091959739,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!OPk0iCcbMj4AkbW4"
+}

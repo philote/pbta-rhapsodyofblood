@@ -1,0 +1,19 @@
+{
+  "name": "Slayer Moves",
+  "sorting": "a",
+  "folder": "nv6GH3A3Aj88KV3C",
+  "type": "Item",
+  "_id": "QR0TJREw6Oo6ACWh",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555902186,
+    "modifiedTime": 1698706449984,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!QR0TJREw6Oo6ACWh"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "Flow like water",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/flow-like-water.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you risk danger to change your environment or your position in it</strong></em>,&nbsp;roll <strong>+Mercury</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>pick one:</p>\n<p>(the GM will give your action a cost: harm, <em><strong>contamination&nbsp;</strong></em>or lost gear.)</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>pick one:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "mercury",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>You&rsquo;re where you need to be.</li>\n<li>Another explorer has a clear&nbsp;path to you.</li>\n<li>A particular threat isn&rsquo;t a&nbsp;problem any longer.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698566150145,
+    "modifiedTime": 1700091927033,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "l6zrqAmDDWEmUkPY",
+  "sort": 300000,
+  "_key": "!items!l6zrqAmDDWEmUkPY"
+}

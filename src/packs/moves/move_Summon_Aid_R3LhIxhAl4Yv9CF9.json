@@ -1,0 +1,55 @@
+{
+  "folder": "AdqkLOI64XrJeydb",
+  "name": "Summon Aid",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/conenant/sommon-aid.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you call on your covenants for help</strong></em>, distant (or dead) characters can answer. If they do, they step from the shadows near you as a wraith. They take action as normal, but can&rsquo;t take wounds. The first harm they take weakens them; the second harm banishes them, weakening their covenant with you by 1.</p>",
+    "requiresMove": "",
+    "moveType": "covenants",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698631641462,
+    "modifiedTime": 1699558168049,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "R3LhIxhAl4Yv9CF9",
+  "sort": 0,
+  "_key": "!items!R3LhIxhAl4Yv9CF9"
+}

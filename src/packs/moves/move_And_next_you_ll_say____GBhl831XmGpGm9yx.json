@@ -1,0 +1,53 @@
+{
+  "folder": "WwIKrWDq51lR0Myv",
+  "name": "And next you’ll say...",
+  "type": "move",
+  "_id": "GBhl831XmGpGm9yx",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_reckoner-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><strong><em>When you tell an opponent what they&rsquo;ll do next</em></strong>, roll <strong>+Glass</strong></p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>They pick one:&nbsp;</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>They pick one:</p>\n<p>Reveal a trap you set up to take advantage of your prediction. If they go through with the predicted action, the trap creates an immediate Opening or takes out a minion.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "glass",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>They do exactly what you predicted.</li>\n<li>They stumble, hesitate or flinch.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698645216071,
+    "modifiedTime": 1700092249926,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!GBhl831XmGpGm9yx"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "UuwZyyVZ3FRFs8CU",
+  "name": "More Than Human",
+  "type": "move",
+  "_id": "Ev1Uo8Zl620J4nSp",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 4\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When you make an explorer, choose one:</p>\n<ul>\n<li>\n<p>They have natural weapons: claws, spines, etc. Give them a perk and a flaw.</p>\n</li>\n<li>\n<p>They have resistance to harm: fur, chitin, thick skin etc. Get 1 Armour.</p>\n</li>\n<li>\n<p>They have unnatural agility. They can climb walls, run on water or leap dozens of metres, and get advantage on Dodge.</p>\n</li>\n</ul>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Half-Damned",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700092684993,
+    "modifiedTime": 1700110596908,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!Ev1Uo8Zl620J4nSp"
+}

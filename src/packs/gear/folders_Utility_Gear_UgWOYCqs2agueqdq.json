@@ -1,0 +1,19 @@
+{
+  "name": "Utility Gear",
+  "sorting": "a",
+  "folder": "RNlMRrQKUYE6oLp6",
+  "type": "Item",
+  "_id": "UgWOYCqs2agueqdq",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555728309,
+    "modifiedTime": 1698705972692,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!UgWOYCqs2agueqdq"
+}

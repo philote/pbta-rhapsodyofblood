@@ -1,0 +1,55 @@
+{
+  "folder": "Wwj1SFHKOYzAQQ9F",
+  "name": "Paradox Bag",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_packrat-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you reach into your sack</strong></em>, you can <strong>mark contamination</strong> to pull out something it&rsquo;d be impossible to have in there - e.g. something&nbsp;too big, or too dangerous, or on the other side of the world, or in your antagonist&rsquo;s hands.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Packrat",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642254756,
+    "modifiedTime": 1700806509536,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "vo14ZquEFLxbahiJ",
+  "sort": 400000,
+  "_key": "!items!vo14ZquEFLxbahiJ"
+}

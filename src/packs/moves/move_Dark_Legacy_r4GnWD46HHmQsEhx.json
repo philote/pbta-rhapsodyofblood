@@ -1,0 +1,53 @@
+{
+  "folder": "UuwZyyVZ3FRFs8CU",
+  "name": "Dark Legacy",
+  "type": "move",
+  "_id": "r4GnWD46HHmQsEhx",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 4\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>All your explorers bear the curse of <strong>the castle</strong>, but have learned to resist its corruption. Each explorer starts with a Blood Move; when using it, you may choose to take 1 harm instead of marking contamination.</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Half-Damned",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700092624848,
+    "modifiedTime": 1700110617103,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!r4GnWD46HHmQsEhx"
+}

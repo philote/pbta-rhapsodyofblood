@@ -1,0 +1,55 @@
+{
+  "folder": "72M6up1XESghzcN8",
+  "name": "Death Move [The Mystic]",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_mystic-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>As death takes hold, you perform one final work - an alchemy of the soul. Each explorer with you may transfer one point of Blood to you, losing a Blood Advance of their choice but keeping the stat advance or blood gift. For each, one part of your body becomes a Relic usable in arcane rites.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Mystic",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698983660679,
+    "modifiedTime": 1700092060005,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "eabBMAkcAA9z4FBA",
+  "sort": 100000,
+  "_key": "!items!eabBMAkcAA9z4FBA"
+}

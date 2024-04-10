@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Flee",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/flee.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you use an Opening to retreat</strong></em>,&nbsp;any and all characters can flee the&nbsp;battle. Advance the regent&rsquo;s clock&nbsp;by one.</p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698567571508,
+    "modifiedTime": 1699556368233,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "vYmSP4xgq8P7WGLo",
+  "sort": 300000,
+  "_key": "!items!vYmSP4xgq8P7WGLo"
+}

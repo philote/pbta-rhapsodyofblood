@@ -1,0 +1,55 @@
+{
+  "folder": "lXzmVvJ2gJo8PuFB",
+  "name": "Defeat Means Friendship",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When your explorer would inflict the killing blow on an Acolyte,</strong></em> they may stay their hand. If you do, roll <strong>+Chalices</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>pick 1 they get enough control to tell you:</p>\n<ul>\n<li>How the Regent&rsquo;s ritual can be set back.</li>\n<li>How the Acolyte can be saved.</li>\n<li>A secret weakness of another Acolyte.&nbsp;</li>\n</ul>\n<p>They then retreat into the maze-like corridors of <strong>the castle</strong>.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>they gain enough control to change sides and work alongside you, though they cannot act directly against the Regent.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Legendary Heroes",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700028778178,
+    "modifiedTime": 1700093206193,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "WxNtFaCV07tf4iA3",
+  "sort": 300000,
+  "_key": "!items!WxNtFaCV07tf4iA3"
+}

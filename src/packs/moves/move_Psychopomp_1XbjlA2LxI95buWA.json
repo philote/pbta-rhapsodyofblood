@@ -1,0 +1,55 @@
+{
+  "folder": "cssZoT24dI8hLEmz",
+  "name": "Psychopomp",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_reckoner-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You can <strong>mark contamination </strong>and spend 2 Travel the Labyrinth hold to guide your group to or from: an individual&rsquo;s psyche, the land of the dead, where <strong>the castle</strong>&nbsp;comes from.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Reckoner",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643017475,
+    "modifiedTime": 1700806539467,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "1XbjlA2LxI95buWA",
+  "sort": 300000,
+  "_key": "!items!1XbjlA2LxI95buWA"
+}

@@ -1,0 +1,57 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Arcane Power",
+  "type": "move",
+  "_id": "hGYBtYTFWL6htk4A",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you use </strong></em><strong>the castle&rsquo;s </strong><em><strong>cast-offs to empower your bloodline&rsquo;s actions,</strong></em> spend 1&nbsp;Relic and get advantage on a roll.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.KKy4Q7HvX8TbqwhN"
+    }
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698631853740,
+    "modifiedTime": 1700117717435,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!hGYBtYTFWL6htk4A"
+}

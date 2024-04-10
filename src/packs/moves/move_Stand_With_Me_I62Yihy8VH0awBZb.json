@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Stand With Me",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/stand-with-me.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you heal, encourage or aid an&nbsp;ally</strong></em>, roll <strong>+Sulphur</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Pick 1</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Pick 1, the camaraderie shown gives your ally fleeting Advantage.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "sulphur",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>They&rsquo;re rescued from danger: a&nbsp;precipice, poison, a curse, etc.</li>\n<li>They heal their lightest wound.</li>\n<li>They heal 2 harm.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698630792167,
+    "modifiedTime": 1700091797488,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "I62Yihy8VH0awBZb",
+  "sort": 100000,
+  "_key": "!items!I62Yihy8VH0awBZb"
+}

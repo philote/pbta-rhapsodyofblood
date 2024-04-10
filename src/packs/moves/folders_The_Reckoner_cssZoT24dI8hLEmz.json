@@ -1,0 +1,19 @@
+{
+  "name": "The Reckoner",
+  "sorting": "a",
+  "folder": "pyM8mDeYT71E8mlB",
+  "type": "Item",
+  "_id": "cssZoT24dI8hLEmz",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698642034761,
+    "modifiedTime": 1698706305906,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!cssZoT24dI8hLEmz"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "Wwj1SFHKOYzAQQ9F",
+  "name": "Titan’s Might",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_packrat-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You can <strong>mark contamination</strong> to augment your strength and stability, letting you carry any weight. Leverage may still present issues.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Packrat",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642083301,
+    "modifiedTime": 1700806504218,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "f4ov8x38FXa5lMxO",
+  "sort": 0,
+  "_key": "!items!f4ov8x38FXa5lMxO"
+}

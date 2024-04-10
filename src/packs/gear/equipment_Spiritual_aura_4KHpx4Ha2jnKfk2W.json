@@ -1,0 +1,37 @@
+{
+  "folder": "hBmSEMgN7c4ptMT7",
+  "name": "Spiritual aura",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/aura.svg",
+  "system": {
+    "name": "",
+    "description": "<p>Advantage to attack intangible foes</p>",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"Advantage to attack intangible foes\"}]",
+    "tagsString": "Advantage to attack intangible foes",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698556990395,
+    "modifiedTime": 1700109821903,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "4KHpx4Ha2jnKfk2W",
+  "sort": 0,
+  "_key": "!items!4KHpx4Ha2jnKfk2W"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Bloodlines",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "Nz1lfSrIEQmFCeOd",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698556498436,
+    "modifiedTime": 1698723556900,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!Nz1lfSrIEQmFCeOd"
+}

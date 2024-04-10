@@ -1,0 +1,53 @@
+{
+  "folder": "usumHx7O6jnoZhOW",
+  "name": "Cornucopia",
+  "type": "move",
+  "_id": "Nm88xpgrfHqlT9TE",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_packrat-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You carry with you endless satchels, packs, pouches and bandoleers. Within them - somewhere - is anything your party might need as they explore <strong>the castle</strong>. You start with 5-stock, and reset to 5 every time you return to a safe camp. Spend 1-stock to pull out a utility item from the bag: matches, rope, a pocket mirror, pitons, chalk, etc.</p>\n<p>&nbsp;</p>\n<p>Stock: [ ]</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698646087727,
+    "modifiedTime": 1700092164763,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!Nm88xpgrfHqlT9TE"
+}

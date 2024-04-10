@@ -1,0 +1,53 @@
+{
+  "folder": "agYHA2K2rbK3blDC",
+  "name": "Bloody Insight",
+  "type": "move",
+  "_id": "fId0M5XnSAimKjwo",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_bonded-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you take harm from an adversary</strong></em>, hold 1. Spend 1 to reveal a weakness in their fighting style and give an ally advantage against them. Spend 3 to create an Opening.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644257541,
+    "modifiedTime": 1700092015635,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!fId0M5XnSAimKjwo"
+}

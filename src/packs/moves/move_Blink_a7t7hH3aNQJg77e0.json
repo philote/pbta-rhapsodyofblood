@@ -1,0 +1,55 @@
+{
+  "folder": "2DIY6HXGSJD1MAbX",
+  "name": "Blink",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_bonded-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>When your spirit is away from you thanks to <em><strong>Astral Projection</strong></em>, you may <strong>mark contamination </strong>to swap places with it.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643373620,
+    "modifiedTime": 1700806448617,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "a7t7hH3aNQJg77e0",
+  "sort": 200000,
+  "_key": "!items!a7t7hH3aNQJg77e0"
+}

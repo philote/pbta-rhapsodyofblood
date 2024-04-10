@@ -1,0 +1,55 @@
+{
+  "folder": "cssZoT24dI8hLEmz",
+  "name": "Chaos Eyes",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_reckoner-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>The shifting chaos of <strong>the castle </strong>bleeds out of your mind and into those that meet your gaze. Your eyes are a weapon with <em>ranged,&nbsp;piercing, unstable</em>.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Reckoner",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642970187,
+    "modifiedTime": 1700806548660,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "RFRhPepmWvJduAhA",
+  "sort": 600000,
+  "_key": "!items!RFRhPepmWvJduAhA"
+}

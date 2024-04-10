@@ -1,0 +1,19 @@
+{
+  "name": "The Packrat",
+  "sorting": "a",
+  "folder": "pyM8mDeYT71E8mlB",
+  "type": "Item",
+  "_id": "Wwj1SFHKOYzAQQ9F",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698642057794,
+    "modifiedTime": 1698706299844,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!Wwj1SFHKOYzAQQ9F"
+}

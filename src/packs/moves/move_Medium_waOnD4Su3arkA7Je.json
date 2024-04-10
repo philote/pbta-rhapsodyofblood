@@ -1,0 +1,55 @@
+{
+  "folder": "2DIY6HXGSJD1MAbX",
+  "name": "Medium",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_bonded-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You can <strong>mark contamination </strong>to summon a spirit of place, the unquiet dead, or a lesser imp or seraph. They won&rsquo;t be hostile - at least, at first.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643524092,
+    "modifiedTime": 1700806433805,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "waOnD4Su3arkA7Je",
+  "sort": 100000,
+  "_key": "!items!waOnD4Su3arkA7Je"
+}

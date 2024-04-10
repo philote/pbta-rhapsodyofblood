@@ -1,0 +1,55 @@
+{
+  "folder": "usumHx7O6jnoZhOW",
+  "name": "Death Move [The Packrat]",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_packrat-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>As you die, you reveal a final pouch - one packed full of explosives. Pick one:</p>\n<ul>\n<li>The explosion destroys one of your adversary&rsquo;s Qualities.</li>\n<li>The smoke gives your allies Advantage on <em><strong>Dodge </strong></em>and <em><strong>Rescue </strong></em>for the rest of the fight.</li>\n</ul>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Packrat",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698983744279,
+    "modifiedTime": 1700092153728,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "oWbH3s5wYKZJmd1S",
+  "sort": 100000,
+  "_key": "!items!oWbH3s5wYKZJmd1S"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "WwIKrWDq51lR0Myv",
+  "name": "Pinning Fire",
+  "type": "move",
+  "_id": "ZtV0YMA8G4DpVdXD",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_reckoner-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>Your shots are precise and lethal. When you attack a foe with a <em>ranged </em>weapon, the foe must choose: remain where they are, or be taken out (if they&rsquo;re a minion) or provide an Opening (if they&rsquo;re an adversary).</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698645172464,
+    "modifiedTime": 1700092210383,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!ZtV0YMA8G4DpVdXD"
+}

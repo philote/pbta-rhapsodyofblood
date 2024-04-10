@@ -1,0 +1,37 @@
+{
+  "folder": "hBmSEMgN7c4ptMT7",
+  "name": "A shield",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/shield.svg",
+  "system": {
+    "name": "",
+    "description": "<p>Advantage on <strong><em>Confront</em>, </strong>Disadvantage on <em><strong>Dodge</strong></em></p>",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "tagsString": "",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557189143,
+    "modifiedTime": 1700109651169,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "96fCnM3u1ZbTaK0f",
+  "sort": 2000000,
+  "_key": "!items!96fCnM3u1ZbTaK0f"
+}

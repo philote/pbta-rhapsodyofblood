@@ -1,0 +1,53 @@
+{
+  "folder": "QR0TJREw6Oo6ACWh",
+  "name": "Trophy",
+  "type": "move",
+  "_id": "PVwD10sw8lW9QvwU",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_slayer-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You know secret rituals to preserve an enemy&rsquo;s power in a severed part of their body. <em><strong>When you draw on the power of a trophy carved from an Acolyte</strong></em>, roll <strong>+Iron </strong>on Drink Deep instead of <strong>+Sulphur</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644876437,
+    "modifiedTime": 1700092412641,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!PVwD10sw8lW9QvwU"
+}

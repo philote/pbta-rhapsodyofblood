@@ -1,0 +1,19 @@
+{
+  "name": "Explorers",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "eG8LgvaOpdo1ubo3",
+  "sort": 100000,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698556486633,
+    "modifiedTime": 1698723120602,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!eG8LgvaOpdo1ubo3"
+}

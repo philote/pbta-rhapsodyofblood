@@ -1,0 +1,37 @@
+{
+  "folder": "UgWOYCqs2agueqdq",
+  "name": "Torches and fire lighting kit",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/utility-gear/torch.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "tagsString": "",
+    "itemType": null,
+    "equipmentType": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557361408,
+    "modifiedTime": 1699553335808,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "qHcFCXCHKC7gLo5K",
+  "sort": 0,
+  "_key": "!items!qHcFCXCHKC7gLo5K"
+}

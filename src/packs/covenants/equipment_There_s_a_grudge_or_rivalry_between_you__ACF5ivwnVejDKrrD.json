@@ -1,0 +1,37 @@
+{
+  "folder": null,
+  "name": "There's a grudge or rivalry between you.",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/covenant.svg",
+  "system": {
+    "name": "",
+    "description": "<div class=\"flexrow\">\n<p style=\"margin: 15px 10px 0px 5px; padding: 10px; border: 1px solid #3f3c2f; background-color: #793425; font-weight: bold; border-radius: 10px;\">When one of you risks danger or cost to aid the other, strengthen the covenant.</p>\n<p style=\"margin: 15px 10px 0px 5px; padding: 10px; border: 1px solid #3f3c2f; background-color: #793425; font-weight: bold; border-radius: 10px;\">When one of you shows off their superiority over the other, betray the covenant.</p>\n</div>",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "tagsString": "",
+    "itemType": null,
+    "equipmentType": "covenants"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698559458886,
+    "modifiedTime": 1700806270185,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "ACF5ivwnVejDKrrD",
+  "sort": 0,
+  "_key": "!items!ACF5ivwnVejDKrrD"
+}

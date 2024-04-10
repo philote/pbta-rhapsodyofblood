@@ -1,0 +1,53 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Reinforcements",
+  "type": "move",
+  "_id": "2t6dsg4WzXkHkdyo",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When your Bloodline members search for rumours or resources in the mortal world</strong></em>, roll <strong>+Coins</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>choose 1</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>choose 2</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>They find resources worth 1 Relic.</li>\n<li>They hear tales of a ward&rsquo;s acolyte, and clues to how they&rsquo;re helping the regent.</li>\n<li>They learn what the regent plans next, and which clock segment it&rsquo;ll trigger on.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700118179833,
+    "modifiedTime": 1700118309418,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!2t6dsg4WzXkHkdyo"
+}

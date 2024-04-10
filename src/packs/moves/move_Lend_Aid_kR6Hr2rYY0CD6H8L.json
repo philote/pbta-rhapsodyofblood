@@ -1,0 +1,53 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Lend Aid",
+  "type": "move",
+  "_id": "kR6Hr2rYY0CD6H8L",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you help another bloodline with a move</strong></em>, offer them a dice. If they take it, they roll it with their own as if they had advantage. If your dice is the highest, say how you made the difference and gain 1-Pact on them. If it's the lowest, the GM will say how helping them hurt you.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700117973953,
+    "modifiedTime": 1700118360206,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!kR6Hr2rYY0CD6H8L"
+}

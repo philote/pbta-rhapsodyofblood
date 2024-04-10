@@ -1,0 +1,55 @@
+{
+  "folder": "QR0TJREw6Oo6ACWh",
+  "name": "Death Move [The Slayer]",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_slayer-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>As the final blow comes down you choose not to defend yourself, instead using your attacker&rsquo;s momentum to drive your weapon home. Now it&rsquo;s lodged in them, slowing them down and creating a weakness your allies can use to take revenge. Until they take advantage of the embedded weapon as an Opening, your allies take advantage on <em><strong>Dodge</strong></em> and <em><strong>Stand With Me</strong></em>.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Slayer",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698983407452,
+    "modifiedTime": 1700092441528,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "wpPLbqJoG2Th9U24",
+  "sort": 100000,
+  "_key": "!items!wpPLbqJoG2Th9U24"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Line It Up",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/line-it-up.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you size up the enemy to locate </strong></em><em><strong>a weak spot</strong></em>, roll <strong>+Glass</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>you find an Opening. Say where it&rsquo;s coming from - the environment, a chink in their armour, a flaw in their fighting style, pick 2.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>you find an Opening. Say where it&rsquo;s coming from - the environment, a chink in their armour, a flaw in their fighting style, pick 1.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "glass",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>&bull; The foe makes you its&nbsp;highest priority.</li>\n<li>The Opening only lasts a&nbsp;few moments.</li>\n<li>Attempts to use the Opening&nbsp;without one weapon perk&nbsp;have Disadvantage.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698567335453,
+    "modifiedTime": 1700091807081,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "FUozw0z1uaH9KHBh",
+  "sort": 400000,
+  "_key": "!items!FUozw0z1uaH9KHBh"
+}

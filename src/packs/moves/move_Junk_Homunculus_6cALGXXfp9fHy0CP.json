@@ -1,0 +1,55 @@
+{
+  "folder": "Wwj1SFHKOYzAQQ9F",
+  "name": "Junk Homunculus",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_packrat-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>When you assemble the various odds and ends in your pack into a rough human form, bound together with spit and blood and&nbsp;twine, you can <strong>mark contamination</strong> to give it life. It will follow your commands faithfully&nbsp;to the best of its ability, but cannot leave <strong>the castle</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Packrat",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642140167,
+    "modifiedTime": 1700806519054,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "6cALGXXfp9fHy0CP",
+  "sort": 600000,
+  "_key": "!items!6cALGXXfp9fHy0CP"
+}

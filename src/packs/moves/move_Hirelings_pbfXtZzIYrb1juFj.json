@@ -1,0 +1,53 @@
+{
+  "folder": "usumHx7O6jnoZhOW",
+  "name": "Hirelings",
+  "type": "move",
+  "_id": "pbfXtZzIYrb1juFj",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_packrat-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>You have servants to help you carry your gear. Your base level of stock is 8 instead of 5, and your staff can perform other useful&nbsp;duties: lift something heavy, staunch your wounds, barricade a door, etc. When they fight alongside you get Advantage on <em><strong>Strike </strong></em>and <em><strong>Face the Horde</strong></em>. If you ever lose them, your maximum stock drops to 5 until you can replace them.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698646243602,
+    "modifiedTime": 1700092146458,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!pbfXtZzIYrb1juFj"
+}

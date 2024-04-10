@@ -1,0 +1,55 @@
+{
+  "folder": "Wwj1SFHKOYzAQQ9F",
+  "name": "Maw of the Void",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_packrat-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>If you can fit something into your bag</strong></em>, it cannot escape without your say-so. <strong>Mark&nbsp;contamination</strong> to turn the bag into a powerful vacuum (tether, close) that keeps&nbsp;sucking until something&rsquo;s entirely consumed.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Packrat",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698642319944,
+    "modifiedTime": 1700806513919,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "2QaZyzC4k8qUwkft",
+  "sort": 700000,
+  "_key": "!items!2QaZyzC4k8qUwkft"
+}

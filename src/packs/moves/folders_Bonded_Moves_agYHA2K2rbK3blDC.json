@@ -1,0 +1,19 @@
+{
+  "name": "Bonded Moves",
+  "sorting": "a",
+  "folder": "nv6GH3A3Aj88KV3C",
+  "type": "Item",
+  "_id": "agYHA2K2rbK3blDC",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555883838,
+    "modifiedTime": 1698706477591,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!agYHA2K2rbK3blDC"
+}

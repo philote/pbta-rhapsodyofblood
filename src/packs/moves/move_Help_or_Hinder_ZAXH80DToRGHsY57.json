@@ -1,0 +1,55 @@
+{
+  "folder": "AdqkLOI64XrJeydb",
+  "name": "Help or Hinder",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/conenant/help-or-hinder.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you help or hinder another explorer</strong></em>, spend a point of covenant with them to give a dice to roll as per dis/advantage. If the dice you gave is the highest, get a point of covenant back; if it&rsquo;s the lowest, gm will say what misfortune you suffer.</p>",
+    "requiresMove": "",
+    "moveType": "covenants",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698631477205,
+    "modifiedTime": 1699558166713,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "ZAXH80DToRGHsY57",
+  "sort": 0,
+  "_key": "!items!ZAXH80DToRGHsY57"
+}

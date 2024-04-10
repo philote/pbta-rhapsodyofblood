@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Victory",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/victory.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When the foe is defeated</strong></em>, everyone still living may raise Blood and add&nbsp;1 to their Covenant with each other.<br>The foe&rsquo;s sanctum becomes a place&nbsp;of power, usable for <em><strong>Forward Base</strong></em>.</p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698630906238,
+    "modifiedTime": 1699556370456,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "hwraNa1SnbWVEVLD",
+  "sort": 0,
+  "_key": "!items!hwraNa1SnbWVEVLD"
+}

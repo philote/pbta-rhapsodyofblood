@@ -1,0 +1,53 @@
+{
+  "folder": "72M6up1XESghzcN8",
+  "name": "Soul Vessel",
+  "type": "move",
+  "_id": "CRQAvnMAnKHlsnrz",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_mystic-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you defeat a minion of the Regent</strong></em>, you can catch its spirit. If you do, roll <strong>+Sulphur</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>You catch it. &nbsp;it taints you and you <strong>mark contamination</strong>. So long as a spirit&nbsp;is contained, you can freely use one of its moves. When you <strong>mark contamination </strong>you can shift it onto the vessel, destroying the spirit. You must destroy your currently trapped spirit to catch another.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You catch it&nbsp;</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "sulphur",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698645802572,
+    "modifiedTime": 1700092053447,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!CRQAvnMAnKHlsnrz"
+}

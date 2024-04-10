@@ -1,0 +1,53 @@
+{
+  "folder": "usumHx7O6jnoZhOW",
+  "name": "Apothecary",
+  "type": "move",
+  "_id": "IIb4DCscCZiCRAag",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_packrat-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>Whatever is in your sacks can be ground, chewed and mixed up into a cure for what ails you. You can spend 1-stock to create a poultice that can heal a minor wound, or a draught that will heal 1d6 harm. In addition, you can break down a Relic into 1-stock in the field.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698646206724,
+    "modifiedTime": 1700092174094,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!IIb4DCscCZiCRAag"
+}

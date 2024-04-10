@@ -1,0 +1,19 @@
+{
+  "name": "Mystic Moves",
+  "sorting": "a",
+  "folder": "nv6GH3A3Aj88KV3C",
+  "type": "Item",
+  "_id": "72M6up1XESghzcN8",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555933769,
+    "modifiedTime": 1698706469395,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!72M6up1XESghzcN8"
+}

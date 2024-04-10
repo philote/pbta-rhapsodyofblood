@@ -1,0 +1,37 @@
+{
+  "folder": "UgWOYCqs2agueqdq",
+  "name": "A pouch of alchemical samples",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/utility-gear/pouch-alchemical.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "tagsString": "",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557750552,
+    "modifiedTime": 1700109968154,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "luyiahKqHBOQRLxc",
+  "sort": 500000,
+  "_key": "!items!luyiahKqHBOQRLxc"
+}

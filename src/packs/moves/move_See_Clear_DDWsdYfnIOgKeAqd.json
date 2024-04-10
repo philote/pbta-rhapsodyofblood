@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "See Clear",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/see-clear.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you try to read a dangerous&nbsp;situation</strong></em>, roll <strong>+Glass</strong></p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>You can ask the GM questions, ask 1&nbsp;but prepare for the worst.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>You can ask the GM questions, ask 1.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You can ask the GM questions, ask 3.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "glass",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>Which exit takes me to my goal?</li>\n<li>What here is valuable?</li>\n<li>What can the enemies here do?</li>\n<li>What should I be on the lookout for?</li>\n</ul>\n<p>Get fleeting advantage when you act&nbsp;on each answer.</p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698566327411,
+    "modifiedTime": 1699561808115,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "DDWsdYfnIOgKeAqd",
+  "sort": 400000,
+  "_key": "!items!DDWsdYfnIOgKeAqd"
+}

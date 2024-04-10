@@ -1,0 +1,55 @@
+{
+  "folder": "MG6QSFHLVSKaiNjS",
+  "name": "Voice of Command",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_slayer-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When an Adversary is bearing down on an ally</strong></em>, you can <strong>mark contamination </strong>to force them to target you instead.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Slayer",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643292218,
+    "modifiedTime": 1700806563002,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "SyhWlskhGjdZObBp",
+  "sort": 0,
+  "_key": "!items!SyhWlskhGjdZObBp"
+}

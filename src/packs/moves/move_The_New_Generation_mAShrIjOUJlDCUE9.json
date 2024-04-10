@@ -1,0 +1,53 @@
+{
+  "folder": "7R24BNp3WlOZBXz6",
+  "name": "The New Generation",
+  "type": "move",
+  "_id": "mAShrIjOUJlDCUE9",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/gernerations.svg",
+  "system": {
+    "name": "",
+    "description": "<p>Once the group has resolved these moves, you skip forward to the next time the blood moon rises. Follow these steps:</p>\n<p>&nbsp;</p>\n<p><strong>1) WHERE DOES THE CASTLE EMERGE? </strong></p>\n<p>Is it somewhere it&rsquo;s haunted before, or a new location? Each bloodline picks a refuge option from their playbook to flesh out the surrounding area and define their starting safe camps.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>2) HOW HAS THE EVIL MANIFESTED? </strong></p>\n<p>Blood calls out to blood, and each bloodline is drawn to the castle by misfortune or curse. Each bloodline picks a drive that brought them here, and says what they suspect the drive says about the regent&rsquo;s plans.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>3) HOW DO YOU BREAK IN? </strong></p>\n<p>You&rsquo;re ready to break into a ward of the castle. Each bloodline picks a breach option and says what they&rsquo;ve seen of the ward they&rsquo;re preparing to assault.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>4) MAKE EXPLORERS </strong></p>\n<p>Each player picks an explorer playbook and builds them up, picking stats, looks, motivation, covenants, moves and gear. Start with the first explorer breaking in, with the other explorers assisting them as wraiths or in the flesh.</p>",
+    "requiresMove": "",
+    "moveType": "generations",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700287026095,
+    "modifiedTime": 1700287135138,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!mAShrIjOUJlDCUE9"
+}

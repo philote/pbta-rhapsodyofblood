@@ -1,0 +1,53 @@
+{
+  "folder": "72M6up1XESghzcN8",
+  "name": "Blood Reinforcement",
+  "type": "move",
+  "_id": "t5VtPozu1gwZUNnH",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_mystic-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you perform rites to manipulate </strong></em><strong>the castle&rsquo;s <em>power</em></strong>, roll <strong>+Relics sacrificed</strong></p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>Pick one:</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Pick two:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<ul>\n<li>Add a perk to a weapon.</li>\n<li>Remove a flaw from a weapon.</li>\n<li>Raise the armour value of an outfit.</li>\n<li>Crystallise the power in a fragile gem: consume it to heal all harm but mark enough contamination to raise Blood.</li>\n</ul>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698645682137,
+    "modifiedTime": 1700092379499,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!t5VtPozu1gwZUNnH"
+}

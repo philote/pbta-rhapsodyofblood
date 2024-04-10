@@ -1,0 +1,53 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Forward Base",
+  "type": "move",
+  "_id": "QYMDLD6YruT67onc",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you claim a place of power as a forward base in </strong></em><strong>the castle</strong>, roll <strong>+Swords</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>It&rsquo;s yours, and you can use it as a <em><strong>safe camp </strong></em>for the purposes of <em><strong>Rest and Relaxation</strong></em> and <em><strong>Travel the Labyrinth</strong></em>.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>It&rsquo;s yours, and you can use it as a <em><strong>safe camp </strong></em>for the purposes of <em><strong>Rest and Relaxation</strong></em> and <em><strong>Travel the Labyrinth</strong></em>. Pick one bonus:</p>\n<ul>\n<li>There&rsquo;s room for more: it counts as another Bloodline&rsquo;s camp too. Get 1-pact on them.</li>\n<li>It&rsquo;s well-located: explorers leaving the camp get +1 <em><strong>Travel the Labyrinth </strong></em>hold.</li>\n<li>It&rsquo;s comfortable and secure: get advantage on <em><strong>Rest and Relaxation </strong></em>here.</li>\n</ul>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700117790945,
+    "modifiedTime": 1700117953420,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!QYMDLD6YruT67onc"
+}

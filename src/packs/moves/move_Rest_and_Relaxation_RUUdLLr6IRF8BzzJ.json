@@ -1,0 +1,53 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Rest and Relaxation",
+  "type": "move",
+  "_id": "RUUdLLr6IRF8BzzJ",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you provide aid to characters in a safe camp</strong></em>, roll <strong>+Chalices</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>pick 2</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>pick 3</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>Each explorer may heal all harm.</li>\n<li>Each explorer may heal all wounds.</li>\n<li>Each explorer can repair and resupply their weaponry.</li>\n<li>Each explorer may form a new covenant, or raise an existing covenant by a step.</li>\n<li>The regent&rsquo;s clock doesn&rsquo;t tick down.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698631958810,
+    "modifiedTime": 1700117725727,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!RUUdLLr6IRF8BzzJ"
+}

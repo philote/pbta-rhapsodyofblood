@@ -1,0 +1,53 @@
+{
+  "folder": "OAqw5JLOSAb100tV",
+  "name": "Experimental Weaponry",
+  "type": "move",
+  "_id": "EErpKFFLflZEndDQ",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 8\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your family&rsquo;s resources are devoted to the creation of new weapons to be used against darkness. Once a generation, you can gain one of these weapons for your struggle.</p>\n<p><em><strong>When your scholars bring their most recent creation to your camp</strong></em>, roll <strong>+Coins</strong>.</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts!</strong></p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Pick one:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Pick two:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Hidden Hand",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>\n<p>You can sacrifice it to Strike without needing an Opening.</p>\n</li>\n<li>\n<p>If you sacrifice a relic, it gains the holy tag for the rest of the fight.</p>\n</li>\n<li>\n<p>It has three perks and a flaw, or two perks and noflaw.</p>\n</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700093881090,
+    "modifiedTime": 1700110655531,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!EErpKFFLflZEndDQ"
+}

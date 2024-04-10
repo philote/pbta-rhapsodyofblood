@@ -1,0 +1,37 @@
+{
+  "folder": "hBmSEMgN7c4ptMT7",
+  "name": "Ceremonial Staff",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/ceremonal-staff.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"holy\"},{\"value\":\"brace\"}]",
+    "tagsString": "holy, brace",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698556721515,
+    "modifiedTime": 1700109692768,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "o2pe8E02d6JqZXL2",
+  "sort": 400000,
+  "_key": "!items!o2pe8E02d6JqZXL2"
+}

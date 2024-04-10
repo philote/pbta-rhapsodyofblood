@@ -1,0 +1,53 @@
+{
+  "folder": "QR0TJREw6Oo6ACWh",
+  "name": "Trick Weapon",
+  "type": "move",
+  "_id": "eX9Rx7KyRiyztRiZ",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_slayer-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>Your weapon is versatile, enchanted or a marvel of engineering. Pick two perk/flaw sets for it: you can switch between the two at a moment&rsquo;s notice.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644798342,
+    "modifiedTime": 1700092420331,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!eX9Rx7KyRiyztRiZ"
+}

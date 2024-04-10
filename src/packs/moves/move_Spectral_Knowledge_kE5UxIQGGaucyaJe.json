@@ -1,0 +1,53 @@
+{
+  "folder": "agYHA2K2rbK3blDC",
+  "name": "Spectral Knowledge",
+  "type": "move",
+  "_id": "kE5UxIQGGaucyaJe",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_bonded-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you ask your spirit for advice</strong></em>, roll <strong>+Glass</strong>.&nbsp;</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Ask a question and the GM will answer honestly... for the most part. pick two\"</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Ask a question and the GM will answer honestly... for the most part. pick one\"</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "glass",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>The spirit confuses parts of its past for the present.</li>\n<li>The spirit cannot perceive some significant detail.</li>\n<li>The spirit asks you to agree to something before it answers.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644501876,
+    "modifiedTime": 1700092274959,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!kE5UxIQGGaucyaJe"
+}

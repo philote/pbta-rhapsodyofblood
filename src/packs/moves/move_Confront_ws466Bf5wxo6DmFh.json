@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Confront",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/confrontation.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you confront danger head-on</strong></em>,&nbsp;roll <strong>+Iron.</strong></p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>You throw the foe off-balance and create an&nbsp;Opening, but take the brunt of their&nbsp;attack, pick 1:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You throw the foe off-balance and create an Opening, but take the brunt of their attack, pick 2:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "iron",
+    "rollMod": 0,
+    "choices": "<p>&bull; You roll with the blow: take 1 less harm.<br>&bull; You are fearsome and commanding: the foe will focus&nbsp;only on you.<br>&bull; Your mind is steel: you don&rsquo;t <em><strong>mark contamination</strong></em>.</p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698567674462,
+    "modifiedTime": 1700091827457,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "ws466Bf5wxo6DmFh",
+  "sort": 700000,
+  "_key": "!items!ws466Bf5wxo6DmFh"
+}

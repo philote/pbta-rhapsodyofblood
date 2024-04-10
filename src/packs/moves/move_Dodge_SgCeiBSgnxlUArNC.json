@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Dodge",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/dodge.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you try to avoid incoming&nbsp;danger</strong></em>, roll <strong>+Mercury</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>Pick 1</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Pick 2</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "mercury",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>You avoid taking harm.</li>\n<li>You avoid getting separated from the others or losing something valuable.</li>\n<li>The foe&rsquo;s heedless in pursuit of you: create an Opening.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698630651374,
+    "modifiedTime": 1700091819479,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "SgCeiBSgnxlUArNC",
+  "sort": 200000,
+  "_key": "!items!SgCeiBSgnxlUArNC"
+}

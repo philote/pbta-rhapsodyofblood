@@ -1,0 +1,53 @@
+{
+  "folder": "K3lxUIE77IiFIRW9",
+  "name": "Stoke The Flame",
+  "type": "move",
+  "_id": "3AFCQn2T31Yr0MrN",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 6\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><em><strong>When an explorer on the verge of death is brought back to one of your camps</strong></em>, roll <strong>+Chalices</strong>.&nbsp;</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>Their soul gutters out entirely, replaced by something dark: they&rsquo;ll die and become an undead Acolyte, unless 1 Relic is sacrificed to stop it.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>The deadly wound is stepped down to a major wound.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>The deadly wound is gone entirely.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Holy Church",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700093240323,
+    "modifiedTime": 1700110724225,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!3AFCQn2T31Yr0MrN"
+}

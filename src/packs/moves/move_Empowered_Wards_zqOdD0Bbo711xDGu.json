@@ -1,0 +1,53 @@
+{
+  "folder": "M94lX1krcEazCuI0",
+  "name": "Empowered Wards",
+  "type": "move",
+  "_id": "zqOdD0Bbo711xDGu",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When you roll 10+ on Resist Doom, your ritual lingers providing active opposition to the Regent. The next time their clock would tick down, it&rsquo;s stopped from doing so.</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Magi",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700094596545,
+    "modifiedTime": 1700110851871,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!zqOdD0Bbo711xDGu"
+}

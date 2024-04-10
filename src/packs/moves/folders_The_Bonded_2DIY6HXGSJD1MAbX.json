@@ -1,0 +1,19 @@
+{
+  "name": "The Bonded",
+  "sorting": "a",
+  "folder": "pyM8mDeYT71E8mlB",
+  "type": "Item",
+  "_id": "2DIY6HXGSJD1MAbX",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698642010717,
+    "modifiedTime": 1698706287096,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!2DIY6HXGSJD1MAbX"
+}

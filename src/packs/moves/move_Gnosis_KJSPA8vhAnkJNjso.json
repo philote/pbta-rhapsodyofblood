@@ -1,0 +1,53 @@
+{
+  "folder": "7R24BNp3WlOZBXz6",
+  "name": "Gnosis",
+  "type": "move",
+  "_id": "KJSPA8vhAnkJNjso",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/gernerations.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When the Regent is slain</strong></em>, the explorer with the highest Blood can choose to claim the Grail. If they do, they raise a bloodline stat by 1 but lose 1 Pact on the other bloodlines.</p>\n<p>They get one wish from the Grail:&nbsp;</p>\n<ul>\n<li><strong>Life Everlasting: </strong>Your character may return each generation, and cannot die.</li>\n<li><strong>The Resurrection of the Dead: </strong>One person of your choice is returned to life.</li>\n<li><strong>Insight From Beyond: </strong>Gain a new bloodline move.</li>\n<li><strong>Wealth of Kings: </strong>Your bloodline gains 5 Relics.</li>\n<li><strong>Peace on Earth: </strong>Each bloodline gains 1 Relic; you gain 1-Treaty on the others.</li>\n<li><strong>Purification: </strong>Remove a Blight infected by a previous Regent.</li>\n</ul>\n<p>The castle then takes them with it as it leaves reality behind. They will return as its next regent unless they chose Life Everlasting - in which case the next regent is Death Itself.</p>",
+    "requiresMove": "",
+    "moveType": "generations",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700285470424,
+    "modifiedTime": 1700286366591,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!KJSPA8vhAnkJNjso"
+}

@@ -1,0 +1,29 @@
+{
+  "folder": "eG8LgvaOpdo1ubo3",
+  "name": "The Packrat",
+  "type": "playbook",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_packrat-white.webp",
+  "system": {
+    "name": "",
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Packrat</strong> is comprehensively prepared for this expedition. Within their pack you might find the perfect weapon, the needed medicine, or just the matches you need to light your pipe. <br><em> Play the Packrat if you want to be a resourceful support character, command minions, and play around with explosives. </em></p>\n</div>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR TBD</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array; add 1 to a stat of your choice.\n<ul>\n<li><strong>Iron</strong> &plusmn;0</li>\n<li><strong>Glass</strong> +1</li>\n<li><strong>Sulphur</strong> -1</li>\n<li><strong>Mercury</strong> &plusmn;0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Ambiguous, Concealed, Feminine, Masculine. Burly body, bent body, stocky body, weaselly body <br>Asian or South Asian, Black, Caucasian, Hispanic/Latino, Indigenous, Middle Eastern</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Yasmin, Vyasa, Cathaoir, Aleksander, Cecilia, Angela, Clement, Krister, Orinth, Elizabeta.</p>\n<hr>\n<h3 style=\"border: none;\">Gear</h3>\n<p>Make a weapon (1 perk, 1 flaw).</p>\n<hr style=\"border: 1px solid #3f3c2f;\">\n<div class=\"flexrow\">\n<div>\n<h4>Pick one extra armament:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.i0ow12rvpg1ia1t5]{Homemade Explosives}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.rTRJHfmkbptOhq20]{Enchanted shirt}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.O3bwdHzP8vE5I14L]{Extraordinary wine}</p>\n</div>\n<div>\n<h4>Pick two pieces of utility gear:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.VkwNuRq7SU87RcRS]{A musical instrument}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.dE7VoodDakmTm9Bc]{Antitoxins and miracle cures}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.AUq8WjrIObqncEs8]{A bag of shiny metal coins, in hundreds of denominations}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.2fU8JamvFJY5t7wQ]{As many rations as you need}</p>\n</div>\n</div>\n<hr>\n<h3 style=\"border: none;\">Covenants</h3>\n<p>Go around the table, introducing your explorer to the group. Pick a covenant you have with the player to your left at rank 1. Examples:</p>\n<ul>\n<li><em>You healed them up from a mortal wound.</em></li>\n<li><em>They&rsquo;re heavily in debt to you.</em></li>\n<li><em>You&rsquo;ve sworn loyalty to them.</em></li>\n</ul>\n<p>Add extra details and context for the covenant the player to your right has chosen.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">Moves</h2>\n<h3 style=\"border: none;\">Bonded Moves</h3>\n<p>Pick two:</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.IIb4DCscCZiCRAag]{Apothecary}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Nm88xpgrfHqlT9TE]{Cornucopia}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.pbfXtZzIYrb1juFj]{Hirelings}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.4EulP4AursQub4hL]{Lucky Cigarette Case}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.xwIWeGehuNY0nd99]{Walking Armoury}</p>\n<hr>\n<h3 style=\"border: none;\">Death Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.oWbH3s5wYKZJmd1S]{Death Move [The Packrat]}</p>\n<hr>\n<h3 style=\"border: none;\">Blood Gifts</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.6cALGXXfp9fHy0CP]{Junk Homunculus}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.2QaZyzC4k8qUwkft]{Maw of the Void}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.vo14ZquEFLxbahiJ]{Paradox Bag}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.f4ov8x38FXa5lMxO]{Titan&rsquo;s Might}</p>\n</div>\n</section>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698714097319,
+    "modifiedTime": 1700289453574,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "nyIOqdG2ctn1GpLw",
+  "sort": 300000,
+  "_key": "!items!nyIOqdG2ctn1GpLw"
+}

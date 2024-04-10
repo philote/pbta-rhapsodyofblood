@@ -1,0 +1,55 @@
+{
+  "folder": "2DIY6HXGSJD1MAbX",
+  "name": "Apotheosis",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/blood-gifts/the_bonded-blood.webp",
+  "system": {
+    "name": "",
+    "description": "<p>Your spirit reveals its true form, though it taxes your body to host it. <strong>Mark contamination</strong> to channel its full power into an attack, giving it Advantage and a&nbsp;tag of your choice.</p>",
+    "requiresMove": "",
+    "moveType": "blood",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.3",
+    "coreVersion": "11.315",
+    "createdTime": 1698643417231,
+    "modifiedTime": 1700806454930,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "bO5FDtZ7V1YiLna2",
+  "sort": 600000,
+  "_key": "!items!bO5FDtZ7V1YiLna2"
+}

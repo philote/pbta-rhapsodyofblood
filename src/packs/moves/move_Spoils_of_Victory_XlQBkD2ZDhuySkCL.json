@@ -1,0 +1,53 @@
+{
+  "folder": "7R24BNp3WlOZBXz6",
+  "name": "Spoils of Victory",
+  "type": "move",
+  "_id": "XlQBkD2ZDhuySkCL",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/gernerations.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>If you leave the castle without claiming the grail,</strong></em> pick a choice unlocked by your Explorer&rsquo;s Blood.</p>\n<h3>BLOOD 0+</h3>\n<ul>\n<li><em><strong>Your explorer loots the castle for valuable trinkets.</strong></em> Say what they spend the rest of their life doing with their fortune, and start the next generation with 1 more Relic.</li>\n<li><em><strong>Your explorer devotes their life to preparing the next generation.</strong></em> Choose one other bloodline - say how you helped train their next explorer, and get 1 Pact on them.</li>\n<li><em><strong>Your bloodline works to heal the wounds left in this community</strong></em> by the castle. Name an alliance you've made, and get advantage when you call on it for Reinforcements.</li>\n</ul>\n<h3>BLOOD 2+</h3>\n<ul>\n<li><em><strong>Your explorer instils their skills into a piece of gear. </strong></em>Pick one of your moves: when your descendants use the gear they can access that move, but the gear gains the heirloom tag.</li>\n<li><em><strong>Your explorer forces permanent order on the castle.</strong></em> One ward will remain in its current form for the rest of time; your bloodline gets advantage <em><strong>Travelling the Labyrinth</strong></em> there.</li>\n<li><em><strong>You invest in your resources.</strong></em> Sacrifice 3 Relics to raise a bloodline stat by 1.</li>\n</ul>\n<h3>BLOOD 4+</h3>\n<ul>\n<li><em><strong>You let the corruption sink deep into your bloodline, </strong></em>controlled but ever-present. Your future characters start at Blood 1, with a Blood Advance to match.</li>\n<li><em><strong>You form a bond with the castle. </strong></em>Your explorer can always <strong>mark contamination</strong> to get a vision of the regent, and ask one follow-up question the GM must answer truthfully.</li>\n</ul>",
+    "requiresMove": "",
+    "moveType": "generations",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700286434766,
+    "modifiedTime": 1700286696822,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!XlQBkD2ZDhuySkCL"
+}

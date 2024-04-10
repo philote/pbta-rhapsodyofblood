@@ -1,0 +1,37 @@
+{
+  "folder": "hBmSEMgN7c4ptMT7",
+  "name": "A last-ditch ice burst",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/ice-burst.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"stun\"},{\"value\":\"painful\"}]",
+    "tagsString": "stun, painful",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557690817,
+    "modifiedTime": 1700109615490,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "WadmjjZGkLhP7veG",
+  "sort": 1700000,
+  "_key": "!items!WadmjjZGkLhP7veG"
+}

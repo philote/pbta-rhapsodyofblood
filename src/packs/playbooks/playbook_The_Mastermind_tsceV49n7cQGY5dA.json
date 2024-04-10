@@ -1,0 +1,29 @@
+{
+  "folder": "NYHP1l7pr22WVULH",
+  "name": "The Mastermind",
+  "type": "playbook",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Mastermind</strong> (FOUNDER OF THE HIDDEN HAND) <br><em> You&rsquo;re not here out of the goodness of your heart, but raw pragmatism. Frankly, hordes of monsters are liable to ruin your plans for wealth, prestige and power. At least your talent for command has come in useful managing this ragtag band of &lsquo;heroes&rsquo;. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> 0</li>\n<li><strong>Glass</strong> +1</li>\n<li><strong>Sulphur</strong> -1</li>\n<li><strong>Mercury</strong> +2</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Young and ambitious; portly and arrogant; spindly and scheming.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Sigismund, Mohana, Livonia, Ciannait, V&iacute;gi, Kwame, Halim.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.kps7fFCnN6ivZGKm]{A crossbow}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.f5klyPLsKAxHzPiA]{Sharp dagger}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders helped you find a wondrous treasure.</em></strong> Give their bloodline 2-pact on you. They say what form the treasure took, you say how it&rsquo;s liable to taint its owner.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wKRu7FGztXEQVHwH]{A Web of Influence}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.pubb5iKXYhnqWQxY]{Avarice}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wnuGmgNKEhp6iq9s]{Bodyguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.EErpKFFLflZEndDQ]{Experimental Weaponry}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.tz6WNSfitBE4DDdI]{Opulence}</p>\n<p>&nbsp;</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.gQKd21kub5EzhuTB]{Shelter (Hidden Hand)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700027915440,
+    "modifiedTime": 1700099989647,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "tsceV49n7cQGY5dA",
+  "sort": 0,
+  "_key": "!items!tsceV49n7cQGY5dA"
+}

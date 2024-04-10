@@ -1,0 +1,19 @@
+{
+  "name": "The Legendary Heroes Moves",
+  "sorting": "a",
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "type": "Item",
+  "_id": "lXzmVvJ2gJo8PuFB",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698556137572,
+    "modifiedTime": 1700093017314,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!folders!lXzmVvJ2gJo8PuFB"
+}

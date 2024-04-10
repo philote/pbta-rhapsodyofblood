@@ -1,0 +1,53 @@
+{
+  "folder": "72M6up1XESghzcN8",
+  "name": "Cast the Runes",
+  "type": "move",
+  "_id": "vZtJ6ndJV1Mtc43r",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_mystic-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you scry into the future</strong></em>, describe your ritual and ask the GM a yes/no question. Then roll <strong>+Mercury</strong>.&nbsp;</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>They&rsquo;ll answer truthfully; get fleeting advantage acting on the answer.&nbsp;</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>They&rsquo;ll answer truthfully; get fleeting advantage acting on the answer. You may ask a follow-up question.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "mercury",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698645425658,
+    "modifiedTime": 1700092074718,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!vZtJ6ndJV1Mtc43r"
+}

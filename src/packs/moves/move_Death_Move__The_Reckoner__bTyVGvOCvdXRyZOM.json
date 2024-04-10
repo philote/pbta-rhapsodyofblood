@@ -1,0 +1,55 @@
+{
+  "folder": "WwIKrWDq51lR0Myv",
+  "name": "Death Move [The Reckoner]",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_reckoner-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>As you die, you command one final effort of will to enforce order on <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span>. The current ward locks down - your allies have unlimited <em><strong>Travel the Labyrinth</strong></em> hold there. It&rsquo;s harder to affect more distant areas, but you can lock the regent and their acolytes into their respective wards and rewrite the connections between them.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Reckoner",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698983522770,
+    "modifiedTime": 1700092222299,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "bTyVGvOCvdXRyZOM",
+  "sort": 100000,
+  "_key": "!items!bTyVGvOCvdXRyZOM"
+}

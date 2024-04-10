@@ -1,0 +1,19 @@
+{
+  "name": "Armament",
+  "sorting": "a",
+  "folder": "RNlMRrQKUYE6oLp6",
+  "type": "Item",
+  "_id": "hBmSEMgN7c4ptMT7",
+  "sort": 0,
+  "color": "#000000",
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.313",
+    "createdTime": 1698555707865,
+    "modifiedTime": 1698705979608,
+    "lastModifiedBy": "ctrNuPYFOMJ2CZb9"
+  },
+  "_key": "!folders!hBmSEMgN7c4ptMT7"
+}

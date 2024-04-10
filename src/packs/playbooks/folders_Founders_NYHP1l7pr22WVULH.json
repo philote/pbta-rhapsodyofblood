@@ -1,0 +1,19 @@
+{
+  "name": "Founders",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "NYHP1l7pr22WVULH",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.314",
+    "createdTime": 1699071306376,
+    "modifiedTime": 1699071306376,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!folders!NYHP1l7pr22WVULH"
+}

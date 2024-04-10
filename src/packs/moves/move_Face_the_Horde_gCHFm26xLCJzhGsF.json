@@ -1,0 +1,55 @@
+{
+  "folder": "DoUIdtksF2FKRZkF",
+  "name": "Face the Horde",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/exploration/face-the-horde.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you assault a group of castle&nbsp;denizens</strong></em>, roll <strong>+Iron</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "exploration",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>You tear through them - say how. pick 2</p>\n<ul>\n<li>They hit back - suffer harm.</li>\n<li>You get some on you -&nbsp;<strong><em>mark contamination</em></strong>.</li>\n<li>You end up in a risky position.</li>\n<li>More are coming.</li>\n</ul>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You tear through them - say how. pick 1</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "iron",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>They hit back - suffer harm.</li>\n<li>You get some on you -&nbsp;<strong><em>mark contamination</em></strong>.</li>\n<li>You end up in a risky position.</li>\n<li>More are coming.</li>\n</ul>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698565274232,
+    "modifiedTime": 1700091935595,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "gCHFm26xLCJzhGsF",
+  "sort": 200000,
+  "_key": "!items!gCHFm26xLCJzhGsF"
+}

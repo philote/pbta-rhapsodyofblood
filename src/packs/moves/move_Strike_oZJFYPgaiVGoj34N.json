@@ -1,0 +1,55 @@
+{
+  "folder": "euvM5veb9gXjtcra",
+  "name": "Strike",
+  "type": "move",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/moves/confront/strike.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you take advantage of an&nbsp;Opening with...</strong></em></p>\n<ul>\n<li><em><strong>Stealth and guile</strong></em>, roll <strong>+Mercury</strong>.</li>\n<li><em><strong>Physical force</strong></em>, roll <strong>+Iron</strong>.</li>\n<li><em><strong>Precise insight</strong></em>, roll <strong>+Glass</strong>.</li>\n<li><em><strong>Sorcery or sacrifice</strong></em>, roll <strong>+Sulphur</strong>.</li>\n</ul>",
+    "requiresMove": "",
+    "moveType": "confrontation",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>You damage one of the foe&rsquo;s qualities - if you destroy its final quality, it&rsquo;s dead. The Opening&rsquo;s now gone. The GM picks 1:</p>\n<ul>\n<li>The foe lashes out at you:&nbsp;take Harm appropriate to&nbsp;the enemy.</li>\n<li>The foe separates you from the others or puts you in a spot.</li>\n<li>The foe frenzies, dealing +1 Harm for the rest of the fight.</li>\n</ul>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You damage one of the foe&rsquo;s qualities - if you destroy its final quality, it&rsquo;s dead. The Opening&rsquo;s now gone.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698566944487,
+    "modifiedTime": 1700091787139,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_id": "oZJFYPgaiVGoj34N",
+  "sort": 0,
+  "_key": "!items!oZJFYPgaiVGoj34N"
+}

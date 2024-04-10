@@ -1,0 +1,92 @@
+{
+  "name": "Weapon Tag Descriptions",
+  "_id": "Ksf0nRv7W84pgbXA",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Flaws",
+      "type": "text",
+      "_id": "C3whoKDBKTjGcp1z",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>Ammo</h3><p>If any dice on an attack come up 1, the weapon’s useless until you Shelter or get Rest and Relaxation.</p><p></p><h3>Brace</h3><p>You need to stand on steady ground to use it.</p><p></p><h3>Close</h3><p>You need the enemy to be within arm’s reach to use it.</p><p></p><h3>Fragile</h3><p>If any dice on an attack come up 1, the weapon’s useless until you Shelter or get Rest and Relaxation.</p><p></p><h3>Grazing</h3><p>It only deals surface harm, not deep wounds.</p><p></p><h3>Heirloom</h3><p>If you lose it, get Disadvantage on bloodline moves until you get it back.</p><p></p><h3>Painful</h3><p>If any dice on an attack come up 6, take 1 Harm.</p><p></p><h3>Reload</h3><p>You need to take some action to attack again after using it.</p><p></p><h3>Thrown</h3><p>Once you attack with it, you need to recover it.</p><p></p><h3>Unstable</h3><p>You’re vulnerable and unable to move after using it.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "akEtZ5rzk6nEDcRX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pbta",
+        "systemVersion": "0.9.0.beta-2",
+        "coreVersion": "11.315",
+        "createdTime": 1707678449559,
+        "modifiedTime": 1707678905002,
+        "lastModifiedBy": "akEtZ5rzk6nEDcRX"
+      },
+      "_key": "!journal.pages!Ksf0nRv7W84pgbXA.C3whoKDBKTjGcp1z"
+    },
+    {
+      "sort": 200000,
+      "name": "Perks",
+      "type": "text",
+      "_id": "kpNgci7SFvbABuG1",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>Cleave</h3><p>Can slice through many foes in a single swing.</p><p></p><h3>Flexible</h3><p>It wraps around defenses and can be redirected mid-swing.</p><p></p><h3>Hefty</h3><p>Knocks an enemy back on a hit.</p><p></p><h3>Holy</h3><p>Causes intense pain against a particular foe. This tag is only accessible via moves.</p><p></p><h3>Lingering</h3><p>It causes ongoing pain: if you hit someone with it they’ll try to stay away from you.</p><p></p><h3>Piercing</h3><p>Can penetrate armour and thick hide.</p><p></p><h3>Ranged</h3><p>Can attack any foe in eyesight.</p><p></p><h3>Stun</h3><p>Makes enemies slow and sluggish on a hit.</p><p></p><h3>Tether</h3><p>After you hit, you can easily hold onto/keep pace with the foe.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "akEtZ5rzk6nEDcRX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pbta",
+        "systemVersion": "0.9.0.beta-2",
+        "coreVersion": "11.315",
+        "createdTime": 1707678924603,
+        "modifiedTime": 1707678938356,
+        "lastModifiedBy": "akEtZ5rzk6nEDcRX"
+      },
+      "_key": "!journal.pages!Ksf0nRv7W84pgbXA.kpNgci7SFvbABuG1"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "akEtZ5rzk6nEDcRX": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.0.beta-2",
+    "coreVersion": "11.315",
+    "createdTime": 1707678436031,
+    "modifiedTime": 1707678938356,
+    "lastModifiedBy": "akEtZ5rzk6nEDcRX"
+  },
+  "_key": "!journal!Ksf0nRv7W84pgbXA"
+}

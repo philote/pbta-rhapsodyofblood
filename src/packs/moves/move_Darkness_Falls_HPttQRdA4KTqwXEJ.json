@@ -1,0 +1,53 @@
+{
+  "folder": "7R24BNp3WlOZBXz6",
+  "name": "Darkness Falls",
+  "type": "move",
+  "_id": "HPttQRdA4KTqwXEJ",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/gernerations.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When the regent&rsquo;s clock fills,</strong></em> they blight the mortal world. The GM marks one:</p>\n<div><input type=\"checkbox\">A section of the region&rsquo;s population is cursed and made monstrous.</div>\n<div><input type=\"checkbox\">Day is short and nights are starless. ppMonsters walk the world every full moon.</div>\n<div><input type=\"checkbox\">Weather becomes unnatural and devastating.</div>\n<div><input type=\"checkbox\">Plagues strike a section of the population.</div>\n<p>If all are marked, <strong>the castle </strong>claims the mortal world and all is lost. Each player picks how their bloodline responds to the blight, and adjusts their stats:</p>\n<ul>\n<li><em><strong>You stayed safe, at the cost of withdrawing from the world</strong></em>. Say which of your connections suffered in your absence. +1 Chalices, -1 Coins.</li>\n<li><em><strong>You fought to push it back, but your best mystics lost their lives</strong></em>. Say what their sacrifice achieved. +1 Swords, -1 Wands.</li>\n<li><em><strong>You took some of the taint into your family</strong></em>. Say what lingering malady the blight has left you with. +1 Wands, -1 Chalice.</li>\n<li><em><strong>You waged a shadow war keeping society safe at great cost to your warriors</strong></em>. Say which settlement still stands thanks to you. +1 Coins, -1 Swords.</li>\n</ul>",
+    "requiresMove": "",
+    "moveType": "generations",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700286721327,
+    "modifiedTime": 1700286988127,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!HPttQRdA4KTqwXEJ"
+}

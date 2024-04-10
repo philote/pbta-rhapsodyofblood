@@ -1,0 +1,37 @@
+{
+  "folder": "hBmSEMgN7c4ptMT7",
+  "name": "A pistol",
+  "type": "equipment",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/pistol.svg",
+  "system": {
+    "name": "",
+    "description": "",
+    "uses": 0,
+    "playbook": "",
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"ranged\"},{\"value\":\"reload\"}]",
+    "tagsString": "ranged, reload",
+    "itemType": null,
+    "equipmentType": "gear"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698557121851,
+    "modifiedTime": 1700109623077,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "7CPY6k9AQUzys9qz",
+  "sort": 1800000,
+  "_key": "!items!7CPY6k9AQUzys9qz"
+}

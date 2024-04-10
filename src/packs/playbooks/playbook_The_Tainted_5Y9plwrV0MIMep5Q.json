@@ -1,0 +1,29 @@
+{
+  "folder": "NYHP1l7pr22WVULH",
+  "name": "The Tainted",
+  "type": "playbook",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Tainted</strong> (FOUNDER OF THE HALF-DAMNED) <br><em> Maybe <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> almost claimed you, and it was only thanks to your fellows that you remained human. Maybe the darkness was always inside you, and your struggle to stay in control is even harder now <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> has given it physical form. Either way, it&rsquo;s time to put these gifts to use. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> +1</li>\n<li><strong>Glass</strong> -1</li>\n<li><strong>Sulphur</strong> +2</li>\n<li><strong>Mercury</strong> 0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Half-human, half-beast; undead pallor; grotesque chaos.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Willem, Annah, Petra, Mico, Amelia, Lyko, Tali, Haruto.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.in7KpPueiXL2Q7sh]{Claws}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.Zx0ugbDI81jXayrV]{Rapier}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders is helping you keep control.</em></strong> Give their bloodline 2-pact on you. You say how they&rsquo;re keeping you sane, they say what will happen if they stop.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.r4GnWD46HHmQsEhx]{Dark Legacy}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.NeRrZtV4p05fvmmE]{In the Shadows of Humanity}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Ev1Uo8Zl620J4nSp]{More Than Human}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.L1uuOUSamYBwF4EJ]{One of the Horde}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.whylRtd68bm53Mz6]{Voice of the Regent}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.kGxeAM4pQXQmPnoF]{Shelter (Half-Damned)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700027563638,
+    "modifiedTime": 1700100145685,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_id": "5Y9plwrV0MIMep5Q",
+  "sort": 300000,
+  "_key": "!items!5Y9plwrV0MIMep5Q"
+}

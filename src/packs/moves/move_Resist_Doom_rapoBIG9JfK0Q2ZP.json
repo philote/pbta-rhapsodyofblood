@@ -1,0 +1,53 @@
+{
+  "folder": "V4DzqBwYOGLX8ZGe",
+  "name": "Resist Doom",
+  "type": "move",
+  "_id": "rapoBIG9JfK0Q2ZP",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodline.svg",
+  "system": {
+    "name": "",
+    "description": "<p><em><strong>When you work a grand ritual</strong></em>, spend 1-3 Relics on occult resources and ceremonial&nbsp;paraphernalia and roll <strong>+Wands</strong>.</p>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Resists</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": "<p>The Regent weaves a counter-spell; you&rsquo;ll need to defeat an Acolyte before anyone can work further rituals.</p>\n<p>Choose one for each Relic spent:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>choose one for each Relic spent:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": "<ul>\n<li>Reduce the Regent&rsquo;s clock by 1.</li>\n<li>Bless a weapon to strike true against one Acolyte, giving it the Holy perk.</li>\n<li>Reduce a character&rsquo;s Blood rating by one - they lose a Blood Advance.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ul9kRnDB6D1Z4uAw": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700118015682,
+    "modifiedTime": 1700118345091,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!rapoBIG9JfK0Q2ZP"
+}

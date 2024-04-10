@@ -1,0 +1,53 @@
+{
+  "folder": "agYHA2K2rbK3blDC",
+  "name": "Astral Projection",
+  "type": "move",
+  "_id": "N7LUbbDdEMWyu35u",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/playbooks/the_bonded-color.webp",
+  "system": {
+    "name": "",
+    "description": "<p>With force of will you can send your spirit out to act in <strong>the castle</strong>. As long as you concentrate you can see through its eyes and - with effort - pull switches, open doors, move small object, etc.</p>",
+    "requiresMove": "",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Bonded",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "ctrNuPYFOMJ2CZb9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1698644203659,
+    "modifiedTime": 1700092022975,
+    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+  },
+  "_key": "!items!N7LUbbDdEMWyu35u"
+}

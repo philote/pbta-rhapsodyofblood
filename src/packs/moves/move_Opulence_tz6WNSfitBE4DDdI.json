@@ -1,0 +1,53 @@
+{
+  "folder": "OAqw5JLOSAb100tV",
+  "name": "Opulence",
+  "type": "move",
+  "_id": "tz6WNSfitBE4DDdI",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+  "system": {
+    "name": "",
+    "description": "<div class=\"page\" title=\"Page 8\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><em><strong>When you shower luxury on party of explorers</strong></em>, you may roll <strong>+Coins</strong> to give them <em><strong>Rest &amp; Relaxation</strong></em>.</p>\n</div>\n</div>\n</div>",
+    "requiresMove": "",
+    "moveType": "bloodline",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications...",
+        "value": "<p>The GM <strong>Reacts</strong>!</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success.",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Hidden Hand",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "zyc9SZg8VUZgkrt7": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.7.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700094056008,
+    "modifiedTime": 1700110645526,
+    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+  },
+  "_key": "!items!tz6WNSfitBE4DDdI"
+}

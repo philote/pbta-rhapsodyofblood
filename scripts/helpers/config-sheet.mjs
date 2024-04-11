@@ -2,54 +2,54 @@ export const configSheet = async () => {
 
   // Pass Rhapsody of Blood sheet object to sheetConfig
   game.pbta.sheetConfig = {
-    "rollFormula": "2d6",
-    "rollResults": {
-        "failure": {
-            "start": null,
-            "end": 6,
-            "label": "Complications..."
+    rollFormula: "2d6",
+    rollResults: {
+        failure: {
+            start: null,
+            end: 6,
+            label: game.i18n.localize("RoB.CharacterSheets.rollResults.complications")
         },
-        "partial": {
-            "start": 7,
-            "end": 9,
-            "label": "Partial success."
+        partial: {
+            start: 7,
+            end: 9,
+            label: game.i18n.localize("RoB.CharacterSheets.rollResults.partial")
         },
-        "success": {
-            "start": 10,
-            "end": null,
-            "label": "Success!"
+        success: {
+            start: 10,
+            end: null,
+            label: game.i18n.localize("RoB.CharacterSheets.rollResults.success")
         }
     },
-    "actorTypes": {
-        "character": {
-            "stats": {
-                "iron": {
-                    "label": "Iron",
-                    "value": 0
+    actorTypes: {
+        character: {
+            stats: {
+                iron: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.iron"),
+                    value: 0
                 },
-                "glass": {
-                    "label": "Glass",
-                    "value": 0
+                glass: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.glass"),
+                    value: 0
                 },
-                "sulphur": {
-                    "label": "Sulphur",
-                    "value": 0
+                sulphur: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.sulphur"),
+                    value: 0
                 },
-                "mercury": {
-                    "label": "Mercury",
-                    "value": 0
+                mercury: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.mercury"),
+                    value: 0
                 }
             },
-            "attrTop": {
-                "harm": {
-                    "label": "Harm",
-                    "description": "Choose to take 1 wound instead of 1 harm",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Clock",
-                    "value": 0,
-                    "max": 5,
-                    "steps": [
+            attrTop: {
+                harm: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.harm.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.harm.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Clock",
+                    value: 0,
+                    max: 5,
+                    steps: [
                         false,
                         false,
                         false,
@@ -57,161 +57,164 @@ export const configSheet = async () => {
                         false
                     ]
                 },
-                "contamination": {
-                    "label": "Contamination",
-                    "description": "When all are marked raise Blood & clear Contamination",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Clock",
-                    "value": 0,
-                    "max": 3,
-                    "steps": [
+                contamination: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.contamination.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.contamination.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Clock",
+                    value: 0,
+                    max: 3,
+                    steps: [
                         false,
                         false,
                         false
                     ]
                 },
-                "blood": {
-                    "label": "Blood",
-                    "description": "When Blood increases, take a blood advance",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Number",
-                    "value": 0
+                blood: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.blood.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.blood.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Number",
+                    value: 0
                 }
             },
-            "attrLeft": {
-                "wounds": {
-                    "label": "Wounds",
-                    "description": "Take 1 wound instead of 1 harm.",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "ListMany",
-                    "condition": false,
-                    "options": {
-                        "0": {
-                            "label": "Minor Wound",
-                            "value": false
+            attrLeft: {
+                wounds: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.wounds.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.wounds.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "ListMany",
+                    condition: false,
+                    options: {
+                        0: {
+                            label: game.i18n.localize("RoB.CharacterSheets.attr.wounds.options.0"),
+                            value: false
                         },
-                        "1": {
-                            "label": "Major Wound",
-                            "value": false
+                        1: {
+                            label: game.i18n.localize("RoB.CharacterSheets.attr.wounds.options.1"),
+                            value: false
                         },
-                        "2": {
-                            "label": "Deadly Wound",
-                            "value": false
+                        2: {
+                            label: game.i18n.localize("RoB.CharacterSheets.attr.wounds.options.2"),
+                            value: false
                         }
                     }
                 },
-                "bloodAdv": {
-                    "label": "Blood Advances",
-                    "description": "",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "ListMany",
-                    "condition": false,
-                    "options": {
-                        "0": {
-                            "label": "Get +1 to a stat (max 3)",
-                            "value": false,
-                            "values": {
-                                "0": {
-                                    "value": false
+                bloodAdv: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.bloodAdv.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.bloodAdv.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "ListMany",
+                    condition: false,
+                    options: {
+                        0: {
+                            label: game.i18n.localize("RoB.CharacterSheets.attr.bloodAdv.options.0"),
+                            value: false,
+                            values: {
+                                0: {
+                                    value: false
                                 },
-                                "1": {
-                                    "value": false
+                                1: {
+                                    value: false
                                 }
                             }
                         },
-                        "1": {
-                            "label": "Get a Blood Gift",
-                            "value": false,
-                            "values": {
-                                "0": {
-                                    "value": false
+                        1: {
+                            label: game.i18n.localize("RoB.CharacterSheets.attr.bloodAdv.options.1"),
+                            value: false,
+                            values: {
+                                0: {
+                                    value: false
                                 },
-                                "1": {
-                                    "value": false
+                                1: {
+                                    value: false
                                 }
                             }
                         }
                     }
                 }
             },
-            "moveTypes": {
-                "playbook": {
-                    "label": "Playbook Moves",
-                    "moves": []
+            moveTypes: {
+                playbook: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.playbook"),
+                    moves: []
                 },
-                "blood": {
-                    "label": "Blood Gifts",
-                    "moves": []
+                blood: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.blood"),
+                    moves: []
                 },
-                "exploration": {
-                    "label": "Exploration Moves",
-                    "moves": []
+                exploration: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.exploration"),
+                    moves: [],
+                    creation: true
                 },
-                "confrontation": {
-                    "label": "Confrontation Moves",
-                    "moves": []
+                confrontation: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.confrontation"),
+                    moves: [],
+                    creation: true
                 },
-                "covenants": {
-                    "label": "Covenant Moves",
-                    "moves": []
+                covenants: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.covenants"),
+                    moves: [],
+                    creation: true
                 },
-                "bloodline": {
-                    "label": "Bloodline Moves",
-                    "moves": []
+                bloodline: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.bloodline"),
+                    moves: []
                 },
-                "generations": {
-                    "label": "The Passing of Generations",
-                    "moves": []
+                generations: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.generations"),
+                    moves: []
                 }
             },
-            "equipmentTypes": {
-                "armor": {
-                    "label": "Armor",
-                    "moves": []
+            equipmentTypes: {
+                armor: {
+                    label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.armor"),
+                    moves: []
                 },
-                "gear": {
-                    "label": "Gear",
-                    "moves": []
+                gear: {
+                    label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.gear"),
+                    moves: []
                 },
-                "covenants": {
-                    "label": "Covenants",
-                    "moves": []
+                covenants: {
+                    label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.covenants"),
+                    moves: []
                 }
             }
         },
-        "founder": {
-            "stats": {
-                "iron": {
-                    "label": "Iron",
-                    "value": 0
+        founder: {
+            stats: {
+                iron: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.iron"),
+                    value: 0
                 },
-                "glass": {
-                    "label": "Glass",
-                    "value": 0
+                glass: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.glass"),
+                    value: 0
                 },
-                "sulphur": {
-                    "label": "Sulphur",
-                    "value": 0
+                sulphur: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.sulphur"),
+                    value: 0
                 },
-                "mercury": {
-                    "label": "Mercury",
-                    "value": 0
+                mercury: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.mercury"),
+                    value: 0
                 }
             },
-            "attrLeft": {
-                "harm": {
-                    "label": "Harm",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Clock",
-                    "value": 0,
-                    "max": 5,
-                    "steps": [
+            attrLeft: {
+                harm: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.harm.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Clock",
+                    value: 0,
+                    max: 5,
+                    steps: [
                         false,
                         false,
                         false,
@@ -219,158 +222,162 @@ export const configSheet = async () => {
                         false
                     ]
                 },
-                "contamination": {
-                    "label": "Contamination",
-                    "description": "When all are marked raise Blood & clear Contamination",
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Clock",
-                    "value": 0,
-                    "max": 3,
-                    "steps": [
+                contamination: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.contamination.label"),
+                    description: game.i18n.localize("RoB.CharacterSheets.attr.contamination.description"),
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Clock",
+                    value: 0,
+                    max: 3,
+                    steps: [
                         false,
                         false,
                         false
                     ]
                 },
-                "blood": {
-                    "label": "Blood",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "Number",
-                    "value": 0
+                blood: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.blood.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "Number",
+                    value: 0
                 }
             },
-            "moveTypes": {
-                "exploration": {
-                    "label": "Exploration Moves",
-                    "moves": []
+            moveTypes: {
+                exploration: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.exploration"),
+                    moves: [],
+                    creation: true
                 },
-                "confrontation": {
-                    "label": "Confrontation Moves",
-                    "moves": []
+                confrontation: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.confrontation"),
+                    moves: [],
+                    creation: true
                 },
-                "covenants": {
-                    "label": "Covenant Moves",
-                    "moves": []
+                covenants: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.covenants"),
+                    moves: []
                 },
-                "bloodline": {
-                    "label": "Bloodline Moves",
-                    "moves": []
+                bloodline: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.bloodline"),
+                    moves: []
                 }
             },
-            "equipmentTypes": {
-                "gear": {
-                    "label": "Gear",
-                    "moves": []
+            equipmentTypes: {
+                gear: {
+                    label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.gear"),
+                    moves: []
                 },
             },
-            "baseType": "character"
+            baseType: "character"
         },
-        "bloodline": {
-            "stats": {
-                "chalices": {
-                    "label": "Chalices",
-                    "value": 0
+        bloodline: {
+            stats: {
+                chalices: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.chalices"),
+                    value: 0
                 },
-                "swords": {
-                    "label": "Swords",
-                    "value": 0
+                swords: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.swords"),
+                    value: 0
                 },
-                "relics": {
-                    "label": "Relics",
-                    "value": 0
+                relics: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.relics"),
+                    value: 0
                 },
-                "wands": {
-                    "label": "Wands",
-                    "value": 0
+                wands: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.wands"),
+                    value: 0
                 },
-                "coins": {
-                    "label": "Coins",
-                    "value": 0
+                coins: {
+                    label: game.i18n.localize("RoB.CharacterSheets.stats.coins"),
+                    value: 0
                 }
             },
-            "attrLeft": {
-                "style": {
-                    "label": "Style",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "LongText",
-                    "value": ""
+            attrLeft: {
+                style: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.style.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "LongText",
+                    value: ""
                 },
-                "lore": {
-                    "label": "Lore",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "LongText",
-                    "value": ""
+                lore: {
+                    label: game.i18n.localize("RoB.CharacterSheets.attr.lore.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "LongText",
+                    value: ""
                 }
             },
-            "moveTypes": {
-                "bloodline": {
-                    "label": "Bloodline Moves",
-                    "moves": []
+            moveTypes: {
+                bloodline: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.bloodline"),
+                    moves: [],
+                    creation: true
                 },
-                "generations": {
-                    "label": "The Passing of Generations",
-                    "moves": []
+                generations: {
+                    label: game.i18n.localize("RoB.CharacterSheets.moveTypes.generations"),
+                    moves: [],
+                    creation: true
                 }
             },
-            "equipmentTypes": {
-                "pacts": {
-                    "label": "Pacts",
-                    "moves": []
+            equipmentTypes: {
+                pacts: {
+                    label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.pacts"),
+                    moves: []
                 }
             },
-            "baseType": "character"
+            baseType: "character"
         },
-        "npc": {
-            "attrLeft": {
-                "type": {
-                    "label": "Type",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "ListMany",
-                    "condition": false,
-                    "options": {
-                        "0": {
-                            "label": "Minion",
-                            "value": false
+        npc: {
+            attrLeft: {
+                type: {
+                    label: game.i18n.localize("RoB.NPCSheets.attr.type.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "ListMany",
+                    condition: false,
+                    options: {
+                        0: {
+                            label: game.i18n.localize("RoB.NPCSheets.attr.type.options.0"),
+                            value: false
                         },
-                        "1": {
-                            "label": "Significant Foe",
-                            "value": false
+                        1: {
+                            label: game.i18n.localize("RoB.NPCSheets.attr.type.options.1"),
+                            value: false
                         }
                     }
                 },
-                "description": {
-                    "label": "Description",
-                    "description": null,
-                    "customLabel": false,
-                    "userLabel": false,
-                    "type": "LongText",
-                    "value": ""
+                description: {
+                    label: game.i18n.localize("RoB.NPCSheets.attr.description.label"),
+                    description: null,
+                    customLabel: false,
+                    userLabel: false,
+                    type: "LongText",
+                    value: ""
                 }
             },
-            "moveTypes": {
-                "reactions": {
-                    "label": "Reactions",
-                    "moves": []
+            moveTypes: {
+                reactions: {
+                    label: game.i18n.localize("RoB.NPCSheets.moveTypes.reactions"),
+                    moves: []
                 }
             }
         }
     }
 };
   
-  // Settings for Rhapsody of Blood
-  await game.settings.set('pbta', 'advForward', true);
-  await game.settings.set('pbta', 'hideRollFormula', true);
-  await game.settings.set('pbta', 'hideForward', true);
-  await game.settings.set('pbta', 'hideOngoing', true);
-  await game.settings.set('pbta', 'hideRollMode', false);
-  await game.settings.set('pbta', 'hideUses', true);
+    // Settings for Rhapsody of Blood
+    await game.settings.set('pbta', 'advForward', true);
+    await game.settings.set('pbta', 'hideRollFormula', true);
+    await game.settings.set('pbta', 'hideForward', true);
+    await game.settings.set('pbta', 'hideOngoing', true);
+    await game.settings.set('pbta', 'hideRollMode', false);
+    await game.settings.set('pbta', 'hideUses', true);
 };

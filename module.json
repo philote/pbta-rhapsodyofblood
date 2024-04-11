@@ -14,7 +14,6 @@
       "name": "ephson",
       "url": "https://github.com/philote",
       "discord": "ephson",
-      "mastodon": "@ephson@dice.camp",
       "reddit": "u/ephson"
     }
   ],
@@ -25,7 +24,7 @@
         "type": "system",
         "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
         "compatibility": {
-            "verified": "0.9.0"
+            "verified": "0.9.4"
         }
       }
     ]

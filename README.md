@@ -8,11 +8,12 @@
 <!--- Forge Bazaar Install % Badge -->
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpbta-rhapsodyofblood&colorB=4aa94a)
 
-An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) (a [Worlds of Legacy](https://ufopress.co.uk/worlds-of-legacy/) game from [UFO Press](https://ufopress.co.uk/)) providing custom sheets and compendiums for Foundry VTT, to be used with the [Powered by the Apocalypse](https://gitlab.com/asacolips-projects/foundry-mods/pbta) Foundry system package (by Asacolips).
+An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) (a [Worlds of Legacy](https://ufopress.co.uk/worlds-of-legacy/) game from [UFO Press](https://ufopress.co.uk/)) providing custom sheets and compendiums for Foundry VTT, to be used with the [Powered by the Apocalypse](https://github.com/asacolips-projects/pbta) Foundry system package (by Asacolips).
 
 ## Dependencies
 
-The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://foundryvtt.com/packages/pbta).
+The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://github.com/asacolips-projects/pbta).
+
 
 ## Features
 

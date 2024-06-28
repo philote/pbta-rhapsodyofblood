@@ -47,6 +47,7 @@ $c-tab-hover-bg: $c-sheet-text;
 }
 
 .vtt .window-app {
+    background: none;
     background-color: $c-dark-bg;
     color: $c-sheet-text;
 
@@ -122,7 +123,8 @@ form .notes, form .hint {
     background: none;
 }
 
-.vtt .window-content {
+.vtt :not(.application,.image-popout,.journal-sheet,.sidebar-popout) .window-content, 
+.vtt .journal-entry-page .window-content, .vtt .window-content .journal-entry-content {
     background: none;
     background-color: $c-sheet-bg;
     color: $c-sheet-text;
@@ -133,6 +135,7 @@ form .notes, form .hint {
     min-height: 600px;
     min-width: 650px;
 }
+
 .pbta.sheet {
 
     .cell__title.error, .pbta.sheet .cell__title.warning {
@@ -278,8 +281,8 @@ form .notes, form .hint {
                 background-color: #181818;
                 color: #efe2ba;
                 border: 1px solid #3f3c2f;
-                height: 320px;
-            }
+                // min-height: 320px;
+            }            
 
             .sheet-look::before {
                 background: $c-sheet-border-pri;
@@ -517,28 +520,37 @@ form .notes, form .hint {
 
 }
 
-.pbta.sheet.npc {
+.pbta.sheet.actor.character {
+    .sheet-wrapper {
+        .sheet-bottom {    
+            .cell.cell--bio {
+                min-height: 100px;
+                margin-bottom: 5px;
 
-    :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
-       display: none;
-    }
+                .editor {
+                    .editor-content {
+                      min-height: 80px;
+                    }
+                }
+    
+                &:nth-child(2) {
+                    min-height: 200px !important;
+    
+                    .editor {
+                        .editor-content {
+                          min-height: 180px !important;
+                        }
+                    }
+                } 
+            }
+            .sheet-tab > .cell--bio:last-child {
+                min-height: 320px;
 
-    .sheet-main {
-        display: -webkit-box;
-    }
-
-    .sheet-wrapper .sheet-header {
-        width: 100%; 
-    }
-
-    .sheet-main--npc {
-        padding: 10px 10px 0 10px;
-        border-top: 1px solid $c-sheet-border-pri;
-        margin: 0;
-    }
-
-    .sheet-attributes-top {
-        display: none;
+                .editor .editor-content {
+                    min-height: 300px;
+                }
+            }
+        }
     }
 }
 

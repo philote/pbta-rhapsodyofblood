@@ -3,11 +3,10 @@
   "title": "Rhapsody of Blood (PbtA)",
   "description": "Unofficial Rhapsody of Blood RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
-  "library": "false",
   "compatibility": {
     "minimum": 11,
-    "verified": 11.315,
-    "maximum": 11
+    "verified": 12.327,
+    "maximum": 12
   },
   "authors": [
     {
@@ -22,9 +21,8 @@
       {
         "id": "pbta",
         "type": "system",
-        "manifest": "https://asacolips-artifacts.s3.amazonaws.com/pbta/master/system.json",
         "compatibility": {
-            "verified": "0.9.4"
+            "minimum": "0.9.4"
         }
       }
     ]
@@ -112,22 +110,16 @@
         "ASSISTANT": "OWNER",
         "GAMEMASTER": "OWNER"
       }
-    },
-    {
-      "name": "characters",
-      "label": "Characters",
-      "module": "pbta-rhapsodyofblood",
-      "system": "pbta",
-      "path": "packs/characters",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "TRUSTED": "OBSERVER",
-        "ASSISTANT": "OWNER",
-        "GAMEMASTER": "OWNER"
-      }
     }
   ],
+  "documentTypes": {
+    "Item": {
+      "covenant": {
+        "htmlFields": ["formed", "strengthen", "weaken"]
+      },
+      "pact": {}
+    }
+  },
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",

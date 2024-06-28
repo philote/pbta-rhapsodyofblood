@@ -17,6 +17,10 @@
                 "wands": "Wands",
                 "coins": "Coins"
             }, 
+            "details": {
+                "look": "Look",
+                "biography": "Biography"
+            },
             "attr": {
                 "harm": {
                     "label": "Harm",
@@ -44,7 +48,8 @@
                     "description": "",
                     "options": {
                         "0": "Get +1 to a stat (max 3)",
-                        "1": "Get a Blood Gift"
+                        "1": "Get a Blood Gift",
+                        "2": "Retire your character; they may return as an Acolyte."
                     }
                 },
                 "style": {
@@ -55,12 +60,12 @@
                 }
             },
             "moveTypes": {
-                "playbook": "Playbook Moves",
+                "playbook": "Playbook",
+                "exploration": "Exploration",
+                "confrontation": "Confrontation",
+                "covenants": "Covenant",
                 "blood": "Blood Gifts",
-                "exploration": "Exploration Moves",
-                "confrontation": "Confrontation Moves",
-                "covenants": "Covenant Moves",
-                "bloodline": "Bloodline Moves",
+                "bloodline": "Bloodline",
                 "generations": "The Passing of Generations"
             },
             "equipmentTypes": {

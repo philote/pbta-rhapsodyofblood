@@ -2,7 +2,7 @@
 
 ![Cover](assets/cover.webp)
 
-![](https://img.shields.io/badge/Foundry-v11-informational)
+![](https://img.shields.io/badge/Foundry-v12-informational)
 <!--- Downloads @ Latest Badge -->
 ![Latest Release Download Count](https://img.shields.io/github/downloads/philote/pbta-rhapsodyofblood/latest/module.zip)
 <!--- Forge Bazaar Install % Badge -->

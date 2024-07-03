@@ -7,7 +7,7 @@
     "name": "",
     "description": "<p><em><strong>When you call on your reputation in a community that knows your legend, </strong></em>roll <strong>+Chalices </strong>on Reinforcements instead of <strong>+Coins</strong>.</p>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -31,7 +31,8 @@
     "playbook": "The Legendary Heroes",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700028892217,
-    "modifiedTime": 1700093201214,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719521835944,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "KcMghtefTj6qgU9R",
   "sort": 100000,

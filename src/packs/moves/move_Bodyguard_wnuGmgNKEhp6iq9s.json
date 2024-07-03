@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 8\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Your explorer has a skilled companion to back them up in <strong>the castle</strong>. Pick one when you create your explorer:</p>\n<p><input type=\"checkbox\">Your companion fights beside you, giving your attacks the cleave tag.</p>\n<p><input type=\"checkbox\">Your companion protects you, giving you advantage on Withstand.</p>\n<p><input type=\"checkbox\">Your companion heals you: whenever you Shelter, heal 4 Harm.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Hidden Hand",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700094137399,
-    "modifiedTime": 1700110664468,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521741683,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!wnuGmgNKEhp6iq9s"
 }

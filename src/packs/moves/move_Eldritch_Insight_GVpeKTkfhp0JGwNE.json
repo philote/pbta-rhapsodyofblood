@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You have learned how to turn <strong>the castle&rsquo;s</strong> burgeoning power towards your own ends. <em><strong>Whenever the Regent&rsquo;s clock ticks down</strong></em>, gain a Relic.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Magi",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700094636765,
-    "modifiedTime": 1700110859469,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521540810,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!GVpeKTkfhp0JGwNE"
 }

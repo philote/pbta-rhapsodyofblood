@@ -5,7 +5,84 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Saint</strong> (FOUNDER OF THE HOLY CHURCH) <br><em> You may not be trained in occult lore, or mortal combat. But you know evil, and you know good. So long as good people stand against evil, you will be there with them to keep them safe. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> +1</li>\n<li><strong>Glass</strong> +2</li>\n<li><strong>Sulphur</strong> -1</li>\n<li><strong>Mercury</strong> 0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Ancient and venerable; young and naive; grizzled survivor.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Irene, Timothy, Marija, Dobroslav, Zhang,Costin, Malina.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<h4>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.oQZI0a3WrzBnwQpw]{Sling}</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.o2pe8E02d6JqZXL2]{Ceremonial Staff}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders joined your flock and helped spread your healing truth.</em></strong> Give their bloodline 2-pact on you. You say how you blessed them, they say what doubts remain.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9EneFOn9eOkZ7OXw]{Holy Vanguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.ZGzjsYJG2OD65Use]{Martyrdom}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.nWfci47AqmFT5QUu]{Shield of Faith}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.3AFCQn2T31Yr0MrN]{Stoke The Flame}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.xuANBSfW5O7tdZwR]{The Flesh is Weak}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KYdNRMlQTyxEvmRn]{Shelter (Holy Church)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Saint</strong> (FOUNDER OF THE HOLY CHURCH) <br><em> You may not be trained in occult lore, or mortal combat. But you know evil, and you know good. So long as good people stand against evil, you will be there with them to keep them safe. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> +1</li>\n<li><strong>Glass</strong> +2</li>\n<li><strong>Sulphur</strong> -1</li>\n<li><strong>Mercury</strong> 0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Ancient and venerable; young and naive; grizzled survivor.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Irene, Timothy, Marija, Dobroslav, Zhang,Costin, Malina.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<h4>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.oQZI0a3WrzBnwQpw]{Sling}</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.o2pe8E02d6JqZXL2]{Ceremonial Staff}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders joined your flock and helped spread your healing truth.</em></strong> Give their bloodline 2-pact on you. You say how you blessed them, they say what doubts remain.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9EneFOn9eOkZ7OXw]{Holy Vanguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.ZGzjsYJG2OD65Use]{Martyrdom}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.nWfci47AqmFT5QUu]{Shield of Faith}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.3AFCQn2T31Yr0MrN]{Stoke The Flame}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.xuANBSfW5O7tdZwR]{The Flesh is Weak}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KYdNRMlQTyxEvmRn]{Shelter (Holy Church)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "actorType": "character",
+    "stats": {
+      "iron": {
+        "label": "Iron",
+        "value": 1
+      },
+      "glass": {
+        "label": "Glass",
+        "value": 2
+      },
+      "sulphur": {
+        "label": "Sulphur",
+        "value": -1
+      },
+      "mercury": {
+        "label": "Mercury",
+        "value": 0
+      }
+    },
+    "slug": "the-saint",
+    "attributes": {
+      "look": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Ancient and venerable; young and naive; grizzled survivor.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": "Choose one:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2>FOUNDER OF THE HOLY CHURCH</h2>      <p><em>You may not be trained in occult lore, or mortal combat. But you know evil, and you know good. So long as good people stand against evil, you will be there with them to keep them safe.</em></p>      <h2>HISTORY</h2>      <p><strong><em>One of the other founders joined your flock and helped spread your healing truth.</em></strong> Give their bloodline 2-pact on you. You say how you blessed them, they say what doubts remain.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Weapon",
+        "desc": "Choose one:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.gear.Item.o2pe8E02d6JqZXL2",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/ceremonal-staff.svg",
+            "name": "Ceremonial Staff",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "name": "Sling",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/sling.svg",
+            "uuid": "Compendium.pbta-rhapsodyofblood.gear.Item.oQZI0a3WrzBnwQpw",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +94,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700027729013,
-    "modifiedTime": 1700100098731,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719524214786,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "EH5rGZJjCEFefs4c",
   "sort": 100000,

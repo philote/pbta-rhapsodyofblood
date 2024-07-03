@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "sulphur",
     "rollMod": 0,
-    "choices": "<ul>\n<li>Mark <em><strong>contamination</strong></em>.</li>\n<li>Forget the spell.</li>\n<li>Take 1 Harm.</li>\n</ul>"
+    "choices": "<ul>\n<li>Mark <em><strong>contamination</strong></em>.</li>\n<li>Forget the spell.</li>\n<li>Take 1 Harm.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698565760377,
-    "modifiedTime": 1700091870437,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404174,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "80yr397wJs0sMXTG",
   "sort": 800000,

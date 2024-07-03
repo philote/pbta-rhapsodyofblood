@@ -13,7 +13,8 @@
     "tags": "[{\"value\":\"stun\"},{\"value\":\"painful\"}]",
     "tagsString": "stun, painful",
     "itemType": null,
-    "equipmentType": "gear"
+    "equipmentType": "gear",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -25,11 +26,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698557690817,
-    "modifiedTime": 1700109615490,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719435403619,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "WadmjjZGkLhP7veG",
   "sort": 1700000,

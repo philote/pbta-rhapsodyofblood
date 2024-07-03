@@ -251,6 +251,24 @@ export const configSheet = async () => {
                         type: "LongText",
                         playbook: true,
                         value: ""
+                    },
+                    pact: {
+                        label: game.i18n.localize("RoB.CharacterSheets.attr.pact.label"),
+                        description: game.i18n.localize("RoB.CharacterSheets.attr.pact.description"),
+                        customLabel: false,
+                        userLabel: false,
+                        type: "LongText",
+                        playbook: true,
+                        value: ""
+                    },
+                    pactInfo: {
+                        label: game.i18n.localize("RoB.CharacterSheets.attr.pact.info"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "LongText",
+                        playbook: true,
+                        value: ""
                     }
                 },
                 details: {
@@ -280,11 +298,7 @@ export const configSheet = async () => {
                         creation: true
                     }
                 },
-                equipmentTypes: {
-                    pacts: {
-                        label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.pacts")
-                    }
-                },
+                equipmentTypes: {},
                 baseType: "character"
             },
             npc: {

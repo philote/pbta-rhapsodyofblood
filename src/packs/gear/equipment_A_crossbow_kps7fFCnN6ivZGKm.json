@@ -13,7 +13,8 @@
     "tags": "[{\"value\":\"reload\"},{\"value\":\"ranged\"}]",
     "tagsString": "reload, ranged",
     "itemType": null,
-    "equipmentType": "gear"
+    "equipmentType": "gear",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -25,11 +26,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698557424792,
-    "modifiedTime": 1700109606507,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719435403723,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "kps7fFCnN6ivZGKm",
   "sort": 3200000,

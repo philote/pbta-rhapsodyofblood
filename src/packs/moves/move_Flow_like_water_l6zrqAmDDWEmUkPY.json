@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "mercury",
     "rollMod": 0,
-    "choices": "<ul>\n<li>You&rsquo;re where you need to be.</li>\n<li>Another explorer has a clear&nbsp;path to you.</li>\n<li>A particular threat isn&rsquo;t a&nbsp;problem any longer.</li>\n</ul>"
+    "choices": "<ul>\n<li>You&rsquo;re where you need to be.</li>\n<li>Another explorer has a clear&nbsp;path to you.</li>\n<li>A particular threat isn&rsquo;t a&nbsp;problem any longer.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698566150145,
-    "modifiedTime": 1700091927033,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404701,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "l6zrqAmDDWEmUkPY",
   "sort": 300000,

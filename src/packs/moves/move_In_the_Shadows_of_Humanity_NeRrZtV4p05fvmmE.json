@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 4\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Human society may recoil from you, but that doesn&rsquo;t mean you&rsquo;re powerless. If you intimidate people into helping you or appeal to their baser urges, roll <strong>+Swords</strong> on Reinforcements instead of <strong>+Coins</strong>.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Half-Damned",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700092734425,
-    "modifiedTime": 1700110605547,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521698691,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!NeRrZtV4p05fvmmE"
 }

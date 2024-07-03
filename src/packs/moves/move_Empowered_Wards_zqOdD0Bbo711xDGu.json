@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When you roll 10+ on Resist Doom, your ritual lingers providing active opposition to the Regent. The next time their clock would tick down, it&rsquo;s stopped from doing so.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Magi",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700094596545,
-    "modifiedTime": 1700110851871,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521535123,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!zqOdD0Bbo711xDGu"
 }

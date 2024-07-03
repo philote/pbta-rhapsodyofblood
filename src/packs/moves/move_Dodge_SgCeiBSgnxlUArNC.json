@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "mercury",
     "rollMod": 0,
-    "choices": "<ul>\n<li>You avoid taking harm.</li>\n<li>You avoid getting separated from the others or losing something valuable.</li>\n<li>The foe&rsquo;s heedless in pursuit of you: create an Opening.</li>\n</ul>"
+    "choices": "<ul>\n<li>You avoid taking harm.</li>\n<li>You avoid getting separated from the others or losing something valuable.</li>\n<li>The foe&rsquo;s heedless in pursuit of you: create an Opening.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698630651374,
-    "modifiedTime": 1700091819479,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404463,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "SgCeiBSgnxlUArNC",
   "sort": 200000,

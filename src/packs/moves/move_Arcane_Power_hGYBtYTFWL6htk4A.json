@@ -32,7 +32,8 @@
     "playbook": "",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 100000,
@@ -47,11 +48,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1698631853740,
-    "modifiedTime": 1700117717435,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719520490737,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": "Item.KKy4Q7HvX8TbqwhN",
+    "duplicateSource": null
   },
   "_key": "!items!hGYBtYTFWL6htk4A"
 }

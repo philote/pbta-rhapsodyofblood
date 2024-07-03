@@ -7,7 +7,7 @@
     "name": "",
     "description": "<p><em><strong>When your explorer would inflict the killing blow on an Acolyte,</strong></em> they may stay their hand. If you do, roll <strong>+Chalices</strong>.</p>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -31,7 +31,8 @@
     "playbook": "The Legendary Heroes",
     "rollType": "prompt",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700028778178,
-    "modifiedTime": 1700093206193,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719521842123,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "WxNtFaCV07tf4iA3",
   "sort": 300000,

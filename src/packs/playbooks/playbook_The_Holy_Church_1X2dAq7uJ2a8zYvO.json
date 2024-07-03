@@ -5,7 +5,164 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-white.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Holy Church</strong> draw power from their faith. Whatever the truth of their particular creed they&rsquo;re defenders of humanity able to purge contamination, build protections against evil and provide respite to the afflicted.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Holy Church if you want to be a beacon against contamination. They can guard themselves and others with prayers, and use acts of faith to bring the dead to life. They prize sacrifice, and can spend their life to push back the Regent's evil - and willingly accept contamination to become incredibly powerful. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if you act as a mystery cult, revealing deeper truths only to those who have shown the ability to handle it.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins 1 Wands -1</strong> if you are an offshoot of a grander church, giving you temporal influence but limited ability to dabble in the occult.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 1 Coins -1 Wands 0</strong> if you&rsquo;re a scattered group of devotees resisting persecution in pursuit of righteousness.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> A simple symbol of your faith, fastidious clerical robes, joyous flowing colours.</p>\n<p><strong>Lore:</strong> The whispers of martyrs in your dreams, a holy book filled with ecstatic visions, accumulated folklore from your congregations.</p>\n<p><strong>Name:</strong> The virtue you follow, the mark you wear, your hope for the future.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You saved another bloodline from falling to darkness.</em></strong> Set your pact with them to 1. They say what dark temptation was twisting them into servants of <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> ; you say what you did to redeem them.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF WHITE</h3>\n<p><strong><em>You prize self-sacrifice.</em></strong> At the end of each play session, pick the explorer who risked the most to help others and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1-pact on you to take a Relic from your stores. Describe it, and suggest how it came to be owned by your order.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9EneFOn9eOkZ7OXw]{Holy Vanguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.ZGzjsYJG2OD65Use]{Martyrdom}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.nWfci47AqmFT5QUu]{Shield of Faith}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.3AFCQn2T31Yr0MrN]{Stoke The Flame}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.xuANBSfW5O7tdZwR]{The Flesh is Weak}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KYdNRMlQTyxEvmRn]{Shelter (Holy Church)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>An old church still warded against malign influences.</em></p>\n<p><em>A memorial remembering the dead of the last great war.</em></p>\n<p><em>The home of a believer, where the faithful are waiting out the horrors.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A saint&rsquo;s relics stolen from a desecrated grave.</em></p>\n<p><em>A sin that can only be washed clean through great heroism.</em></p>\n<p><em>A great demon only vulnerable to the righteous.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The tainted chapel, and the supply wagons that bring in sacraments.</em></p>\n<p><em>The burial catacombs, and a crevasse that&rsquo;s opened them to the world.</em></p>\n<p><em>A marble-floored museum, and its ornate skylights.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Holy Church</strong> draw power from their faith. Whatever the truth of their particular creed they&rsquo;re defenders of humanity able to purge contamination, build protections against evil and provide respite to the afflicted.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Holy Church if you want to be a beacon against contamination. They can guard themselves and others with prayers, and use acts of faith to bring the dead to life. They prize sacrifice, and can spend their life to push back the Regent's evil - and willingly accept contamination to become incredibly powerful. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if you act as a mystery cult, revealing deeper truths only to those who have shown the ability to handle it.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins 1 Wands -1</strong> if you are an offshoot of a grander church, giving you temporal influence but limited ability to dabble in the occult.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 1 Coins -1 Wands 0</strong> if you&rsquo;re a scattered group of devotees resisting persecution in pursuit of righteousness.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> A simple symbol of your faith, fastidious clerical robes, joyous flowing colours.</p>\n<p><strong>Lore:</strong> The whispers of martyrs in your dreams, a holy book filled with ecstatic visions, accumulated folklore from your congregations.</p>\n<p><strong>Name:</strong> The virtue you follow, the mark you wear, your hope for the future.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You saved another bloodline from falling to darkness.</em></strong> Set your pact with them to 1. They say what dark temptation was twisting them into servants of <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> ; you say what you did to redeem them.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF WHITE</h3>\n<p><strong><em>You prize self-sacrifice.</em></strong> At the end of each play session, pick the explorer who risked the most to help others and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1-pact on you to take a Relic from your stores. Describe it, and suggest how it came to be owned by your order.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9EneFOn9eOkZ7OXw]{Holy Vanguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.ZGzjsYJG2OD65Use]{Martyrdom}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.nWfci47AqmFT5QUu]{Shield of Faith}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.3AFCQn2T31Yr0MrN]{Stoke The Flame}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.xuANBSfW5O7tdZwR]{The Flesh is Weak}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KYdNRMlQTyxEvmRn]{Shelter (Holy Church)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>An old church still warded against malign influences.</em></p>\n<p><em>A memorial remembering the dead of the last great war.</em></p>\n<p><em>The home of a believer, where the faithful are waiting out the horrors.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A saint&rsquo;s relics stolen from a desecrated grave.</em></p>\n<p><em>A sin that can only be washed clean through great heroism.</em></p>\n<p><em>A great demon only vulnerable to the righteous.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The tainted chapel, and the supply wagons that bring in sacraments.</em></p>\n<p><em>The burial catacombs, and a crevasse that&rsquo;s opened them to the world.</em></p>\n<p><em>A marble-floored museum, and its ornate skylights.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "slug": "the-holy-church",
+    "actorType": "bloodline",
+    "stats": {
+      "chalices": {
+        "label": "Chalices",
+        "value": 0
+      },
+      "swords": {
+        "label": "Swords",
+        "value": 0
+      },
+      "relics": {
+        "label": "Relics",
+        "value": 0
+      },
+      "wands": {
+        "label": "Wands",
+        "value": 0
+      },
+      "coins": {
+        "label": "Coins",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "style": {
+        "label": "Style",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>A simple symbol of your faith, fastidious clerical robes, joyous flowing colours.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "lore": {
+        "label": "Lore",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>The whispers of martyrs in your dreams, a holy book filled with ecstatic visions, accumulated folklore from your congregations.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h3>History</h3>      <p><strong><em>You saved another bloodline from falling to darkness.</em></strong>&nbsp;Set your pact with them to 1. They say what dark temptation was twisting them into servants of&nbsp;<strong>the castle</strong> ; you say what you did to redeem them.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      },
+      "pact": {
+        "label": "Pact",
+        "description": "Ancient agreements binding the bloodlines together.",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "pactInfo": {
+        "label": "Pact Info",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2 class=\"p1\">PACT: THE WAY OF WHITE</h2>      <div class=\"pact-info\">      <p class=\"p2\"><em><strong>You prize self-sacrifice.</strong></em> At the end of each play session, pick the explorer who risked the most to help others and raise their bloodline’s pact with&nbsp;you by 1.</p>      <p class=\"p2\"><em><strong>While at one of your camps,</strong></em> other bloodlines can&nbsp;spend 1-pact on you to take a Relic from your stores. Describe it, and suggest how it came to be&nbsp;owned by your order.</p>      </div>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Shelter Move",
+        "desc": "",
+        "grantOn": 0,
+        "advancement": 0,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.KYdNRMlQTyxEvmRn",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "Shelter (Holy Church)",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "type": "multi",
+        "repeatable": true,
+        "granted": false
+      },
+      {
+        "title": "The Holy Church Moves",
+        "desc": "Pick two:",
+        "grantOn": 1,
+        "advancement": 0,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.9EneFOn9eOkZ7OXw",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "Holy Vanguard",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.ZGzjsYJG2OD65Use",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "Martyrdom",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.nWfci47AqmFT5QUu",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "Shield of Faith",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.3AFCQn2T31Yr0MrN",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "Stoke The Flame",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.xuANBSfW5O7tdZwR",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_holy_church-color.webp",
+            "name": "The Flesh is Weak",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "type": "multi",
+        "repeatable": true,
+        "granted": false
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +174,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700025746626,
-    "modifiedTime": 1700098935244,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719977570881,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "1X2dAq7uJ2a8zYvO",
   "sort": 100000,

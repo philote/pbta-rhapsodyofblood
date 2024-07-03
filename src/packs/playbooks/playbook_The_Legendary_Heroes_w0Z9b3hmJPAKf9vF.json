@@ -5,7 +5,164 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-white.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Legendary Heroes</strong> are a bloodline in the truest sense of the word: a lineage where the virtues of heroism recur again and again. Whether they&rsquo;ve been trained from birth to match the deeds of their forbears or brought to <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> by the winds of fate ignorant of their destiny, they&rsquo;re tenacious and audacious foes of the regent.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Legendary Heroes if you want to be big damn heroes. Their abilities let them take blows for others and reveal secret fighting techniques, but their biggest strength is their heart. They can extend the hand of mercy to defeated acolytes and win their support, raise the morale of the local community and get resources in return, and forge a personal connection with the regent. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 1 Coins 0 Wands -1</strong> if fate and coincidence keep bringing your bloodline to the castle despite their ignorance of mystical matters.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if your bloodline is tested from childhood for martial aptitude and trained to face the castle.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins 1 Wands -1</strong> if your bloodline are world travellers with a fortune built on castle raids.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Stylish contemporary fashion; family crests and heirlooms; rustic or utilitarian clothing.</p>\n<p><strong>Lore:</strong> Picking it up as they go along; ancestor&rsquo;s crumbling journals; oral history passed from parent to child.</p>\n<p><strong>Name:</strong> A noble title; an inherited naming convention; bearers of the ________.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>One bloodline&rsquo;s legends taught you how to be heroes.</em></strong> Set your pact with them to 1. You say what legend you&rsquo;ve heard, they say what secret failure the legend left out.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF GOLD</h3>\n<p><strong><em>You prize heroism and valour.</em></strong> At the end of each play session, pick the explorer whose heroism most impressed you and raise their pact with your bloodline by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> members of other bloodlines can spend 1-pact to gain a weapon from your stores. Give it two perks and a flaw, and describe its history.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.47k1BLGvRSFiHIbL]{Audacious}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WxNtFaCV07tf4iA3]{Defeat Means Friendship}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KcMghtefTj6qgU9R]{Our Town}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.JeW53DNKaB6tjgyV]{Secret Technique}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.L3y8aeTeM8MXmZ7n]{The Will to Fight}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.vIAR2MirwF9Pigb3]{Shelter (Legendary Heroes)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A inn or cafe where your sister plays music.</em></p>\n<p><em>A general shop run by your grandfather.</em></p>\n<p><em>A club, park or back alley where friendly gangs hang out.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>Your love, kidnapped by the Regent</em></p>\n<p><em>Your parent, cursed to waste away</em></p>\n<p><em>A neighborhood, devastated by monsters.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>A grand door and a sturdy boot.</em></p>\n<p><em>A great stained glass window and a hefted brick.</em></p>\n<p><em>A high wall and a knotted rope.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Legendary Heroes</strong> are a bloodline in the truest sense of the word: a lineage where the virtues of heroism recur again and again. Whether they&rsquo;ve been trained from birth to match the deeds of their forbears or brought to <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> by the winds of fate ignorant of their destiny, they&rsquo;re tenacious and audacious foes of the regent.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Legendary Heroes if you want to be big damn heroes. Their abilities let them take blows for others and reveal secret fighting techniques, but their biggest strength is their heart. They can extend the hand of mercy to defeated acolytes and win their support, raise the morale of the local community and get resources in return, and forge a personal connection with the regent. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 1 Coins 0 Wands -1</strong> if fate and coincidence keep bringing your bloodline to the castle despite their ignorance of mystical matters.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if your bloodline is tested from childhood for martial aptitude and trained to face the castle.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins 1 Wands -1</strong> if your bloodline are world travellers with a fortune built on castle raids.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Stylish contemporary fashion; family crests and heirlooms; rustic or utilitarian clothing.</p>\n<p><strong>Lore:</strong> Picking it up as they go along; ancestor&rsquo;s crumbling journals; oral history passed from parent to child.</p>\n<p><strong>Name:</strong> A noble title; an inherited naming convention; bearers of the ________.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>One bloodline&rsquo;s legends taught you how to be heroes.</em></strong> Set your pact with them to 1. You say what legend you&rsquo;ve heard, they say what secret failure the legend left out.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF GOLD</h3>\n<p><strong><em>You prize heroism and valour.</em></strong> At the end of each play session, pick the explorer whose heroism most impressed you and raise their pact with your bloodline by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> members of other bloodlines can spend 1-pact to gain a weapon from your stores. Give it two perks and a flaw, and describe its history.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.47k1BLGvRSFiHIbL]{Audacious}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WxNtFaCV07tf4iA3]{Defeat Means Friendship}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.KcMghtefTj6qgU9R]{Our Town}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.JeW53DNKaB6tjgyV]{Secret Technique}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.L3y8aeTeM8MXmZ7n]{The Will to Fight}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.vIAR2MirwF9Pigb3]{Shelter (Legendary Heroes)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A inn or cafe where your sister plays music.</em></p>\n<p><em>A general shop run by your grandfather.</em></p>\n<p><em>A club, park or back alley where friendly gangs hang out.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>Your love, kidnapped by the Regent</em></p>\n<p><em>Your parent, cursed to waste away</em></p>\n<p><em>A neighborhood, devastated by monsters.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>A grand door and a sturdy boot.</em></p>\n<p><em>A great stained glass window and a hefted brick.</em></p>\n<p><em>A high wall and a knotted rope.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "slug": "the-legendary-heroes",
+    "actorType": "bloodline",
+    "stats": {
+      "chalices": {
+        "label": "Chalices",
+        "value": 0
+      },
+      "swords": {
+        "label": "Swords",
+        "value": 0
+      },
+      "relics": {
+        "label": "Relics",
+        "value": 0
+      },
+      "wands": {
+        "label": "Wands",
+        "value": 0
+      },
+      "coins": {
+        "label": "Coins",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "style": {
+        "label": "Style",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Stylish contemporary fashion; family crests and heirlooms; rustic or utilitarian clothing.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "lore": {
+        "label": "Lore",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Picking it up as they go along; ancestor’s crumbling journals; oral history passed from parent to child.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h3>History</h3>      <p><strong><em>One bloodline’s legends taught you how to be heroes.</em></strong> Set your pact with them to 1. You say what legend you’ve heard, they say what secret failure the legend left out.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      },
+      "pact": {
+        "label": "Pact",
+        "description": "Ancient agreements binding the bloodlines together.",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "pactInfo": {
+        "label": "Pact Info",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2 class=\"p1\">PACT: THE WAY OF GOLD</h2>      <div class=\"pact-info\">      <p class=\"p2\"><em><strong>You prize heroism and valour.</strong></em> At the end of each&nbsp;play session, pick the explorer whose heroism&nbsp;most impressed you and raise their pact with your&nbsp;bloodline by 1.</p>      <p class=\"p2\"><em><strong>While at one of your camps,</strong></em> members of other bloodlines can spend 1-pact to gain a weapon from your stores. Give it two perks and a flaw, and&nbsp;describe its history.</p>      </div>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Shelter Move",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.vIAR2MirwF9Pigb3",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "name": "Shelter (Legendary Heroes)",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "The Legendary Heroes Moves",
+        "desc": "Pick two:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.47k1BLGvRSFiHIbL",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "name": "Audacious",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.WxNtFaCV07tf4iA3",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "name": "Defeat Means Friendship",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.KcMghtefTj6qgU9R",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "name": "Our Town",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.JeW53DNKaB6tjgyV",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "name": "Secret Technique",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "name": "The Will to Fight",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/legendary_heroes-color.webp",
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.L3y8aeTeM8MXmZ7n",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +174,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1699063424383,
-    "modifiedTime": 1700098993534,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719977515388,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "w0Z9b3hmJPAKf9vF",
   "sort": 200000,

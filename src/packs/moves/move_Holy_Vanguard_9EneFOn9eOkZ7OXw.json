@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 6\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>You are vigilant protectors of the mundane. <em><strong>When an Acolyte ventures out to attack the mortal world</strong></em>, your explorer can spend 1 Travel the Labyrinth hold to immediately intervene and confront them.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Holy Church",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700093536300,
-    "modifiedTime": 1700110761741,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521799334,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!9EneFOn9eOkZ7OXw"
 }

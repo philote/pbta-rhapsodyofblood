@@ -10,6 +10,9 @@
 
 An unofficial ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) (a [Worlds of Legacy](https://ufopress.co.uk/worlds-of-legacy/) game from [UFO Press](https://ufopress.co.uk/)) providing custom sheets and compendiums for Foundry VTT, to be used with the [Powered by the Apocalypse](https://github.com/asacolips-projects/pbta) Foundry system package (by Asacolips).
 
+![Screenshot](assets/screenshot.webp)
+![Screenshot](assets/screenshot-2.webp)
+
 ## Dependencies
 
 The following Foundry VTT game system must be installed to use this module: [Powered by the Apocalypse](https://github.com/asacolips-projects/pbta).
@@ -17,14 +20,14 @@ The following Foundry VTT game system must be installed to use this module: [Pow
 
 ## Features
 
-- Designed sheets for Explorers, Founders, & Bloodlines.
+- Designed sheets for Explorers & Bloodlines.
 - Compendiums with:
     - Playbooks for Explorers, Founders, & Bloodlines
     - All the Moves to play the game
     - Gear & Armor
     - Actor templates for the Explorer, Founder, & Bloodline sheets ready to use
-
-![Screenshot](assets/screenshot.webp)
+- PbtA Playbook automation
+- Tabs for Covenants and Pacts
 
 This software includes ideas, text and images from ["Rhapsody of Blood RPG"](https://ufopress.co.uk/product/rhapsody/) by [Minerva McJanda (Formerly known as Jay Iles)](https://ufopress.co.uk/about-us/).
 

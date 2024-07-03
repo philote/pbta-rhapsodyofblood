@@ -13,7 +13,8 @@
     "tags": "",
     "tagsString": "",
     "itemType": null,
-    "equipmentType": "gear"
+    "equipmentType": "gear",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -25,11 +26,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698557392137,
-    "modifiedTime": 1700109944455,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719435403573,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "Jxuzi4D0KbwUdUEL",
   "sort": 300000,

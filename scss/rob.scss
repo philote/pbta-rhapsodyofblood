@@ -138,6 +138,82 @@ form .notes, form .hint {
 
 .pbta.sheet {
 
+    .header-fields {
+        h3 {
+            border: none;
+            margin: 8px 2%;
+            width: 96%;
+        }
+    }
+
+    .cell--covenants, .cell--pacts {
+
+        .pact-info {
+            display: flex;
+            justify-content: flex-start;
+            gap: 10px;
+
+            & > * {
+                flex: 1;
+            }
+        }
+
+        .items-list {
+            padding: 0;
+
+            li.item {
+                background-color: none;
+                border: 1px solid $c-sheet-border-pri;
+                border-radius: 4px;
+                margin: 0 0 10px 0;
+                padding: 10px;
+                gap: 5px;
+
+                .form-side-by-side {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    gap: 10px;
+
+                    & > * {
+                        flex: 1;
+                    }
+                }
+
+                input[type=text] {
+                    text-align: left;
+                }
+
+                label {
+                    color: $c-sheet-text-subheader;
+                    font-family: $font-header;
+                }
+
+                .form-group {
+                    margin: 0;
+                    padding: 0;
+                    gap: 10px;
+
+                    label {
+                        flex: 0;
+                        flex-basis: content;
+                        color: $c-sheet-text-subheader;
+                        font-family: $font-header; 
+                    }
+
+                    input {
+                        flex: 1;
+                    }
+
+                    .item-controls {
+                        flex: 0;
+                        min-width: 30px;
+                    }
+                }
+            }
+        }
+    } 
+
     .cell__title.error, .pbta.sheet .cell__title.warning {
         color: black;
     }
@@ -226,7 +302,7 @@ form .notes, form .hint {
         }
     }
 
-    input {
+    input, textarea {
         background-color: $c-sheet-input-bg;
         color: $c-sheet-text;
         border: 1px solid $c-sheet-border-pri;
@@ -555,6 +631,7 @@ form .notes, form .hint {
 }
 
 .pbta.sheet.item {
+    min-height: 200px;
 
     .editor {
         background: $c-sheet-input-bg;

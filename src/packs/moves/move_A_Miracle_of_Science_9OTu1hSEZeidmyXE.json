@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 10\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When your explorer dissects a defeated Acolyte, gain 1-organ. With a few minutes of preparation, they may spend 1-organ to:</p>\n<ul>\n<li>Craft a healing salve and remove a minor or major wound.</li>\n<li>Merge it with a weapon and give the weapon a new perk.</li>\n<li>Graft it on and raise Blood by 1.</li>\n<li>Inspire those around them, restoring 4&nbsp;harm to all explorers nearby or rejuvenating any wraiths.</li>\n</ul>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Magi",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700094693952,
-    "modifiedTime": 1700110882028,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521524815,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!9OTu1hSEZeidmyXE"
 }

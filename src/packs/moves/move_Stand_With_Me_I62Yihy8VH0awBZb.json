@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "sulphur",
     "rollMod": 0,
-    "choices": "<ul>\n<li>They&rsquo;re rescued from danger: a&nbsp;precipice, poison, a curse, etc.</li>\n<li>They heal their lightest wound.</li>\n<li>They heal 2 harm.</li>\n</ul>"
+    "choices": "<ul>\n<li>They&rsquo;re rescued from danger: a&nbsp;precipice, poison, a curse, etc.</li>\n<li>They heal their lightest wound.</li>\n<li>They heal 2 harm.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698630792167,
-    "modifiedTime": 1700091797488,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404284,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "I62Yihy8VH0awBZb",
   "sort": 100000,

@@ -13,7 +13,8 @@
     "tags": "[{\"value\":\"stun\"},{\"value\":\"close\"}]",
     "tagsString": "stun, close",
     "itemType": null,
-    "equipmentType": "gear"
+    "equipmentType": "gear",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -25,11 +26,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698561636374,
-    "modifiedTime": 1700109665737,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719435403480,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "5HlyOoOjLSnFGnKM",
   "sort": 100000,

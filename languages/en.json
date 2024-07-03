@@ -1,5 +1,23 @@
 {
+    "TYPES.Item.pbta-rhapsodyofblood.covenant": "Covenant",
+    "TYPES.Item.pbta-rhapsodyofblood.pact": "Pact",
     "RoB": {
+        "item": {
+            "covenant": {
+                "label": "Covenant",
+                "description": "A bond you've formed with another explorer.",
+                "explorerName": "Explorer Name:",
+                "strengthenLabel": "Strengthen When...",
+                "weakenLabel": "Weaken When...",
+                "ratingLabel": "Rating:"
+            },
+            "pact": {
+                "label": "Pact",
+                "description": "An ancient agreement binding the bloodlines together.",
+                "bloodlineName": "Bloodline Name:",
+                "pactsLabel": "Pact with them:"
+            }
+        },
         "CharacterSheets": {
             "rollResults": {
                 "complications": "Complications...",
@@ -57,6 +75,11 @@
                 },
                 "lore": {
                     "label": "Lore"
+                },
+                "pact": {
+                    "label": "Pact",
+                    "description": "Ancient agreements binding the bloodlines together.",
+                    "info": "Pact Info"
                 }
             },
             "moveTypes": {
@@ -70,9 +93,18 @@
             },
             "equipmentTypes": {
                 "armor": "Armor",
-                "gear": "Gear",
-                "covenants": "Covenants",
-                "pacts": "Pacts"
+                "gear": "Gear"
+            },
+            "covenants": {
+                "label": "Covenants",
+                "description": "Bonds you've formed with other explorers.",
+                "formed": "Formed:"
+            },
+            "pacts": {
+                "label": "Pacts",
+                "description": "Ancient agreements binding the bloodlines together.",
+                "bloodlineName": "Bloodline Name:",
+                "pactsLabel": "Pact with them:"
             }
         },
         "NPCSheets": {

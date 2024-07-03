@@ -5,7 +5,164 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-white.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Half-Damned</strong> show clearer than most the marks of corruption. Lurking on the fringes of society, they fight a constant struggle against the dark blood within. In <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> they have the unique advantage of blending in with its inhabitants, giving them unmatched powers to infiltrate and gain information on the regent&rsquo;s plans.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Half-Damned if you want to be inhuman. Your explorers can start with uncanny abilities other bloodlines must risk their soul to win, or maybe manifest claws, wings and chitin. Their proximity to the Regent's minions lets them send bloodline members in to infiltrate the Regent's rank and file, or issue them orders. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if your bloodline is cursed with obvious signs of damnation and must live on the fringes of society.</p>\n<p><input type=\"checkbox\"><strong>Chalices -1 Swords 1 Coins 1 Wands 0</strong> if your bloodline is cursed with terrible hungers or a lingering blight, even as they appear completely human.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if one bloodline member in each generation shows the physical gifts of the curse, while the rest suffer the frailties imposed.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> ragged fabrics and animal skins; fastidiously clean and modern clothing; anonymous peasant or low class clothing.</p>\n<p><strong>Lore:</strong> Ancient immortals with flawed memories; a voice whispering in your nightmares; religious texts that damn you but offer advice.</p>\n<p><strong>Name:</strong> A shared mark or feature; after your progenitor; what zealots and bigots call you.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>One bloodline hunted you as monsters before you forged a treaty.</em></strong> Set your pact each other to 1. You say how you proved your humanity, they say how they made amends.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF RED</h3>\n<p><strong><em>You prize integrity and sacrifice.</em></strong> At the end of each play session, pick the explorer whose mercy most impressed you and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1-pact to transfer a point of contamination to a member of your bloodline. Say how the recipient is further twisted.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.r4GnWD46HHmQsEhx]{Dark Legacy}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.NeRrZtV4p05fvmmE]{In the Shadows of Humanity}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Ev1Uo8Zl620J4nSp]{More Than Human}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.L1uuOUSamYBwF4EJ]{One of the Horde}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.whylRtd68bm53Mz6]{Voice of the Regent}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.kGxeAM4pQXQmPnoF]{Shelter (Half-Damned)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A graveyard where your peers shelter.</em></p>\n<p><em>An aerie overlooking the land.</em></p>\n<p><em>Underground tunnels forgotten by man.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>The beast that turned you, working for the Regent.</em></p>\n<p><em>Your sibling, called to <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> by an irresistible compulsion.</em></p>\n<p><em>A mob whipped into a frenzy by fear of the Regent.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The regent&rsquo;s menagerie, using yourself as bait for the game wardens.</em></p>\n<p><em>The servant&rsquo;s quarters, and a stolen uniform.</em></p>\n<p><em>The barracks, and notes on the patrol schedule.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Half-Damned</strong> show clearer than most the marks of corruption. Lurking on the fringes of society, they fight a constant struggle against the dark blood within. In <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> they have the unique advantage of blending in with its inhabitants, giving them unmatched powers to infiltrate and gain information on the regent&rsquo;s plans.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Half-Damned if you want to be inhuman. Your explorers can start with uncanny abilities other bloodlines must risk their soul to win, or maybe manifest claws, wings and chitin. Their proximity to the Regent's minions lets them send bloodline members in to infiltrate the Regent's rank and file, or issue them orders. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if your bloodline is cursed with obvious signs of damnation and must live on the fringes of society.</p>\n<p><input type=\"checkbox\"><strong>Chalices -1 Swords 1 Coins 1 Wands 0</strong> if your bloodline is cursed with terrible hungers or a lingering blight, even as they appear completely human.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if one bloodline member in each generation shows the physical gifts of the curse, while the rest suffer the frailties imposed.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> ragged fabrics and animal skins; fastidiously clean and modern clothing; anonymous peasant or low class clothing.</p>\n<p><strong>Lore:</strong> Ancient immortals with flawed memories; a voice whispering in your nightmares; religious texts that damn you but offer advice.</p>\n<p><strong>Name:</strong> A shared mark or feature; after your progenitor; what zealots and bigots call you.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>One bloodline hunted you as monsters before you forged a treaty.</em></strong> Set your pact each other to 1. You say how you proved your humanity, they say how they made amends.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF RED</h3>\n<p><strong><em>You prize integrity and sacrifice.</em></strong> At the end of each play session, pick the explorer whose mercy most impressed you and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1-pact to transfer a point of contamination to a member of your bloodline. Say how the recipient is further twisted.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.r4GnWD46HHmQsEhx]{Dark Legacy}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.NeRrZtV4p05fvmmE]{In the Shadows of Humanity}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Ev1Uo8Zl620J4nSp]{More Than Human}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.L1uuOUSamYBwF4EJ]{One of the Horde}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.whylRtd68bm53Mz6]{Voice of the Regent}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.kGxeAM4pQXQmPnoF]{Shelter (Half-Damned)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A graveyard where your peers shelter.</em></p>\n<p><em>An aerie overlooking the land.</em></p>\n<p><em>Underground tunnels forgotten by man.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>The beast that turned you, working for the Regent.</em></p>\n<p><em>Your sibling, called to <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> by an irresistible compulsion.</em></p>\n<p><em>A mob whipped into a frenzy by fear of the Regent.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The regent&rsquo;s menagerie, using yourself as bait for the game wardens.</em></p>\n<p><em>The servant&rsquo;s quarters, and a stolen uniform.</em></p>\n<p><em>The barracks, and notes on the patrol schedule.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "slug": "the-half-damned",
+    "actorType": "bloodline",
+    "stats": {
+      "chalices": {
+        "label": "Chalices",
+        "value": 0
+      },
+      "swords": {
+        "label": "Swords",
+        "value": 0
+      },
+      "relics": {
+        "label": "Relics",
+        "value": 0
+      },
+      "wands": {
+        "label": "Wands",
+        "value": 0
+      },
+      "coins": {
+        "label": "Coins",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p><span style=\"font-size: 1.25em; font-family: var(--font-primary);\">History</span></p>      <p><strong><em>One bloodline hunted you as monsters before you forged a treaty.</em></strong> Set your pact each other to 1. You say how you proved your humanity, they say how they made amends.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      },
+      "style": {
+        "label": "Style",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>ragged fabrics and animal skins; fastidiously clean and modern clothing; anonymous peasant or low class clothing.</p>      <p>&nbsp;</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "lore": {
+        "label": "Lore",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Ancient immortals with flawed memories; a voice whispering in your nightmares; religious texts that damn you but offer advice.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "pact": {
+        "label": "Pact",
+        "description": "Ancient agreements binding the bloodlines together.",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "pactInfo": {
+        "label": "Pact Info",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2>PACT: THE WAY OF RED</h2>      <div class=\"pact-info\">      <p><em><strong>You prize integrity and sacrifice.</strong></em> At the end of each play session, pick the explorer whose mercy most impressed you and raise their bloodline’s pact with you by 1.</p>      <p><em><strong>While at one of your camps,</strong></em> other bloodlines can spend 1-pact to transfer a point of contamination to a member of your bloodline. Say how the recipient is further twisted.</p>      </div>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "The Half-Damned Moves",
+        "desc": "Pick two:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.r4GnWD46HHmQsEhx",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "name": "Dark Legacy",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.NeRrZtV4p05fvmmE",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "name": "In the Shadows of Humanity",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.Ev1Uo8Zl620J4nSp",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "name": "More Than Human",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.L1uuOUSamYBwF4EJ",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "name": "One of the Horde",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.whylRtd68bm53Mz6",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "name": "Voice of the Regent",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Shelter Move",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "name": "Shelter (Half-Damned)",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_half-damned-color.webp",
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.kGxeAM4pQXQmPnoF",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +174,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700026746503,
-    "modifiedTime": 1700098783995,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719977412364,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "prhOED40I6Qzs7mG",
   "sort": 0,

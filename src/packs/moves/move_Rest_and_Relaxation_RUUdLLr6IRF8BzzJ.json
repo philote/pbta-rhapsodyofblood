@@ -32,7 +32,8 @@
     "playbook": "",
     "rollType": "prompt",
     "rollMod": 0,
-    "choices": "<ul>\n<li>Each explorer may heal all harm.</li>\n<li>Each explorer may heal all wounds.</li>\n<li>Each explorer can repair and resupply their weaponry.</li>\n<li>Each explorer may form a new covenant, or raise an existing covenant by a step.</li>\n<li>The regent&rsquo;s clock doesn&rsquo;t tick down.</li>\n</ul>"
+    "choices": "<ul>\n<li>Each explorer may heal all harm.</li>\n<li>Each explorer may heal all wounds.</li>\n<li>Each explorer can repair and resupply their weaponry.</li>\n<li>Each explorer may form a new covenant, or raise an existing covenant by a step.</li>\n<li>The regent&rsquo;s clock doesn&rsquo;t tick down.</li>\n</ul>",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 300000,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1698631958810,
-    "modifiedTime": 1700117725727,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521467669,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!RUUdLLr6IRF8BzzJ"
 }

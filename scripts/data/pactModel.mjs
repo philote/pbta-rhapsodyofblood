@@ -8,8 +8,7 @@ export class PactModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     const fields = foundry.data.fields;
     return {
-      explorerName: new fields.StringField({ required: true, blank: true }),
-      rating: new fields.NumberField({
+      pacts: new fields.NumberField({
         min: 0,
         initial: 0,
         integer: true,

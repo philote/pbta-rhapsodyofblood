@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "glass",
     "rollMod": 0,
-    "choices": "<ul>\n<li>Which exit takes me to my goal?</li>\n<li>What here is valuable?</li>\n<li>What can the enemies here do?</li>\n<li>What should I be on the lookout for?</li>\n</ul>\n<p>Get fleeting advantage when you act&nbsp;on each answer.</p>"
+    "choices": "<ul>\n<li>Which exit takes me to my goal?</li>\n<li>What here is valuable?</li>\n<li>What can the enemies here do?</li>\n<li>What should I be on the lookout for?</li>\n</ul>\n<p>Get fleeting advantage when you act&nbsp;on each answer.</p>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698566327411,
-    "modifiedTime": 1699561808115,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404207,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "DDWsdYfnIOgKeAqd",
   "sort": 400000,

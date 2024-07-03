@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 4\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>When you send your family members to blend in with <strong>the castle&rsquo;s</strong> denizens, roll <strong>+Wands</strong>.&nbsp;</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Half-Damned",
     "rollType": "prompt",
     "rollMod": 0,
-    "choices": "<p>&nbsp;Spend the hold 1-for-1 to get them to:</p>\n<ul>\n<li>Strike from within a group of castle denizens, sending them into disarray.</li>\n<li>Help you navigate, giving you 1 Travel the Labyrinth hold.</li>\n<li>Smuggle you a useful item.</li>\n</ul>"
+    "choices": "<p>&nbsp;Spend the hold 1-for-1 to get them to:</p>\n<ul>\n<li>Strike from within a group of castle denizens, sending them into disarray.</li>\n<li>Help you navigate, giving you 1 Travel the Labyrinth hold.</li>\n<li>Smuggle you a useful item.</li>\n</ul>",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700092815690,
-    "modifiedTime": 1700110587438,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521684909,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!L1uuOUSamYBwF4EJ"
 }

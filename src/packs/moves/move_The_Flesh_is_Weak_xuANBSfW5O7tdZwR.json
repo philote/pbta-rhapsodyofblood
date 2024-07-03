@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 6\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><em><strong>With prayers and unguents</strong></em>, you can concentrate <strong>the castle&rsquo;s</strong> corruption in one part of an explorer&rsquo;s body. Actions using the corrupted body part have Advantage, but so long as this ritual continues the explorer marks an additional point every time they <strong>mark contamination</strong>.</p>\n<p>Amputating the node of corruption deals the explorer a major wound, and they lose a point of Blood and a Blood Gift. The removed body part counts as 1 relic.</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -32,7 +32,8 @@
     "playbook": "The Holy Church",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700093626967,
-    "modifiedTime": 1700110704205,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521770671,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!xuANBSfW5O7tdZwR"
 }

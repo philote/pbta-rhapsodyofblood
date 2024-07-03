@@ -32,7 +32,8 @@
     "playbook": "",
     "rollType": "prompt",
     "rollMod": 0,
-    "choices": "<ul>\n<li>Reduce the Regent&rsquo;s clock by 1.</li>\n<li>Bless a weapon to strike true against one Acolyte, giving it the Holy perk.</li>\n<li>Reduce a character&rsquo;s Blood rating by one - they lose a Blood Advance.</li>\n</ul>"
+    "choices": "<ul>\n<li>Reduce the Regent&rsquo;s clock by 1.</li>\n<li>Bless a weapon to strike true against one Acolyte, giving it the Holy perk.</li>\n<li>Reduce a character&rsquo;s Blood rating by one - they lose a Blood Advance.</li>\n</ul>",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700118015682,
-    "modifiedTime": 1700118345091,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521476756,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!rapoBIG9JfK0Q2ZP"
 }

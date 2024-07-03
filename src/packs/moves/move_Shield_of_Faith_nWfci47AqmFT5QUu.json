@@ -8,7 +8,7 @@
     "name": "",
     "description": "<div class=\"page\" title=\"Page 6\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><em><strong>So long as your camps maintain a constant vigil of prayer</strong></em>, they will not come under attack.</p>\n<p><em><strong>When your explorer attempts to manifest this shield</strong></em>,&nbsp;roll <strong>+Sulphur</strong>.&nbsp;</p>\n</div>\n</div>\n</div>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -30,9 +30,10 @@
     },
     "uses": 0,
     "playbook": "The Holy Church",
-    "rollType": "sulphur",
+    "rollType": "",
     "rollMod": 0,
-    "choices": "<ul>\n<li>You cannot move without breaking the shield.</li>\n<li>You cannot attack without breaking&nbsp;the shield.</li>\n<li>No-one else can shelter under the shield.</li>\n</ul>"
+    "choices": "<ul>\n<li>You cannot move without breaking the shield.</li>\n<li>You cannot attack without breaking&nbsp;the shield.</li>\n<li>No-one else can shelter under the shield.</li>\n</ul>",
+    "actorType": "bloodline"
   },
   "effects": [],
   "sort": 0,
@@ -43,11 +44,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700093378938,
-    "modifiedTime": 1700110737255,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719521782731,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!nWfci47AqmFT5QUu"
 }

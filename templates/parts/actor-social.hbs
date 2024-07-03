@@ -1,0 +1,9 @@
+<section class='tab social' data-group='primary' data-tab='social'>
+  <section class="sheet-tab">
+    {{#if (eq actor.type "other")}}
+      {{> "modules/pbta-rhapsodyofblood/templates/parts/actor-pacts.hbs" }}
+    {{else}}
+      {{> "modules/pbta-rhapsodyofblood/templates/parts/actor-covenants.hbs" }}
+    {{/if}}
+  </section>
+</div>

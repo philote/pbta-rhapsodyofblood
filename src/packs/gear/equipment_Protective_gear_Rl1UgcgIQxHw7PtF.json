@@ -13,7 +13,8 @@
     "tags": "[{\"value\":\"1 armour\"}]",
     "tagsString": "1 armour",
     "itemType": null,
-    "equipmentType": "armor"
+    "equipmentType": "armor",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -25,11 +26,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698557460753,
-    "modifiedTime": 1700109771814,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719435403600,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "Rl1UgcgIQxHw7PtF",
   "sort": 1500000,

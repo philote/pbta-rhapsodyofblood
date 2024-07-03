@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "iron",
     "rollMod": 0,
-    "choices": "<ul>\n<li>They hit back - suffer harm.</li>\n<li>You get some on you -&nbsp;<strong><em>mark contamination</em></strong>.</li>\n<li>You end up in a risky position.</li>\n<li>More are coming.</li>\n</ul>"
+    "choices": "<ul>\n<li>They hit back - suffer harm.</li>\n<li>You get some on you -&nbsp;<strong><em>mark contamination</em></strong>.</li>\n<li>You end up in a risky position.</li>\n<li>More are coming.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698565274232,
-    "modifiedTime": 1700091935595,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404563,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "gCHFm26xLCJzhGsF",
   "sort": 200000,

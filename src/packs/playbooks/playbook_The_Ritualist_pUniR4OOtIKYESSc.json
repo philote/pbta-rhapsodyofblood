@@ -6,7 +6,84 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
   "system": {
     "name": "",
-    "description": "<div>&nbsp;</div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Ritualist</strong> (FOUNDER OF THE MAGI) <br><em> Ancient lore and improvised cantrips have got you this far, but you can feel the power rolling off the Regent in the next chamber. You&rsquo;ll set your soul alight if that&rsquo;s what it takes to burn this place down. </em></p>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> -1</li>\n<li><strong>Glass</strong> +1</li>\n<li><strong>Sulphur</strong> +2</li>\n<li><strong>Mercury</strong> 0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Robes covered in sigils; a bandoleer of charms; tattooed with occult sigils.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Morgan, Imar, Jabir, Vyasa, Virgil, Albertus, Ramon, Pietro, Ursula, Isobel.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.jq703PaP5kun79Jz]{Blood whip}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.ubdqArx5UcnyApSE]{Pyromancy}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders is a lynchpin in your ritual to keep the Regent&rsquo;s power contained. </em></strong> Give their bloodline 2-pact on you. You say what they had to sacrifice to empower the ritual, they say what insight it&rsquo;s given them into the Regent.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9OTu1hSEZeidmyXE]{A Miracle of Science}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.aOWg01Cq2UuiQXqj]{Arcane Library}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WgilmVvLbCJV6EDq]{Dimensional Relocation}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.GVpeKTkfhp0JGwNE]{Eldritch Insight}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.zqOdD0Bbo711xDGu]{Empowered Wards}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Of9NaBfSxONzM2PD]{Shelter (Magi)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>&nbsp;</div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Ritualist</strong> (FOUNDER OF THE MAGI) <br><em> Ancient lore and improvised cantrips have got you this far, but you can feel the power rolling off the Regent in the next chamber. You&rsquo;ll set your soul alight if that&rsquo;s what it takes to burn this place down. </em></p>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR FOUNDER</h2>\n<h3 style=\"border: none;\">Stats</h3>\nYou start with this array:\n<ul>\n<li><strong>Iron</strong> -1</li>\n<li><strong>Glass</strong> +1</li>\n<li><strong>Sulphur</strong> +2</li>\n<li><strong>Mercury</strong> 0</li>\n<li><em>Blood starts at 0.</em></li>\n</ul>\n<hr>\n<h3 style=\"border: none;\">Looks</h3>\n<p>Robes covered in sigils; a bandoleer of charms; tattooed with occult sigils.</p>\n<hr>\n<h3 style=\"border: none;\">Names</h3>\n<p>Morgan, Imar, Jabir, Vyasa, Virgil, Albertus, Ramon, Pietro, Ursula, Isobel.</p>\n<hr>\n<h3 style=\"border: none;\">Weapon</h3>\n<h4>Choose one:</h4>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.jq703PaP5kun79Jz]{Blood whip}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.gear.Item.ubdqArx5UcnyApSE]{Pyromancy}</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">HISTORY</h2>\n<p><strong><em>One of the other founders is a lynchpin in your ritual to keep the Regent&rsquo;s power contained. </em></strong> Give their bloodline 2-pact on you. You say what they had to sacrifice to empower the ritual, they say what insight it&rsquo;s given them into the Regent.</p>\n<hr>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9OTu1hSEZeidmyXE]{A Miracle of Science}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.aOWg01Cq2UuiQXqj]{Arcane Library}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WgilmVvLbCJV6EDq]{Dimensional Relocation}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.GVpeKTkfhp0JGwNE]{Eldritch Insight}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.zqOdD0Bbo711xDGu]{Empowered Wards}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Of9NaBfSxONzM2PD]{Shelter (Magi)}</p>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "actorType": "character",
+    "stats": {
+      "iron": {
+        "label": "Iron",
+        "value": -1
+      },
+      "glass": {
+        "label": "Glass",
+        "value": 1
+      },
+      "sulphur": {
+        "label": "Sulphur",
+        "value": 2
+      },
+      "mercury": {
+        "label": "Mercury",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "look": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Robes covered in sigils; a bandoleer of charms; tattooed with occult sigils.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": "Choose one:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2>FOUNDER OF THE MAGI</h2>      <p><em>Ancient lore and improvised cantrips have got you this far, but you can feel the power rolling off the Regent in the next chamber. You’ll set your soul alight if that’s what it takes to burn this place down.</em></p>      <h2>HISTORY</h2>      <p><strong><em>One of the other founders is a lynchpin in your ritual to keep the Regent’s power contained.&nbsp;</em></strong>Give their bloodline 2-pact on you. You say what they had to sacrifice to empower the ritual, they say what insight it’s given them into the Regent.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Weapon",
+        "desc": "Choose one:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.gear.Item.jq703PaP5kun79Jz",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/blood-whip.svg",
+            "name": "Blood whip",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "name": "Pyromancy",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/armaments/pyromancy.svg",
+            "uuid": "Compendium.pbta-rhapsodyofblood.gear.Item.ubdqArx5UcnyApSE",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ],
+    "slug": "the-ritualist"
   },
   "effects": [],
   "sort": 0,
@@ -17,11 +94,13 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700090822439,
-    "modifiedTime": 1700100052067,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719524123187,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!items!pUniR4OOtIKYESSc"
 }

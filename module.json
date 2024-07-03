@@ -114,9 +114,7 @@
   ],
   "documentTypes": {
     "Item": {
-      "covenant": {
-        "htmlFields": ["formed", "strengthen", "weaken"]
-      },
+      "covenant": {},
       "pact": {}
     }
   },

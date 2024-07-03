@@ -31,7 +31,8 @@
     "playbook": "",
     "rollType": "glass",
     "rollMod": 0,
-    "choices": "<ul>\n<li>&bull; The foe makes you its&nbsp;highest priority.</li>\n<li>The Opening only lasts a&nbsp;few moments.</li>\n<li>Attempts to use the Opening&nbsp;without one weapon perk&nbsp;have Disadvantage.</li>\n</ul>"
+    "choices": "<ul>\n<li>&bull; The foe makes you its&nbsp;highest priority.</li>\n<li>The Opening only lasts a&nbsp;few moments.</li>\n<li>Attempts to use the Opening&nbsp;without one weapon perk&nbsp;have Disadvantage.</li>\n</ul>",
+    "actorType": "character"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.17",
+    "coreVersion": "12.327",
     "createdTime": 1698567335453,
-    "modifiedTime": 1700091807081,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719435404236,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "FUozw0z1uaH9KHBh",
   "sort": 400000,

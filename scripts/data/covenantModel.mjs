@@ -9,9 +9,8 @@ export class CovenantModel extends foundry.abstract.TypeDataModel {
     const fields = foundry.data.fields;
     return {
       explorerName: new fields.StringField({ required: true, blank: true }),
-      formed: new fields.HTMLField({ required: false, blank: true }),
-      strengthen: new fields.HTMLField({ required: false, blank: true }),
-      weaken: new fields.HTMLField({ required: false, blank: true }),
+      strengthen: new fields.StringField({ required: false, blank: true }),
+      weaken: new fields.StringField({ required: false, blank: true }),
       rating: new fields.NumberField({
         min: 0,
         initial: 0,

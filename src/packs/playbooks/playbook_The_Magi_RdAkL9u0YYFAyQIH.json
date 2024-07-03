@@ -5,7 +5,164 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-white.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Magi</strong> use secretive and arcane rituals to draw power from the blood. Where other bloodlines may draw on its power recklessly and spiral down into corruption, the Magi precisely measure out each portion of their soul as they trade it for power.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Magi if you want to meddle with terrible power. Their moves let you extract power from the Regent's machinations - gaining ritual resources as they bring their plan to completion, or extracting organs from their acolytes. Once they have those curios, they can bend space to transport their explorers, learn spells from a travelling library, and create lasting defences against corruption. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords -1 Coins 1 Wands 1</strong> if you&rsquo;re a selective academic institution teaching occult rituals to those that can afford your fees.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if you&rsquo;re hands-on learners, extracting occult wisdom from the beasts and devils you hunt.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if you&rsquo;re occultists without borders, travelling the world and pushing back blights wherever you find them.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Skin covered in arcane glyphs, thick robes of strange fabrics, bags and bandoleers loaded with reagents.</p>\n<p><strong>Lore:</strong> A bag full of scholarly texts, drilled-in mnemonics, a chorus of spirits bound into your gear to offer advice.</p>\n<p><strong>Name:</strong> The name of your school, The ____ Way, The Path of ______ .</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You taught another bloodline how to use <span style=\"color: #ff7b7b;\"><strong>the castle's</strong></span> power safely.</em></strong> Gain 1 pact on them. They say what the ritual allows them to do; you say what it costs them instead of their souls.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF BLUE</h3>\n<p><strong><em>You prize arcane insight.</em></strong> At the end of each session, pick the explorer who wielded the most supernatural power and raise their pact with your bloodline by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1 pact on you to get an item of power from your stores. They can destroy it to cast a spell as per <strong><em>Drink Deep</em></strong>.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9OTu1hSEZeidmyXE]{A Miracle of Science}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.aOWg01Cq2UuiQXqj]{Arcane Library}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WgilmVvLbCJV6EDq]{Dimensional Relocation}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.GVpeKTkfhp0JGwNE]{Eldritch Insight}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.zqOdD0Bbo711xDGu]{Empowered Wards}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Of9NaBfSxONzM2PD]{Shelter (Magi)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A caravan on the city&rsquo;s outskirts selling charms and occult paraphernalia.</em></p>\n<p><em>A visionary doctor&rsquo;s surgery-laboratory.</em></p>\n<p><em>A cafe where the intelligentsia gather and debate.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A celestial conjunction promising great power - or great doom.</em></p>\n<p><em>An opportunity to rectify a mistake made in your apprenticeship.</em></p>\n<p><em>An unnatural plague sweeping through the city&rsquo;s slums.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>A garden of perfect geometric statuary, and a hole in its iron fence.</em></p>\n<p><em>A pocket dimension outside reality, and a ritual to transport you there.</em></p>\n<p><em>An alchemical storage vault, and the combination for the vault door.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Magi</strong> use secretive and arcane rituals to draw power from the blood. Where other bloodlines may draw on its power recklessly and spiral down into corruption, the Magi precisely measure out each portion of their soul as they trade it for power.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Magi if you want to meddle with terrible power. Their moves let you extract power from the Regent's machinations - gaining ritual resources as they bring their plan to completion, or extracting organs from their acolytes. Once they have those curios, they can bend space to transport their explorers, learn spells from a travelling library, and create lasting defences against corruption. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords -1 Coins 1 Wands 1</strong> if you&rsquo;re a selective academic institution teaching occult rituals to those that can afford your fees.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords 1 Coins -1 Wands 1</strong> if you&rsquo;re hands-on learners, extracting occult wisdom from the beasts and devils you hunt.</p>\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins -1 Wands 1</strong> if you&rsquo;re occultists without borders, travelling the world and pushing back blights wherever you find them.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Skin covered in arcane glyphs, thick robes of strange fabrics, bags and bandoleers loaded with reagents.</p>\n<p><strong>Lore:</strong> A bag full of scholarly texts, drilled-in mnemonics, a chorus of spirits bound into your gear to offer advice.</p>\n<p><strong>Name:</strong> The name of your school, The ____ Way, The Path of ______ .</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You taught another bloodline how to use <span style=\"color: #ff7b7b;\"><strong>the castle's</strong></span> power safely.</em></strong> Gain 1 pact on them. They say what the ritual allows them to do; you say what it costs them instead of their souls.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF BLUE</h3>\n<p><strong><em>You prize arcane insight.</em></strong> At the end of each session, pick the explorer who wielded the most supernatural power and raise their pact with your bloodline by 1.</p>\n<p><strong><em>While at one of your camps,</em></strong> other bloodlines can spend 1 pact on you to get an item of power from your stores. They can destroy it to cast a spell as per <strong><em>Drink Deep</em></strong>.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.9OTu1hSEZeidmyXE]{A Miracle of Science}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.aOWg01Cq2UuiQXqj]{Arcane Library}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.WgilmVvLbCJV6EDq]{Dimensional Relocation}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.GVpeKTkfhp0JGwNE]{Eldritch Insight}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.zqOdD0Bbo711xDGu]{Empowered Wards}</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.Of9NaBfSxONzM2PD]{Shelter (Magi)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A caravan on the city&rsquo;s outskirts selling charms and occult paraphernalia.</em></p>\n<p><em>A visionary doctor&rsquo;s surgery-laboratory.</em></p>\n<p><em>A cafe where the intelligentsia gather and debate.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A celestial conjunction promising great power - or great doom.</em></p>\n<p><em>An opportunity to rectify a mistake made in your apprenticeship.</em></p>\n<p><em>An unnatural plague sweeping through the city&rsquo;s slums.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>A garden of perfect geometric statuary, and a hole in its iron fence.</em></p>\n<p><em>A pocket dimension outside reality, and a ritual to transport you there.</em></p>\n<p><em>An alchemical storage vault, and the combination for the vault door.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "slug": "the-magi",
+    "actorType": "bloodline",
+    "stats": {
+      "chalices": {
+        "label": "Chalices",
+        "value": 0
+      },
+      "swords": {
+        "label": "Swords",
+        "value": 0
+      },
+      "relics": {
+        "label": "Relics",
+        "value": 0
+      },
+      "wands": {
+        "label": "Wands",
+        "value": 0
+      },
+      "coins": {
+        "label": "Coins",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "style": {
+        "label": "Style",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Skin covered in arcane glyphs, thick robes of strange fabrics, bags and bandoleers loaded with reagents.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "lore": {
+        "label": "Lore",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>A bag full of scholarly texts, drilled-in mnemonics, a chorus of spirits bound into your gear to offer advice.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h3>History</h3>      <p><strong><em>You taught another bloodline how to use&nbsp;the castle's&nbsp;power safely.</em></strong> Gain 1 pact on them. They say what the ritual allows them to do; you say what it costs them instead of their souls.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      },
+      "pact": {
+        "label": "Pact",
+        "description": "Ancient agreements binding the bloodlines together.",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "pactInfo": {
+        "label": "Pact Info",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2 class=\"p1\">PACT: THE WAY OF BLUE</h2>      <div class=\"pact-info\">      <p class=\"p2\"><em><strong>You prize arcane insight.</strong></em> At the end of each&nbsp;session, pick the explorer who wielded the most&nbsp;supernatural power and raise their pact with your&nbsp;bloodline by 1.</p>      <p class=\"p2\"><em><strong>While at one of your camps,</strong></em> other bloodlines can&nbsp;spend 1 pact on you to get an item of power from&nbsp;your stores. They can destroy it to cast a spell as per&nbsp;<em><strong>Drink Deep</strong></em>.</p>      </div>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "The Magi Moves",
+        "desc": "Pick two:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "name": "A Miracle of Science",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.9OTu1hSEZeidmyXE",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.aOWg01Cq2UuiQXqj",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "name": "Arcane Library",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.WgilmVvLbCJV6EDq",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "name": "Dimensional Relocation",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.GVpeKTkfhp0JGwNE",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "name": "Eldritch Insight",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.zqOdD0Bbo711xDGu",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "name": "Empowered Wards",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Shelter Move",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.Of9NaBfSxONzM2PD",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_magi-color.webp",
+            "name": "Shelter (Magi)",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +174,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700025252022,
-    "modifiedTime": 1700099059581,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719977007992,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "RdAkL9u0YYFAyQIH",
   "sort": 300000,

@@ -7,7 +7,7 @@
     "name": "",
     "description": "<p>Your bloodline has a tenacity that lets them cheat death so long as they have something to fight for. All of your explorers start with +1 Armour. <em><strong>Whenever they take a blow for another explorer,</strong></em> they can refresh the Armour box.</p>",
     "requiresMove": "",
-    "moveType": "bloodline",
+    "moveType": "playbook",
     "rollFormula": "",
     "moveGroup": "",
     "moveResults": {
@@ -31,7 +31,8 @@
     "playbook": "The Legendary Heroes",
     "rollType": "",
     "rollMod": 0,
-    "choices": ""
+    "choices": "",
+    "actorType": "bloodline"
   },
   "effects": [],
   "ownership": {
@@ -43,11 +44,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700028977698,
-    "modifiedTime": 1700093188449,
-    "lastModifiedBy": "zyc9SZg8VUZgkrt7"
+    "modifiedTime": 1719521816103,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "L3y8aeTeM8MXmZ7n",
   "sort": 0,

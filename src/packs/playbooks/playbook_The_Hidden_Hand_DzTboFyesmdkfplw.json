@@ -5,7 +5,164 @@
   "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-white.webp",
   "system": {
     "name": "",
-    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Hidden Hand</strong> focus on temporal power, using the treasures of the blood to shape mortal society. When <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> returns they call on legions of allies and cutting-edge technology to push it back and get rich in the process.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Hidden Hand if you want to be rich and resourceful. They can shower their explorers in luxury to keep them fighting fit, call on a web of influence to get up-to-date info, and provide troops and bodyguards. Their access to the best scholars can provide explorers with experimental weaponry, and retain access to relics at a cost the Hidden Hand is happy to pay. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins 1 Wands -1</strong> if you live lives of luxury and try not to think too hard about the source of your wealth.</p>\n<p><input type=\"checkbox\"><strong>Chalices -1 Swords 1 Coins 1 Wands 0</strong> if you act as a mercenary group, guiding the world&rsquo;s conflicts in a direction that benefits you.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords -1 Coins 1 Wands 1</strong> if you&rsquo;ve suborned the world&rsquo;s elite into a secret society bound by occult rituals and mutual blackmail.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Formal wear and subtle marks of membership, opulent clothes and impractical accessories, state-of-the-art arms and armour.</p>\n<p><strong>Lore:</strong> Reports from agents scattered around the world, an iron grip on the rare book market, a private institution of scholars probing the boundaries of knowledge.</p>\n<p><strong>Name:</strong> a mythical creature, an alchemical process, a feudal role.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You split the fabulous wealth you found with another bloodline.</em></strong> Gain 1 pact on them. They say what they used the wealth for; you say how entropy and betrayal robbed them of it.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF SILVER</h3>\n<p><strong><em>You prize entrepreneurship.</em></strong> At the end of each play session, pick the explorer who most increased their wealth or power and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps</em></strong> other bloodlines can spend 1-pact on you to get access to more luxurious supplies, giving them advantage on <strong><em>Shelter</em></strong> until they return to a safe camp.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wKRu7FGztXEQVHwH]{A Web of Influence}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.pubb5iKXYhnqWQxY]{Avarice}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wnuGmgNKEhp6iq9s]{Bodyguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.EErpKFFLflZEndDQ]{Experimental Weaponry}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.tz6WNSfitBE4DDdI]{Opulence}</p>\n<p>&nbsp;</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.gQKd21kub5EzhuTB]{Shelter (Hidden Hand)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A mansion filled with helpful servants.</em></p>\n<p><em>A watch station, barricaded up against the darkness.</em></p>\n<p><em>A scholar&rsquo;s laboratory, fizzing with strange chemicals.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A rumoured treasure that might bring eternal life.</em></p>\n<p><em>Your political rival, empowered by the regent&rsquo;s corruption.</em></p>\n<p><em>Rare reagents created by abhorrent rites.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The deeper vaults, and a brace of explosives.</em></p>\n<p><em>A grand soiree, and a forged invitation.</em></p>\n<p><em>The clock tower, and a zip line anchored to a nearby belfry.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>"
+    "description": "<div>\n<p style=\"margin: 20px 20px; text-align: center; font-size: 1.25em;\"><strong>The Hidden Hand</strong> focus on temporal power, using the treasures of the blood to shape mortal society. When <span style=\"color: #ff7b7b;\"><strong>the castle</strong></span> returns they call on legions of allies and cutting-edge technology to push it back and get rich in the process.</p>\n<p style=\"margin: 20px 20px; text-align: center;\"><em> Play the Hidden Hand if you want to be rich and resourceful. They can shower their explorers in luxury to keep them fighting fit, call on a web of influence to get up-to-date info, and provide troops and bodyguards. Their access to the best scholars can provide explorers with experimental weaponry, and retain access to relics at a cost the Hidden Hand is happy to pay. </em></p>\n</div>\n<hr>\n<section class=\"grid grid-2col\">\n<div class=\"background\" style=\"border-right: dashed 1px black; padding-right: 10px;\">\n<h2 style=\"margin: 15px 0 10px;\">MAKING YOUR HEROES <em>(Bloodline)</em></h2>\n<h3 style=\"border: none;\">Stats</h3>\nPick one:\n<p><input type=\"checkbox\"><strong>Chalices 1 Swords 0 Coins 1 Wands -1</strong> if you live lives of luxury and try not to think too hard about the source of your wealth.</p>\n<p><input type=\"checkbox\"><strong>Chalices -1 Swords 1 Coins 1 Wands 0</strong> if you act as a mercenary group, guiding the world&rsquo;s conflicts in a direction that benefits you.</p>\n<p><input type=\"checkbox\"><strong>Chalices 0 Swords -1 Coins 1 Wands 1</strong> if you&rsquo;ve suborned the world&rsquo;s elite into a secret society bound by occult rituals and mutual blackmail.</p>\n<hr>\n<h3 style=\"border: none;\">Traditions</h3>\n<em>Pick one from each or write one of your own:</em>\n<p><strong>Style:</strong> Formal wear and subtle marks of membership, opulent clothes and impractical accessories, state-of-the-art arms and armour.</p>\n<p><strong>Lore:</strong> Reports from agents scattered around the world, an iron grip on the rare book market, a private institution of scholars probing the boundaries of knowledge.</p>\n<p><strong>Name:</strong> a mythical creature, an alchemical process, a feudal role.</p>\n<hr>\n<h3 style=\"border: none;\">History</h3>\n<p><strong><em>You split the fabulous wealth you found with another bloodline.</em></strong> Gain 1 pact on them. They say what they used the wealth for; you say how entropy and betrayal robbed them of it.</p>\n<hr>\n<h3 style=\"border: none;\">PACT: THE WAY OF SILVER</h3>\n<p><strong><em>You prize entrepreneurship.</em></strong> At the end of each play session, pick the explorer who most increased their wealth or power and raise their bloodline&rsquo;s pact with you by 1.</p>\n<p><strong><em>While at one of your camps</em></strong> other bloodlines can spend 1-pact on you to get access to more luxurious supplies, giving them advantage on <strong><em>Shelter</em></strong> until they return to a safe camp.</p>\n</div>\n<div class=\"moves\">\n<h2 style=\"margin: 15px 0 10px;\">MOVES</h2>\n<h3 style=\"border: none;\">Bloodline Moves</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wKRu7FGztXEQVHwH]{A Web of Influence}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.pubb5iKXYhnqWQxY]{Avarice}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.wnuGmgNKEhp6iq9s]{Bodyguard}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.EErpKFFLflZEndDQ]{Experimental Weaponry}</p>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.tz6WNSfitBE4DDdI]{Opulence}</p>\n<p>&nbsp;</p>\n<hr>\n<h3 style=\"border: none;\">Shelter Move</h3>\n<p>@UUID[Compendium.pbta-rhapsodyofblood.moves.Item.gQKd21kub5EzhuTB]{Shelter (Hidden Hand)}</p>\n<hr>\n<h3 style=\"border: none;\">Context</h3>\n<p><em>Each generation, pick one from each or make your own:</em></p>\n<div class=\"flexrow\">\n<div><strong>REFUGE:</strong>\n<p><em>A mansion filled with helpful servants.</em></p>\n<p><em>A watch station, barricaded up against the darkness.</em></p>\n<p><em>A scholar&rsquo;s laboratory, fizzing with strange chemicals.</em></p>\n</div>\n<div><strong>DRIVE:</strong>\n<p><em>A rumoured treasure that might bring eternal life.</em></p>\n<p><em>Your political rival, empowered by the regent&rsquo;s corruption.</em></p>\n<p><em>Rare reagents created by abhorrent rites.</em></p>\n</div>\n<div><strong>BREACH:</strong>\n<p><em>The deeper vaults, and a brace of explosives.</em></p>\n<p><em>A grand soiree, and a forged invitation.</em></p>\n<p><em>The clock tower, and a zip line anchored to a nearby belfry.</em></p>\n</div>\n</div>\n</div>\n</section>\n<hr>\n<p style=\"font-size: 0.95em;\"><em> <strong>Instructions:</strong> You can drag-and-drop into your character sheet any <span style=\"border: 1px solid var(--color-border-dark-tertiary); border-radius: 2px; display: inline-block; padding: 1px 4px; font-style: normal;\"> <img style=\"border: none; color: var(--color-text-dark-inactive); height: 14px; margin: 2px 0 -2px; width: 14px;\" src=\"modules/pbta-rhapsodyofblood/assets/playbooks/suitcase.svg\" alt=\"\"> Item</span> you choose and it will automatically be assigned to its correct place. Everything else needs to be copy-pasted or input manually (this includes the background &amp; details and your stats). </em></p>",
+    "slug": "the-hidden-hand",
+    "actorType": "bloodline",
+    "stats": {
+      "chalices": {
+        "label": "Chalices",
+        "value": 0
+      },
+      "swords": {
+        "label": "Swords",
+        "value": 0
+      },
+      "relics": {
+        "label": "Relics",
+        "value": 0
+      },
+      "wands": {
+        "label": "Wands",
+        "value": 0
+      },
+      "coins": {
+        "label": "Coins",
+        "value": 0
+      }
+    },
+    "attributes": {
+      "style": {
+        "label": "Style",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Formal wear and subtle marks of membership, opulent clothes and impractical accessories, state-of-the-art arms and armour.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "lore": {
+        "label": "Lore",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Reports from agents scattered around the world, an iron grip on the rare book market, a private institution of scholars probing the boundaries of knowledge.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": "Pick one from each or write one of your own:"
+      },
+      "biography": {
+        "label": "Biography",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h3>History</h3>      <p><strong><em>You split the fabulous wealth you found with another bloodline.</em></strong> Gain 1 pact on them. They say what they used the wealth for; you say how entropy and betrayal robbed them of it.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "description": ""
+      },
+      "pact": {
+        "label": "Pact",
+        "description": "Ancient agreements binding the bloodlines together.",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "pactInfo": {
+        "label": "Pact Info",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<h2>PACT: THE WAY OF SILVER</h2>      <div class=\"pact-info\">      <p><em><strong>You prize entrepreneurship.</strong></em> At the end of each play session, pick the explorer who most increased their wealth or power and raise their bloodline’s pact with you by 1.</p>      <p><em><strong>While at one of your camps</strong></em> other bloodlines can spend 1-pact on you to get access to more luxurious supplies, giving them advantage on <em><strong>Shelter</strong></em> until they return to a safe camp.</p>      </div>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Shelter Move",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.gQKd21kub5EzhuTB",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "name": "Shelter (Hidden Hand)",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "The Hidden Hand Moves",
+        "desc": "Pick two:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.wKRu7FGztXEQVHwH",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "name": "A Web of Influence",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.pubb5iKXYhnqWQxY",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "name": "Avarice",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.wnuGmgNKEhp6iq9s",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "name": "Bodyguard",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.EErpKFFLflZEndDQ",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "name": "Experimental Weaponry",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "name": "Opulence",
+            "img": "modules/pbta-rhapsodyofblood/assets/icons/bloodlines/the_hidden_hand-color.webp",
+            "uuid": "Compendium.pbta-rhapsodyofblood.moves.Item.tz6WNSfitBE4DDdI",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
   },
   "effects": [],
   "ownership": {
@@ -17,11 +174,13 @@
   },
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "0.7.2",
-    "coreVersion": "11.315",
+    "systemVersion": "1.0.18",
+    "coreVersion": "12.327",
     "createdTime": 1700027159651,
-    "modifiedTime": 1700098873333,
-    "lastModifiedBy": "ul9kRnDB6D1Z4uAw"
+    "modifiedTime": 1719976856536,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "DzTboFyesmdkfplw",
   "sort": 0,

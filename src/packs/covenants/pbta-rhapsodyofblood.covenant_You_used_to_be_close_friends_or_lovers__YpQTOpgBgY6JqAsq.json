@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "You used to be close friends or lovers.",
+  "type": "pbta-rhapsodyofblood.covenant",
+  "img": "modules/pbta-rhapsodyofblood/assets/icons/covenant.svg",
+  "system": {
+    "htmlFields": [
+      "strengthen",
+      "weaken"
+    ],
+    "explorerName": "",
+    "rating": 0,
+    "strengthen": "When you share stories of the good times, strengthen the covenant.",
+    "weaken": "When you act as you did when you broke up, betray the covenant."
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "idJMLpAq6SWnmenZ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.327",
+    "systemId": "pbta",
+    "systemVersion": "1.0.18",
+    "createdTime": 1719975251934,
+    "modifiedTime": 1719975253382,
+    "lastModifiedBy": "idJMLpAq6SWnmenZ"
+  },
+  "_id": "YpQTOpgBgY6JqAsq",
+  "sort": 300000,
+  "_key": "!items!YpQTOpgBgY6JqAsq"
+}

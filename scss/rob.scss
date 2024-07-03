@@ -357,7 +357,6 @@ form .notes, form .hint {
                 background-color: #181818;
                 color: #efe2ba;
                 border: 1px solid #3f3c2f;
-                // min-height: 320px;
             }            
 
             .sheet-look::before {
@@ -624,9 +623,19 @@ form .notes, form .hint {
 
                 .editor .editor-content {
                     min-height: 300px;
+                    max-height: 320px;
                 }
             }
         }
+    }
+}
+
+.pbta.sheet.npc .sheet-wrapper .sheet-bottom .cell--bio {
+    min-height: 320px;
+
+    .editor .editor-content {
+        min-height: 300px;
+        max-height: 320px;
     }
 }
 

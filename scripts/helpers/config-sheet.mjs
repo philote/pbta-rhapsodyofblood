@@ -202,9 +202,6 @@ export const configSheet = async () => {
                     },
                     gear: {
                         label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.gear")
-                    },
-                    covenants: {
-                        label: game.i18n.localize("RoB.CharacterSheets.equipmentTypes.covenants")
                     }
                 }
             },

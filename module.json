@@ -5,7 +5,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 11,
-    "verified": 12.327,
+    "verified": 12.328,
     "maximum": 12
   },
   "authors": [
@@ -22,7 +22,7 @@
         "id": "pbta",
         "type": "system",
         "compatibility": {
-            "minimum": "0.9.4"
+            "minimum": "1.0.15"
         }
       }
     ]

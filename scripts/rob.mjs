@@ -49,47 +49,9 @@ Hooks.on('preCreateItem', (item, data, options, userId) => {
         const defaultImg = "icons/svg/mystery-man.svg";
         const assetPath = "modules/pbta-rhapsodyofblood/assets/";
         const characterPath = `${assetPath}characters/`;
-        const explorersPath = `${characterPath}explorers/`;
-        const foundersPath = `${characterPath}founders/`;
 
         if (item.parent?.img === defaultImg || item.parent?.img.includes(assetPath)) {
-            switch (item.system.slug) {
-                // Explorers
-                case 'the-slayer':
-                    item.parent.update({ "img": `${explorersPath}the-slayer.webp` });
-                    break;
-                case 'the-mystic':
-                    item.parent.update({ "img": `${explorersPath}the-mystic.webp` });
-                    break;
-                case 'the-packrat':
-                    item.parent.update({ "img": `${explorersPath}the-packrat.webp` });
-                    break;
-                case 'the-reckoner':
-                    item.parent.update({ "img": `${explorersPath}the-reckoner.webp` });
-                    break;
-                case 'the-bonded':
-                    item.parent.update({ "img": `${explorersPath}the-bonded.webp` });
-                    break;
-                // Founders
-                case 'the-tainted':
-                    item.parent.update({ "img": `${foundersPath}the-tainted.webp` });
-                    break;
-                case 'the-saint':
-                    item.parent.update({ "img": `${foundersPath}the-saint.webp` });
-                    break;
-                case 'the-ritualist':
-                    item.parent.update({ "img": `${foundersPath}the-ritualist.webp` });
-                    break;
-                case 'the-paladin':
-                    item.parent.update({ "img": `${foundersPath}the-paladin.webp` });
-                    break;
-                case 'the-mastermind':
-                    item.parent.update({ "img": `${foundersPath}the-mastermind.webp` });
-                    break;
-                default:
-                    item.parent.update({ "img": item.img });
-                    break;
-            }
+            item.parent.update({ img: `${characterPath}${item.system.slug}.webp` });
         }
     }
 });
@@ -97,8 +59,8 @@ Hooks.on('preCreateItem', (item, data, options, userId) => {
 // Override sheetConfig with Rhapsody of Blood sheet (TOML).
 Hooks.once('pbtaSheetConfig', () => {
   
-    // Disable the sheet config form.
-    game.settings.set('pbta', 'sheetConfigOverride', true);
+    // Disable the PbtA sheet config form.
+    if (game.settings.settings.get('pbta.sheetConfigOverride')) game.settings.set('pbta', 'sheetConfigOverride', true);
 
     // Define custom tags.
     game.pbta.tagConfigOverride = {

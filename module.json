@@ -4,7 +4,7 @@
   "description": "Unofficial Rhapsody of Blood RPG custom sheet and compendium module, to be used with the Powered by the Apocalypse (PbtA) system.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": 11,
+    "minimum": 12,
     "verified": 12.328,
     "maximum": 12
   },

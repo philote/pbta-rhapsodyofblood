@@ -127,6 +127,7 @@ jobs:
             module.json                          \
             README.md                            \
             LICENSE                              \
+            templates/                           \
             scripts/                             \
             css/                                 \
             packs/                               \

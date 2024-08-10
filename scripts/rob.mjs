@@ -49,7 +49,8 @@ Hooks.on('preCreateItem', (item, data, options, userId) => {
         const defaultImg = "icons/svg/mystery-man.svg";
         const assetPath = "modules/pbta-rhapsodyofblood/assets/";
         const characterPath = `${assetPath}characters/`;
-
+        console.log('TEST -----------');
+        console.log(item.system.slug);
         if (item.parent?.img === defaultImg || item.parent?.img.includes(assetPath)) {
             item.parent.update({ img: `${characterPath}${item.system.slug}.webp` });
         }

@@ -131,6 +131,7 @@ form .notes, form .hint {
 }
 
 /* Sheet Sizing Styles */
+
 .pbta.sheet.item.playbook {
     min-height: 600px;
     min-width: 650px;
@@ -562,17 +563,18 @@ form .notes, form .hint {
     }
 
     .sheet-resources .cell--roll-mode {
-        padding: 0;
+        display: flex;
+
+        padding: 0 10px;
         border: 1px solid $c-sheet-border-pri;
         border-left: none;
         border-right: none;
         border-top: none;
-
         background-color: $c-sheet-border-pri;
 
         .cell__title {
             border: none;
-            margin: 0;
+            margin: 0 20px 0 0;
         }
     }
     

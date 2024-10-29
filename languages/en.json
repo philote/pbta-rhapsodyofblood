@@ -21,7 +21,7 @@
         "CharacterSheets": {
             "rollResults": {
                 "complications": "Complications...",
-                "partialSuccess": "Partial success",
+                "partial": "Partial success",
                 "success": "Success!"
             },
             "stats": {

@@ -40,6 +40,42 @@ Hooks.once('init', () => {
 
     // Preload Handlebars stuff.
     utils.preloadHandlebarsTemplates();
+
+    // Register settings
+    game.settings.register('pbta-rhapsodyofblood', 'firstTime', {
+        name: 'First Time Startup',
+        scope: 'world',
+        config: false,
+        type: Boolean,
+        default: true,
+    });
+});
+
+Hooks.once('ready', function () {
+    if (!game.settings.get('pbta-rhapsodyofblood', 'firstTime')) return;
+    game.settings.set('pbta-rhapsodyofblood', 'firstTime', false);
+  
+    const callback = async () => {
+      const worldData = {
+        id: game.world.id,
+        action: 'editWorld',
+        background: `modules/pbta-rhapsodyofblood/assets/login-bg.webp`,
+      };
+      const response = await foundry.utils.fetchJsonWithTimeout(foundry.utils.getRoute('setup'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(worldData),
+      });
+      game.world.updateSource(response);
+    };
+  
+    foundry.applications.api.DialogV2.confirm({
+      window: { title: 'Welcome to Rhapsody of Blood!' },
+      content: '<p>Would you like to use a Rhapsody of Blood theme for your login screen?</p>',
+      rejectClose: false,
+      modal: true,
+      yes: { callback: callback },
+    });
 });
 
 Hooks.on('preCreateItem', (item, data, options, userId) => {
@@ -84,7 +120,12 @@ Hooks.once('pbtaSheetConfig', () => {
     game.settings.set('pbta', 'hideOngoing', true);
     game.settings.set('pbta', 'hideRollMode', false);
     game.settings.set('pbta', 'hideUses', true);
-    if (isNewerVersion(game.system.version, '1.0.4')) {
+
+    if (game.settings.settings.has('pbta.hideAdvancement')) {
+        game.settings.set('pbta', 'hideAdvancement', true);
+    }
+
+    if (game.settings.settings.has('pbta.hideHold')) {
         game.settings.set('pbta', 'hideHold', true);
     }
 });

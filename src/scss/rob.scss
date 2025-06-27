@@ -1,0 +1,721 @@
+/* Rhapsody of Blood CSS */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+$font-header: 'Red Rose', serif;
+$font-body: 'Noto+Serif', serif;
+
+$c-sheet-bg: #262626;
+$c-sheet-border-pri: #3f3c2f;
+$c-sheet-border-sec: #9a9173;
+$c-sheet-input-bg: #181818;
+
+$c-sheet-text: #efe2ba;
+$c-sheet-text-header: #d0c4a1;
+$c-sheet-text-subheader: #c38650;
+$c-sheet-text-active: #edeadf;
+$c-sheet-text-hover: $c-sheet-bg;
+$c-sheet-text-active-hover: $c-sheet-bg;
+$c-sheet-state-hover: #efe2baac;
+
+$c-dark-bg: #1f1f1f;
+
+$c-scrollbar-bg: $c-sheet-bg;
+$c-scrollbar-border: #585858;
+
+$c-highlight: #BF533B;
+
+$c-stat-bg: #793425;
+$c-stat-bg-hover: #b06a5a;
+
+$c-cell: $c-sheet-text;
+$c-editor-bg: #afafaf;
+
+$c-tab-active-bg: #c38650;
+$c-tab-active-text: #2a281f;
+$c-tab-hover-bg: $c-sheet-text;
+
+// Global
+
+#module-management .package-list .package-title, 
+#module-management .package-list .package-metadata, 
+#module-management .package-list .package-description {
+    color: $c-sheet-text;
+}
+
+.tagify {
+    --placeholder-color: $c-sheet-text;
+}
+
+.vtt .window-app {
+    background: none;
+    background-color: $c-dark-bg;
+    color: $c-sheet-text;
+
+    input {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+
+        &::placeholder {
+            color: $c-sheet-text;
+        }
+    }
+
+    select {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+    }
+    
+    option {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+    }
+
+    button {
+        background: $c-stat-bg;
+        color: $c-sheet-text;
+        border: none;
+    }
+
+    input[type=radio]:checked {
+        accent-color: $c-highlight;
+    }
+
+    label.checkbox {
+        display: flex;
+    }
+
+    .tabs .item.active {
+        color: $c-sheet-text-subheader;
+    }
+
+    a:hover {
+        color: $c-sheet-text-subheader;
+    }
+
+    button:hover {
+        border: none;
+        background-color: $c-highlight;
+    }
+}
+
+h2 {
+    border-color: $c-sheet-border-sec;
+}
+
+#keybindings .binding .key.uneditable {
+    background: $c-sheet-input-bg;
+}
+
+.package-configuration aside.sidebar nav.tabs .category-tab.active {
+    border-bottom: 1px solid $c-sheet-text-subheader;
+}
+
+form .notes, form .hint {
+    color: $c-sheet-text;
+}
+
+.sheet.journal-entry .journal-entry-content {
+    background-color: $c-dark-bg;
+    background-blend-mode: overlay;
+}
+
+.editor-edit {
+    background: none;
+}
+
+.vtt :not(.application,.image-popout,.journal-sheet,.sidebar-popout) .window-content, 
+.vtt .journal-entry-page .window-content, .vtt .window-content .journal-entry-content {
+    background: none;
+    background-color: $c-sheet-bg;
+    color: $c-sheet-text;
+}
+
+/* Sheet Sizing Styles */
+
+.pbta.sheet.item.playbook {
+    min-height: 600px;
+    min-width: 650px;
+}
+
+.pbta.sheet {
+
+    .advancement {
+        display: none;
+    }
+    
+    .header-fields {
+        h3 {
+            border: none;
+            margin: 8px 2%;
+            width: 96%;
+        }
+    }
+
+    .cell--covenants, .cell--pacts {
+
+        .pact-info {
+            display: flex;
+            justify-content: flex-start;
+            gap: 10px;
+
+            & > * {
+                flex: 1;
+            }
+        }
+
+        .items-list {
+            padding: 0;
+
+            li.item {
+                background-color: none;
+                border: 1px solid $c-sheet-border-pri;
+                border-radius: 4px;
+                margin: 0 0 10px 0;
+                padding: 10px;
+                gap: 5px;
+
+                .form-side-by-side {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    gap: 10px;
+
+                    & > * {
+                        flex: 1;
+                    }
+                }
+
+                input[type=text] {
+                    text-align: left;
+                }
+
+                label {
+                    color: $c-sheet-text-subheader;
+                    font-family: $font-header;
+                }
+
+                .form-group {
+                    margin: 0;
+                    padding: 0;
+                    gap: 10px;
+
+                    label {
+                        flex: 0;
+                        flex-basis: content;
+                        color: $c-sheet-text-subheader;
+                        font-family: $font-header; 
+                    }
+
+                    input {
+                        flex: 1;
+                    }
+
+                    .item-controls {
+                        flex: 0;
+                        min-width: 30px;
+                    }
+                }
+            }
+        }
+    } 
+
+    .cell__title.error, .pbta.sheet .cell__title.warning {
+        color: black;
+    }
+
+    .item-form .form-group .tags, 
+    .item-form .form-group-stacked .tags {
+        background-color: #1f1f1f;
+    }
+
+    .window-header {
+        background-color: $c-dark-bg;
+    }
+
+    .sheet-header__fields .view-playbook {
+        background-color: $c-stat-bg;
+        color: $c-sheet-text;
+        border: 1px solid #181818;
+        height: 42px;
+        text-align: center;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sheet-header__fields .view-playbook:hover {
+        background-color: $c-stat-bg-hover;
+    }
+
+    .sheet-header select.charplaybook {
+        height: 42px;
+    }
+
+    input[type=checkbox], input[type=radio] {
+        &:checked {
+            accent-color: $c-highlight;
+          }
+    }
+
+    a:hover {
+        color: $c-stat-bg-hover;
+    }
+
+    /* General Sheet Color Styles */
+
+    .tox-tinymce {
+        background: $c-editor-bg;
+    }
+
+    section.window-content {
+        background: none;
+        background-color: $c-sheet-bg;
+        color: $c-sheet-text;
+        font-family: $font-body;
+        padding: 10px 0;
+
+        &::-webkit-scrollbar-thumb {
+            background: $c-scrollbar-bg;
+            border-color: $c-scrollbar-border;
+        }
+    }
+
+    label {
+        color: $c-sheet-text;
+        font-family: $font-body;
+    }
+
+    .input--title {
+        color: $c-sheet-text-header;
+        font-family: $font-header;
+    }
+
+    .tabs .item {
+        color: $c-sheet-text;
+
+        &.active {
+            color: $c-sheet-text-active;
+
+            &:hover {
+                color: $c-sheet-text-active-hover;
+            }
+        }
+
+        &:hover {
+            color: $c-sheet-text-hover;
+        }
+    }
+
+    input, textarea {
+        background-color: $c-sheet-input-bg;
+        color: $c-sheet-text;
+        border: 1px solid $c-sheet-border-pri;
+
+        ::placeholder {
+            color: $c-sheet-text;
+            opacity: 1; /* Firefox */
+        }        
+    }
+
+    input.input--title.charplaybook::placeholder {
+        color: $c-sheet-text;
+        opacity: 1; /* Firefox */
+    }
+
+    .cell--image img {
+        border: 1px solid $c-sheet-border-pri;
+    }
+
+    .cell__title {
+        color: $c-sheet-text-subheader;
+        font-family: $font-header; 
+        border-bottom-color: $c-sheet-border-sec;
+    }
+
+    .sheet-attributes .cell--stats .stat .cell__title {
+        color: $c-sheet-text;
+        font-family: $font-header;
+    }
+
+    .sheet-wrapper {
+        
+        .editor-content {
+            background: $c-sheet-input-bg;
+        }
+
+        .editor-edit {
+            background: none;
+        }
+
+        .sheet-attributes-top {
+            border: 1px solid $c-sheet-border-pri;
+            border-left: 0;
+            border-right: 0;
+            background-color: $c-dark-bg;
+            padding: 0 10px;
+            margin-bottom: 0;
+        }
+
+        .sheet-bottom {
+            .cell--bio .editor {
+                background-color: #181818;
+                color: #efe2ba;
+                border: 1px solid #3f3c2f;
+            }            
+
+            .sheet-look::before {
+                background: $c-sheet-border-pri;
+            }
+        }
+        
+
+        .sheet-attributes-top .cell--attributes-top>.cell+.cell::before {
+            background-color: $c-sheet-border-pri;
+        }
+    }
+
+    :is(section.sheet-main, form.item-form) nav.sheet-tabs.tabs {
+        border-bottom-color: $c-sheet-border-pri;
+
+        a.item {
+            font-family: $font-header;
+            background: $c-dark-bg;
+            border-color: $c-sheet-border-pri;
+
+            &.active {
+                background: $c-tab-active-bg;
+                color: $c-tab-active-text;
+            }
+        
+            &:hover {
+                background: $c-tab-hover-bg;
+            }
+        }
+    }
+
+    .items-list .item {
+        background-color: $c-dark-bg;
+    }
+
+    /* Stat Styles and Animation */
+
+    .sheet-attributes .cell--stats .stats-list {
+        
+        [data-stat] {
+            box-shadow: inset 0 0 0 1000px #793425ac;
+        }
+
+        [data-stat="iron"] {
+            background: url(../assets/icons/stats/iron.webp), url(../assets/icons/stats/iron.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="glass"] {
+            background: url(../assets/icons/stats/glass.webp), url(../assets/icons/stats/glass.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="sulphur"] {
+            background: url(../assets/icons/stats/sulphur.webp), url(../assets/icons/stats/sulphur.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="mercury"] {
+            background: url(../assets/icons/stats/mercury.webp), url(../assets/icons/stats/mercury.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="chalices"] {
+            background: url(../assets/icons/stats/chalices.webp), url(../assets/icons/stats/chalices.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="swords"] {
+            background: url(../assets/icons/stats/swords.webp), url(../assets/icons/stats/swords.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="relics"] {
+            background: url(../assets/icons/stats/relics.webp), url(../assets/icons/stats/relics.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="wands"] {
+            background: url(../assets/icons/stats/wands.webp), url(../assets/icons/stats/wands.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+
+        [data-stat="coins"] {
+            background: url(../assets/icons/stats/coins.webp), url(../assets/icons/stats/coins.webp), $c-stat-bg;
+            background-size: auto 30px;
+            background-position: left bottom, right bottom;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+    }
+
+    .sheet-attributes .cell--stats .stat {
+
+        .stat-icon, .stat-value {
+            color: $c-sheet-text;
+        }
+
+        .stat-rollable:hover,
+        .stat-icon:hover {
+            color: $c-sheet-state-hover;
+        }
+    }
+
+    span.stat-icon.stat-rollable.rollable:hover .fa-dice-d6 {
+        animation: rollDice 3s linear infinite;
+    }
+
+    /* layout work styles */
+
+    .sheet-header, .sheet-attributes {
+        padding: 0 10px;
+    }
+
+    .sheet-wrapper .sheet-bottom {
+        padding: 0 10px;
+    }
+
+    .sheet-top {
+        margin-bottom: 0;
+    }
+
+    .sheet-main {
+        margin-top: 10px;
+    }
+
+    .sheet-header__fields {
+        margin: 0;
+
+        .input--title {
+            height: 42px;
+            font-size: 24px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    } 
+
+    .sheet-wrapper .sheet-attributes-top .cell--attributes-top .cell {
+        display: flex;
+        flex-direction: column;
+
+        .cell__title {
+            order: 2;
+            flex: 0;
+        }
+
+        .cell__description {
+            order: 3;
+            margin-bottom: 0px;
+        }
+
+        .cell__clock {
+            order: 1;
+            justify-content: flex-end;
+            width: fit-content;
+            position: absolute;
+            right: 20px;
+            z-index: 1;
+        }
+
+        input[type=text] {
+            justify-content: flex-end;
+            width: fit-content;
+            position: absolute;
+            right: 20px;
+            z-index: 1;
+        }
+
+        .sheet-attributes-top {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin: 10px 0;
+        }
+    }
+
+    .sheet-resources .cell--roll-mode {
+        display: flex;
+
+        padding: 0 10px;
+        border: 1px solid $c-sheet-border-pri;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        background-color: $c-sheet-border-pri;
+
+        .cell__title {
+            border: none;
+            margin: 0 20px 0 0;
+        }
+    }
+    
+    .cell__title button, 
+    .cell__subtitle button {
+        background: $c-cell;
+        color: $c-sheet-input-bg;
+        border: 1px solid $c-tab-active-text;
+        height: 24px;
+        line-height: 1;
+    }
+
+    .cell__title button:hover, 
+    .cell__title button:focus, 
+    .cell__subtitle button:hover, 
+    .cell__subtitle button:focus {
+        background-color: $c-sheet-input-bg;
+        color: $c-cell;
+    }
+
+    .sheet-tab {
+        margin: 0;
+    }
+
+}
+
+.pbta.sheet.actor.character {
+    .sheet-wrapper {
+        .sheet-bottom {    
+            .cell.cell--bio {
+                min-height: 100px;
+                margin-bottom: 5px;
+
+                .editor {
+                    .editor-content {
+                      min-height: 80px;
+                    }
+                }
+    
+                &:nth-child(2) {
+                    min-height: 200px !important;
+    
+                    .editor {
+                        .editor-content {
+                          min-height: 180px !important;
+                        }
+                    }
+                } 
+            }
+            .sheet-tab > .cell--bio:last-child {
+                min-height: 320px;
+
+                .editor .editor-content {
+                    min-height: 300px;
+                    max-height: 320px;
+                }
+            }
+        }
+    }
+}
+
+.pbta.sheet.npc .sheet-wrapper .sheet-bottom .cell--bio {
+    min-height: 320px;
+
+    .editor .editor-content {
+        min-height: 300px;
+        max-height: 320px;
+    }
+}
+
+.pbta.sheet.item {
+    min-height: 200px;
+
+    .editor {
+        background: $c-sheet-input-bg;
+        border: 1px solid $c-sheet-border-pri;
+    }
+
+    .editor-content {
+        padding: 0 10px;
+    }
+
+    .tagify {
+        background-color: $c-dark-bg;
+        border: 1px solid $c-sheet-border-pri;
+        color: $c-sheet-text;
+    }
+
+    .tagify__input::before, 
+    .tagify__input::after {
+        color: $c-sheet-text;
+    }
+
+    .sheet-body {
+        padding: 10px 10px 0 10px;
+    }
+    
+    label {
+        margin-right: 10px;
+    }
+
+    select {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+
+        option {
+            background-color: $c-dark-bg;
+            color: $c-sheet-text;    
+        }
+    }
+}
+
+.vtt .window-app .dialog-buttons .dialog-button, 
+.vtt .window-app .dialog-button {
+    background: $c-stat-bg;
+    color: $c-sheet-text;
+    border: none;
+
+    &:hover {
+        background: $c-stat-bg-hover;
+    }
+}
+
+.app.window-app.dialog {
+    background-color: $c-dark-bg;
+    color: $c-sheet-text;
+
+    input {
+        background-color: $c-dark-bg;
+        color: $c-sheet-text;
+    }
+
+    .window-content {
+        background: none;
+        background-color: $c-sheet-bg;
+        color: $c-sheet-text;    
+    }
+}
+
+
+a.content-link, 
+a.inline-roll {
+    background: none;
+}

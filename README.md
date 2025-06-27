@@ -4,6 +4,7 @@
 
 <p align="center">
     <img alt="Foundry Version 12 support" src="https://img.shields.io/badge/Foundry-v12-informational">
+    <img alt="Foundry Version 13 support" src="https://img.shields.io/badge/Foundry-v13-informational">
     <img alt="Latest Release Download Count" src="https://img.shields.io/github/downloads/philote/pbta-rhapsodyofblood/latest/total"> 
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/philote/pbta-rhapsodyofblood"> 
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philote/pbta-rhapsodyofblood">

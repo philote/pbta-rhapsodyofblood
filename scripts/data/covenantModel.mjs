@@ -1,5 +1,5 @@
 /**
- * A data model for the Root Connection item
+ * A data model for the covenent item
  */
 export class CovenantModel extends foundry.abstract.TypeDataModel {
   /**

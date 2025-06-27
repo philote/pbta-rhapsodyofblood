@@ -9,19 +9,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "gulp build",
-    "compile": "gulp css",
-    "watch": "gulp",
-    "gulp": "gulp",
+    "build": "sass src/scss/rob.scss css/rob.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/rob.scss css/rob.css --style=expanded --source-map --watch",
     "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
-    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs"
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs",
+    "createSymlinks": "node ./tools/create-symlinks.mjs"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.2",
-    "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^2.6.5",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "dotenv": "^16.4.5",
+    "globals": "^15.13.0",
     "sass": "^1.53.0"
   }
 }
